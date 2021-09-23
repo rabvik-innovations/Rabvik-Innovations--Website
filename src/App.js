@@ -6,9 +6,6 @@ function App() {
   return (
     <div className="App">
       
-
-
-
       {/* Team Section  */}
       <section id="team" className="team">
         <div className="container">
@@ -122,5 +119,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
