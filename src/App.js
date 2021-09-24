@@ -1,10 +1,17 @@
 import './App.css';
 import SocialCard from './components/SocialCard';
 import TeamCard from './components/TeamCard';
+import Footer from './components/TeamCard';
+import About from './components/TeamCard';
 
 function App() {
   return (
     <div className="App">
+
+       <section>
+         <About/>
+       </section>
+
       
       {/* Team Section  */}
       <section id="team" className="team">
@@ -113,7 +120,9 @@ function App() {
       {/* End Social Cards Section  */}
 
 
-
+<section>
+<Footer/>
+</section>
 
 
     </div>
