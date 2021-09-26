@@ -172,11 +172,12 @@ button:hover{
    transition: all .4s ease;
   -webkit-transition: all .4s ease; */
   display: block;
-	width: 50%;
-	height: 100%;
+	/* width: 50%;
+	height: 100%; */
+  width:100%;
+  height:270px;
 	object-fit: cover;
 	transition: transform 400ms ease-out;
-  margin-top:1rem;
   
 }
 .img-card{
@@ -184,9 +185,9 @@ button:hover{
     flex: 1 0 24rem;
     margin: 1rem 1rem;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-    overflow:hidden;
-    width:20%;
-    height:200px;
+    overflow:visible;
+    width:10%;
+    height:270px;
     margin-top:1rem;
     padding-right:0px 60px 0px;
     width:100px;
@@ -201,7 +202,8 @@ button:hover{
 .photo-section{
   display: flex;
 	flex-wrap: wrap;
-	margin: -1rem -1rem;
+	/* margin: -1rem -1rem; */
+  margin-top:20px;
 }
 
 /* @supports (display: grid) {
