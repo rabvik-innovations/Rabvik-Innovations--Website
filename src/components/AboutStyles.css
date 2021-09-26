@@ -4,12 +4,12 @@
   padding:60px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-h1{
+.about h1{
   text-align: center;
   
 }
 
-.container{
+.about .container{
   display: flex;
   flex-direction: row;
 }
@@ -22,7 +22,7 @@ video:hover{
   transform: scale(1.1);
   box-shadow: 1px 5px 4px grey; 
 }
-.col2{
+.about .col2{
   float: left;
   width: 55%;
   padding: 20px;
@@ -32,11 +32,11 @@ video:hover{
   padding-right:80px;
   padding-left: 60px;
 } */
-p {
+.about p {
    line-height: 1.5;
 }
 
-button{
+.about button{
   margin-top: 10px;
   border:none;
   background-color: blue;
@@ -47,7 +47,7 @@ button{
   border-radius: 20px;
   transition: 0.4s;
 }
-button:hover{
+.about button:hover{
   cursor: pointer;
   transition: 0.2s;
   transform: scale(1.05);
