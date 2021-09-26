@@ -8,23 +8,30 @@ h1{
   text-align: center;
   
 }
-video{
-  width: 35%;
-  height: 35%;
-  border: double;
-  border-color: blue;
-}
+
 .container{
   display: flex;
+  flex-direction: row;
 }
-.col{
+video{
+  max-width: 90%;
+  max-height: 80%;
+}
+video:hover{
+  transition: 0.4s;
+  transform: scale(1.1);
+  box-shadow: 1px 5px 4px grey; 
+}
+.col2{
+  float: left;
+  width: 55%;
   padding: 20px;
   text-align: justify;
 }
-.col2{
+/* .col2{
   padding-right:80px;
   padding-left: 60px;
-}
+} */
 p {
    line-height: 1.5;
 }
@@ -42,6 +49,8 @@ button{
 }
 button:hover{
   cursor: pointer;
+  transition: 0.2s;
+  transform: scale(1.05);
   box-shadow: 2px 4px 3px grey;
   
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import "./AboutStyles.css";
 
-
 function About(props) {
   return (
     <div className="about">
@@ -9,12 +8,12 @@ function About(props) {
         <h1 className="m-3">About Rabvik®</h1>
       </div>
       <div className="container row m-3">
-        <video
+        <div className="col">
+        <video controls="autoplay muted"
           src={"https://rabvik.com/images/Rabvik-Teaser.mp4"}
-          alt="profile"
-          className="col"
         />
-        <div className="col col2">
+        </div>
+        <div className="col2">
           <p>
           Incredible breakthroughs and spectacular advancements in 
           technology are changing the world as we know it by leaps and bounds. If we are to keep up with this frenetic pace of technological change in industry and education, technology minded and 
