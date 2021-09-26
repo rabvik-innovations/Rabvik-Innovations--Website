@@ -197,14 +197,14 @@ button:hover{
 .photo-section{
   display: flex;
 	flex-wrap: wrap;
-	margin: -1rem -1rem;
+	/* margin: -1rem -1rem; */
 }
 
 @supports (display: grid) {
 	.photo-section {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-		grid-gap: 2rem;
+		grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+		grid-gap: 1rem;
 	}
 
 	.photo-section,
