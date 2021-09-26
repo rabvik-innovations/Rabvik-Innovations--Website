@@ -1,6 +1,8 @@
 import './App.css';
 import SocialCard from './components/SocialCard';
 import TeamCard from './components/TeamCard';
+import GalleryCard from "./components/GalleryCard";
+import PhotoGallery from "./components/PhotoGallery";
 
 function App() {
   return (
@@ -72,6 +74,32 @@ function App() {
         </div>
       </section>
       {/* End Team Section  */}
+
+
+      {/* {Gallery Section} */}
+      <section id="gallery-section" className="gallery-item">
+
+        <div className="container">
+
+          <div className="gallery-title">
+            <h2>Gallery</h2>
+          </div>
+
+          <div className="row photo-section">
+               {/* <GalleryCard
+               image="./public/images/" /> */}
+               {PhotoGallery.map((photo)=>{
+                    return <GalleryCard 
+                    key={photo.id}
+                    image={photo.image} 
+
+                    />
+               })}
+          </div>
+
+        </div>
+      </section>
+      {/* {End of gallery section} */}
 
 
 
