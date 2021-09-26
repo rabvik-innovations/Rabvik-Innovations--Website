@@ -172,10 +172,11 @@ button:hover{
    transition: all .4s ease;
   -webkit-transition: all .4s ease; */
   display: block;
-	width: 100%;
+	width: 50%;
 	height: 100%;
-	/* object-fit: cover; */
+	object-fit: cover;
 	transition: transform 400ms ease-out;
+  margin-top:1rem;
   
 }
 .img-card{
@@ -183,11 +184,12 @@ button:hover{
     flex: 1 0 24rem;
     margin: 1rem 1rem;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-    overflow: hidden;
-    width:4%;
-    height:270px;
+    overflow:hidden;
+    width:20%;
+    height:200px;
     margin-top:1rem;
     padding-right:0px 60px 0px;
+    width:100px;
 }
 
 .gallery-item img:hover{
