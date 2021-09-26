@@ -3,7 +3,56 @@
 }
 
 
+/*--------------------------------------------------------------
+# AboutUs Section
+--------------------------------------------------------------*/
 
+
+.about {
+  padding:60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1{
+  text-align: center;
+  
+}
+video{
+  width: 35%;
+  height: 35%;
+  border: double;
+  border-color: blue;
+}
+.container{
+  display: flex;
+}
+.col{
+  padding: 20px;
+  text-align: justify;
+}
+.col2{
+  padding-right:80px;
+  padding-left: 60px;
+}
+p {
+   line-height: 1.5;
+}
+
+button{
+  margin-top: 10px;
+  border:none;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size:16px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 2px 4px 3px grey;
+  
+}
 
 
 /*--------------------------------------------------------------
