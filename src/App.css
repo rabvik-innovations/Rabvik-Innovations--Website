@@ -104,6 +104,7 @@
 #gallery-section{
   background-color:#e9eff0;
   align-items:center;
+  padding: 5% 7%;
   
   /* padding:10%; */
 }
@@ -135,11 +136,11 @@
     margin: 1rem 1rem;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
     overflow:visible;
-    width:10%;
-    height:229px;
+    /* width:10%;
+    height:229px; */
     margin-top:1rem;
     padding-right:0px 60px 0px;
-    width:100px;
+    /* width:100px; */
 }
 
 .gallery-item img:hover{

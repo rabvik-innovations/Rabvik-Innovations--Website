@@ -89,7 +89,7 @@ function App() {
 
         <div className="container">
 
-          <div className="gallery-title">
+          <div className="gallery-title text-center">
             <h2>Gallery</h2>
             <br />
           </div>
