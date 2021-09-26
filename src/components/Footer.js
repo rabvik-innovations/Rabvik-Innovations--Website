@@ -2,7 +2,6 @@ import React from "react";
 import {
 Box,
 Container,
-Row,
 Border,
 Ul,
 Li,
@@ -114,7 +113,7 @@ return (
     
 	</Encloser>
   <FooterBottom>
-  Copyright &copy; Kabchefs 2020.All rights reserved.
+  Copyright &copy; Rabvik 2021 @ All rights reserved.
 
 </FooterBottom> 
 	</Box>

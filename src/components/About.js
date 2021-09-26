@@ -2,7 +2,6 @@ import React from "react";
 import "./AboutStyles.css";
 
 
-
 function About(props) {
   return (
     <div className="about">

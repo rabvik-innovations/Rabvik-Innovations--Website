@@ -3,8 +3,8 @@ import SocialCard from './components/SocialCard';
 import TeamCard from './components/TeamCard';
 import GalleryCard from "./components/GalleryCard";
 import PhotoGallery from "./components/PhotoGallery";
-import Footer from './components/TeamCard';
-import About from './components/TeamCard';
+import Footer from './components/Footer';
+import About from './components/About';
 
 
 function App() {
