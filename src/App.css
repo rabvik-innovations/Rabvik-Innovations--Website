@@ -158,6 +158,7 @@ button:hover{
   
   /* padding:10%; */
 }
+/* .gallery-title{} */
 
 .gallery-item img{
    /* margin-top:1rem;
@@ -180,12 +181,13 @@ button:hover{
 .img-card{
     /* margin-left:30%; */
     flex: 1 0 24rem;
-    margin: 2rem;
+    margin: 1rem 1rem;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
     overflow: hidden;
-    width:21px;
+    width:4%;
     height:270px;
-    margin-top:2.9rem;
+    margin-top:1rem;
+    padding-right:0px 60px 0px;
 }
 
 .gallery-item img:hover{
@@ -197,20 +199,20 @@ button:hover{
 .photo-section{
   display: flex;
 	flex-wrap: wrap;
-	/* margin: -1rem -1rem; */
+	margin: -1rem -1rem;
 }
 
-@supports (display: grid) {
+/* @supports (display: grid) {
 	.photo-section {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 		grid-gap: 1rem;
 	}
 
-	.photo-section,
+	/* /* .photo-section,
 	.img-card {
 		margin: 0;
-	}
-}
+	} */
+
 
 

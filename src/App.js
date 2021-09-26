@@ -91,6 +91,7 @@ function App() {
 
           <div className="gallery-title">
             <h2>Gallery</h2>
+            <br />
           </div>
 
           <div className="row photo-section">
