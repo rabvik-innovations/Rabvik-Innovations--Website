@@ -117,7 +117,7 @@ return (
     
 	</Encloser>
   <FooterBottom>
-  Copyright &copy; Rabvik 2021 @ All rights reserved.
+  Copyright &copy; Rabvik 2021. All rights reserved.
 
 </FooterBottom> 
 	</Box>
