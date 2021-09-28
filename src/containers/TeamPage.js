@@ -1,9 +1,10 @@
-import Footer from './components/Footer';
+import '../css/TeamPage.css'
+import Footer from '../components/Footer';
 import TeamCard from '../components/TeamCard';
 
 function TeamPage(props){
     return(
-        <div className="container">
+        <div className="">
         
       <section id="team" className="team">
       <div className="container">
@@ -78,4 +79,4 @@ function TeamPage(props){
     );
 }
 
-export default TeamPage
+export default TeamPage;
