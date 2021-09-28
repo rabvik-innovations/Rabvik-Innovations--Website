@@ -5,17 +5,18 @@ import GalleryCard from "./components/GalleryCard";
 import PhotoGallery from "./components/PhotoGallery";
 import Footer from './components/Footer';
 import About from './components/About';
+import AdvisorCard from './components/AdvisorCard';
 
 
 function App() {
   return (
     <div className="App">
 
-       <section>
-         <About/>
-       </section>
+      <section>
+        <About />
+      </section>
 
-      
+
       {/* Team Section  */}
       <section id="team" className="team">
         <div className="container">
@@ -95,20 +96,53 @@ function App() {
           </div>
 
           <div className="row photo-section">
-               {/* <GalleryCard
+            {/* <GalleryCard
                image="./public/images/" /> */}
-               {PhotoGallery.map((photo)=>{
-                    return <GalleryCard 
-                    key={photo.id}
-                    image={photo.image} 
+            {PhotoGallery.map((photo) => {
+              return <GalleryCard
+                key={photo.id}
+                image={photo.image}
 
-                    />
-               })}
+              />
+            })}
           </div>
 
         </div>
       </section>
       {/* {End of gallery section} */}
+
+
+
+
+      {/* Advisor Section  */}
+      <section id="advisor" className="advisor">
+        <div className="container">
+
+          <div className="section-title text-center">
+            <h2>Our Advisors</h2>
+          </div>
+
+          <div className="row">
+            <AdvisorCard img="images/team-1.png"/>
+
+            <AdvisorCard img="images/team-1.png"/>
+
+            <AdvisorCard img="images/team-1.png"/>
+
+            <AdvisorCard img="images/team-1.png"/>
+
+            <AdvisorCard img="images/team-1.png"/>
+
+            <AdvisorCard img="images/team-1.png"/>
+
+            <AdvisorCard img="images/team-1.png"/>
+
+            </div>
+
+
+        </div>
+      </section>
+       {/* {End of Advisor section} */}
 
 
 
@@ -150,9 +184,9 @@ function App() {
       {/* End Social Cards Section  */}
 
 
-<section>
-<Footer/>
-</section>
+      <section>
+        <Footer />
+      </section>
 
 
     </div>
