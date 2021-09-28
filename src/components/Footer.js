@@ -48,22 +48,22 @@ return (
         <Border/>
         <Ul>
           <FooterLink href="">
-            <Li>Home</Li>
+            <Li>About Us</Li>
           </FooterLink>
           <FooterLink href="">
-            <Li>About</Li>
+            <Li>Innovation Labs</Li>
           </FooterLink>
           <FooterLink href="">
-            <Li>Project</Li>
+            <Li>Incubation Hub</Li>
           </FooterLink>
           <FooterLink href="">
-            <Li>Article</Li>
+            <Li>Career</Li>
           </FooterLink>
           <FooterLink href="">
-            <Li>Services</Li>
+            <Li>Gallery</Li>
           </FooterLink>
           <FooterLink href="">
-            <Li>Contact</Li>
+            <Li>Contact Us</Li>
           </FooterLink>
         </Ul>
       </Column>
@@ -74,15 +74,19 @@ return (
         <Ul>
           <Li>
             <FaGlobe/>&nbsp;
-          1,XYZ Street,Kolkata
+             Rabvik® Innovations<br/>
+             <span style={{ marginLeft: '24px' }}>141</span> Lake Town,<br/>
+             <span style={{ marginLeft: '24px' }}>Block A,</span> Kolkata 89
           </Li>
-          <Li>
+          <br/>
+            <Li style={{ marginTop: '24px' }}>
             <FaPhoneAlt/>&nbsp;
-          9802378295
+            9831379029
           </Li>
           <Li>
+
             <FaEnvelope/>&nbsp;
-          support@rabvik.com
+            pratik@rabvik.com
           </Li>
         </Ul>&nbsp;
         <Container>
