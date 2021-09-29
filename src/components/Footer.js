@@ -12,7 +12,7 @@ FooterLink,
 Icon,
 Heading,
 Heading1,
-} from "./FooterStyles";
+} from "../css/FooterStyles";
 import {FaTwitter} from "react-icons/fa";
 import {FaFacebookF} from "react-icons/fa";
 import {FaLinkedinIn} from "react-icons/fa";
