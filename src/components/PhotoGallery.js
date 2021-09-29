@@ -3,39 +3,39 @@ import React from "react";
 const PhotoGallery=[
     {
         id:1,
-        image:"images/team-1.png"
+        image:"images/RabwikInnovations.jpg"
     },
     {
         id:2,
-        image:"images/team-2.png"
+        image:"images/RabwikInnovations.jpg"
     },
     {
         id:3,
-        image:"images/team-3.png"
+        image:"images/RabwikInnovations.jpg"
     },
     {
         id:4,
-        image:"images/team-4.png"
+        image:"images/RabwikInnovations.jpg"
     },
     {
         id:5,
-        image:"images/team-5.png"
+        image:"images/RabwikInnovations.jpg"
     },
     {
         id:6,
-        image:"images/team-5.png"
+        image:"images/RabwikInnovations.jpg"
     },
     {
         id:7,
-        image:"images/team-5.png"
+        image:"images/RabwikInnovations.jpg"
     },
     {
         id:8,
-        image:"images/team-5.png"
+        image:"images/RabwikInnovations.jpg"
     },
     {
         id:9,
-        image:"images/team-5.png"
+        image:"images/RabwikInnovations.jpg"
     }
 ];
 
