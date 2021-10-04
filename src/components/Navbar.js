@@ -19,9 +19,9 @@ function Navbar() {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
+                            {/* <li class="nav-item">
                                 <Link class="nav-link" to="">Home</Link>
-                            </li>
+                            </li> */}
                             <li class="nav-item">
                                 <Link class="nav-link" to="">About Us</Link>
                             </li>
@@ -42,7 +42,7 @@ function Navbar() {
                                     School Partnership Program
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><Link class="dropdown-item" to="">Innovation Lab</Link></li>
+                                    <li><Link class="dropdown-item" to="/innovation-lab">Innovation Lab</Link></li>
                                     <li><Link class="dropdown-item" to="">Periodical</Link></li>
 
                                 </ul>
