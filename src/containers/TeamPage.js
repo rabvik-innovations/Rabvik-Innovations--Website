@@ -1,10 +1,12 @@
 import '../css/TeamPage.css'
 import Footer from '../components/Footer';
 import TeamCard from '../components/TeamCard';
+import Navbar from '../components/Navbar';
 
 function TeamPage(props){
     return(
-        <div className="">
+        <div className="below-navbar">
+          <Navbar />
         
       <section id="team" className="team">
       <div className="container">
