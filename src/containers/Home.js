@@ -7,7 +7,8 @@ import PhotoGallery from "../components/PhotoGallery";
 import Footer from '../components/Footer';
 import About from '../components/About';
 import AdvisorCard from '../components/AdvisorCard';
-import Navbar from '../components/Navbar';
+import WhatWeDo from '../components/Whatwedo';
+
 
 function Home() {
   return (
@@ -16,6 +17,10 @@ function Home() {
 
       <section>
         <About />
+      </section>
+
+      <section>
+        <WhatWeDo />
       </section>
 
 
