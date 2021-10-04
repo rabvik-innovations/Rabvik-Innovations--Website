@@ -1,0 +1,49 @@
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 2rem .5rem;
+  background-color: #ffffff;
+}
+
+.nav-item{
+  padding: 0 15px;
+  
+}
+
+.navbar-light .navbar-nav .nav-link{
+  font-size: 1rem;
+  color: #061945;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #E41D24;
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+}
+.navbar-toggler{
+  border: none;
+}
+.navbar-toggler:focus{
+  box-shadow: 0 0 0 0.15rem;
+}
+
+/* .dropdown:hover .dropdown-menu {
+    display: block; 
+ } */
+ .dropdown .nav-link:focus{
+    color: #E41D24;
+    text-decoration: none;
+}
+ .dropdown-menu{
+     padding: 0;
+     border-top: solid .2rem #E41D24;
+ }
+ .dropdown-menu li a:focus{
+     background-color: #E9ECEF;
+ }
+
+ /* Align Bootstrap Dropdown icon */
+.nav-item .dropdown-toggle::after {
+  vertical-align: 0.15rem;
+}
+
+

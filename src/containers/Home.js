@@ -1,5 +1,5 @@
 import '../css/Home.css';
-import '../css/Whatwedo.css';
+import '../App.css';
 import SocialCard from '../components/SocialCard';
 import TeamCard from '../components/TeamCard';
 import GalleryCard from "../components/GalleryCard";
@@ -13,6 +13,7 @@ import WhatWeDo from '../components/Whatwedo';
 function Home() {
   return (
     <div className="App">
+      <Navbar />
 
       <section>
         <About />
