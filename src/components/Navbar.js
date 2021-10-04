@@ -8,12 +8,12 @@ function Navbar() {
 
             <nav class="navbar fixed-top navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" >
+                    <Link class="navbar-brand" to="/">
                         {/* Navbar */}
                         <img src="https://rabvik.com/images/logo.jpg" height="80px"
                             width="140px"
                             margin-top="20%" />
-                    </a>
+                    </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
