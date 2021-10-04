@@ -1,4 +1,5 @@
 import '../css/Home.css';
+import '../App.css';
 import SocialCard from '../components/SocialCard';
 import TeamCard from '../components/TeamCard';
 import GalleryCard from "../components/GalleryCard";
@@ -6,11 +7,12 @@ import PhotoGallery from "../components/PhotoGallery";
 import Footer from '../components/Footer';
 import About from '../components/About';
 import AdvisorCard from '../components/AdvisorCard';
-
+import Navbar from '../components/Navbar';
 
 function Home() {
   return (
     <div className="App">
+      <Navbar />
 
       <section>
         <About />
