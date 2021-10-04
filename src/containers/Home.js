@@ -1,4 +1,5 @@
 import '../css/Home.css';
+import '../css/Whatwedo.css';
 import SocialCard from '../components/SocialCard';
 import TeamCard from '../components/TeamCard';
 import GalleryCard from "../components/GalleryCard";
@@ -6,6 +7,7 @@ import PhotoGallery from "../components/PhotoGallery";
 import Footer from '../components/Footer';
 import About from '../components/About';
 import AdvisorCard from '../components/AdvisorCard';
+import WhatWeDo from '../components/Whatwedo';
 
 
 function Home() {
@@ -14,6 +16,10 @@ function Home() {
 
       <section>
         <About />
+      </section>
+
+      <section>
+        <WhatWeDo />
       </section>
 
 
