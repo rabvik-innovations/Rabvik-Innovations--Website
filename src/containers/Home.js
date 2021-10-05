@@ -4,15 +4,19 @@ import SocialCard from "../components/SocialCard";
 import TeamCard from "../components/TeamCard";
 import GalleryCard from "../components/GalleryCard";
 import PhotoGallery from "../components/PhotoGallery";
-import Footer from "../components/Footer";
-import About from "../components/About";
-import AdvisorCard from "../components/AdvisorCard";
-import Navbar from "../components/Navbar";
+
+import Footer from '../components/Footer';
+import About from '../components/About';
+import AdvisorCard from '../components/AdvisorCard';
+import WhatWeDo from '../components/Whatwedo';
+import Navbar from '../components/Navbar';
 import Reviews from "../components/Reviews";
+
 import { Fragment } from 'react';
 import ScrollToTop from '../components/Scrolltotop';
 import { Content, Heading } from '../css/ScrolltotopStyles';
 import Loader from '../components/Loader';
+
 function Home() {
   return (
     <div className="App">
