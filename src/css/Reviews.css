@@ -1,0 +1,45 @@
+.reviews{
+  display: flex;
+  flex-direction: column;
+}
+h3{
+  text-align: center;
+}
+.reviewscontainer{
+  align-content: center;
+  justify-content: center;
+  width: 60%;
+  height: 55%;
+  margin: 5% 20%;
+  padding: 9% 6%;
+  background-color: blue;
+  color: aliceblue;
+  box-shadow: 4px 5px 4px gray;
+}
+.reviewscontainer:hover{
+  transition: 0.5s ease-in-out;
+  transform: scale(1.01);
+  box-shadow: 5px 6px 5px rgb(45, 74, 99);
+}
+.reviewsimg{
+  height: 60%;
+  width:30%;
+  background-color: aliceblue;
+  padding: 1.1% 1.1% 0 1.1%;
+margin-right: 10%;
+}
+.imgname{
+  text-align: center;
+  color: blue;
+margin:15% 0;
+}
+.cc{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.reviewstext{
+  width:56%;
+  text-align: justify;
+}
