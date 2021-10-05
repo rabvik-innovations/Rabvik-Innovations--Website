@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import About from '../components/About';
 import AdvisorCard from '../components/AdvisorCard';
 import WhatWeDo from '../components/Whatwedo';
+import Navbar from '../components/Navbar';
 
 
 function Home() {
