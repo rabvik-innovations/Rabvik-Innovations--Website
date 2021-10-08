@@ -78,12 +78,12 @@ function Home() {
 
       {/* Social Cards  Section */}
       <section id="social-item" className="social-item">
-        <div className="container">
+        <div className="container dcol">
           <div className="section-title">
             <h2>Want to know more about us?</h2>
           </div>
-
-          <div className="row">
+     <div className="socialcardsalign">
+            <div className="row">
             <SocialCard
               socialIcon="instagram"
               text="Team's daily lives. Photos, jokes and the office atmosphere!"
@@ -93,8 +93,9 @@ function Home() {
               socialIcon="facebook"
               text="Stories, tips, popular, add-ons, and other important info."
             />
-
-            <SocialCard
+            </div>
+            <div className="row">
+             <SocialCard
               socialIcon="twitter"
               text="Here we share Tech and Development insights."
             />
@@ -103,7 +104,21 @@ function Home() {
               socialIcon="linkedin"
               text="Tech and Development insights."
             />
+             
+            <div className="row">
+            <div className="section-title">
+            <h4 className="iframestyle">Rabvik Innovations on Facebook</h4>
           </div>
+          </div>
+          <div className="row">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=http%3A%2F%2Ffacebook.com%2F307451343272424%2F&tabs=timeline%2C%20events%2C%20messages&width=700&height=740&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="700" height="740" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+        </iframe>            
+            </div>
+</div>
+
+</div>
+
+
         </div>
       </section>
       {/* End Social Cards Section  */}

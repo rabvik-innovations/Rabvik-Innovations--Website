@@ -69,6 +69,59 @@ function TeamPage(props){
 
 
         </div>
+        <div className="section-title">
+          <h2>Interns</h2>
+          <div className="row">
+          <TeamCard
+            name="Intern name"
+            position="Lorem ipsum"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+            image="images/wwd4.png"
+          />
+
+          <TeamCard
+            name="Intern name"
+            position="Lorem ipsum"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+            image="images/wwd4.png"
+          />
+
+          <TeamCard
+            name="Intern name"
+            designation="Lorem ipsum"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+            image="images/wwd4.png"
+          />
+
+          <TeamCard
+            name="Intern name"
+            designation="Lorem ipsum"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+            image="images/wwd4.png"
+          />
+
+          <TeamCard
+            name="Intern name"
+            designation="Lorem ipsum"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+            image="images/wwd4.png"
+          />
+
+          <TeamCard
+            name="Intern name"
+            designation="Lorem ipsum"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+            image="images/wwd4.png"
+          />
+
+          <TeamCard
+            name="Intern name"
+            designation="Lorem ipsum"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+            image="images/wwd4.png"
+          />
+          </div>
+        </div>
 
       </div>
     </section>

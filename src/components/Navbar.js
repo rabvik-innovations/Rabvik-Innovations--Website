@@ -23,7 +23,7 @@ function Navbar() {
                                 <Link class="nav-link" to="">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="">About Us</Link>
+                                <Link class="nav-link" to="/aboutus">About Us</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="">Incubation Hub</Link>
@@ -42,7 +42,7 @@ function Navbar() {
                                     School Partnership Program
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><Link class="dropdown-item" to="">Innovation Lab</Link></li>
+                                    <li><Link class="dropdown-item" to="/innovation-lab">Innovation Lab</Link></li>
                                     <li><Link class="dropdown-item" to="">Periodical</Link></li>
 
                                 </ul>

@@ -4,7 +4,10 @@
 # Social Card Section
 --------------------------------------------------------------*/
 
-
+.dcol{
+  display: flex;
+  flex-direction: column;
+}
 .social-item{
     background-color: #e9eff0;
     text-align: center;
@@ -31,9 +34,17 @@
   .social-item .card:hover .bi{
     color: #E41D24;
   }
-  
-  
-  
+  iframe{
+    width: 700;
+    height: 740;
+    overflow: hidden;
+    margin-left: 4.6%;
+    
+  }
+  .iframestyle{
+    padding: 40px 0 40px 140px;
+    text-align: justify;
+  }
   
   
   /* --------------------------------------------
@@ -129,3 +140,10 @@
     margin-left:79px;
     margin-right:79px;
   }
+
+
+  .socialcardsalign{
+    margin-left: 30%;
+    width: 100%;
+  }
+  
