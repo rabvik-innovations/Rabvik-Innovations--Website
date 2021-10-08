@@ -5,7 +5,7 @@ import Home from './containers/Home';
 import Blog from './components/Blog';
 
 function App() {
- 
+
   return (
     <>
       <BrowserRouter>

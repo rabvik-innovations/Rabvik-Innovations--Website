@@ -8,25 +8,25 @@ function Navbar() {
 
             <nav class="navbar fixed-top navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" >
+                    <Link class="navbar-brand" to="/">
                         {/* Navbar */}
                         <img src="https://rabvik.com/images/logo.jpg" height="80px"
                             width="140px"
                             margin-top="20%" />
-                    </a>
+                    </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <Link class="nav-link" to="">Home</Link>
+                                <Link class="nav-link active" to="/">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="">About Us</Link>
+                                <Link class="nav-link" to="/aboutus">About Us</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="">Incubation Hub</Link>
+                                <Link class="nav-link" to="/gallery">Gallery</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="">Blogs</Link>
@@ -45,7 +45,7 @@ function Navbar() {
                                     School Partnership Program
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><Link class="dropdown-item" to="">Innovation Lab</Link></li>
+                                    <li><Link class="dropdown-item" to="/innovation-lab">Innovation Lab</Link></li>
                                     <li><Link class="dropdown-item" to="">Periodical</Link></li>
 
                                 </ul>

@@ -5,7 +5,8 @@
 .innovation-lab-text{
     margin: 5% 2%;
     font-size: 1.1rem;
-    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .innovation-lab-text strong{
   font-weight: 600;
@@ -18,4 +19,15 @@
 .innovation-lab .img-card{
     margin: 3rem 1.5rem;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+.innovation-lab .robot-img{
+  width:120%;
+  height: 90%;
+}
+
+.video-banner{
+  background-image: url('../gif/J4o.gif');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 300px;
 }
