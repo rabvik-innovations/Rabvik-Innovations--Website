@@ -24,3 +24,10 @@
   width:120%;
   height: 90%;
 }
+
+.video-banner{
+  background-image: url('../gif/J4o.gif');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 300px;
+}
