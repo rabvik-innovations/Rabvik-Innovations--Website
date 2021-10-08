@@ -1,5 +1,6 @@
 import "../css/Home.css";
 import "../App.css";
+import { Link } from 'react-router-dom';
 import SocialCard from "../components/SocialCard";
 import TeamCard from "../components/TeamCard";
 import GalleryCard from "../components/GalleryCard";
@@ -17,10 +18,11 @@ import ScrollToTop from '../components/Scrolltotop';
 import { Content, Heading } from '../css/ScrolltotopStyles';
 import Loader from '../components/Loader';
 
+
 function Home() {
   return (
     <div className="App">
-      <ScrollToTop/>
+      <ScrollToTop />
       <Navbar />
 
       <section>
@@ -38,9 +40,18 @@ function Home() {
           <div className="row photo-section">
             {/* <GalleryCard
                image="./public/images/" /> */}
-            {PhotoGallery.map((photo) => {
+            {PhotoGallery.slice(0, 3).map((photo) => {
               return <GalleryCard key={photo.id} image={photo.image} />;
             })}
+            
+            <div className="d-flex justify-content-center">
+              <Link to="/gallery">
+                <button type="button" className="gallery-button" >See more...</button>
+              </Link>
+
+            </div>
+
+
           </div>
         </div>
       </section>
@@ -54,26 +65,33 @@ function Home() {
           </div>
 
           <div className="row">
-            <AdvisorCard img="images/team-1.png" />
+            <AdvisorCard
+              name="Anupam Sen"
+              linkedin="https://www.linkedin.com/in/anupam-sen-a16b7013/?originalSubdomain=in"
+              img="images/team-1.png" />
 
-            <AdvisorCard img="images/team-1.png" />
+            <AdvisorCard
+              name="Tamal Pal"
+              linkedin="https://www.linkedin.com/in/tamal-kumar-pal-46095112/"
+              img="images/team-2.png" />
 
-            <AdvisorCard img="images/team-1.png" />
+            <AdvisorCard
+              name="S.K. Shahi"
+              linkedin="https://www.linkedin.com/in/s-k-shahi-2ba7b31b3/"
+              img="images/team-5.png" />
 
-            <AdvisorCard img="images/team-1.png" />
+            <AdvisorCard
+              name="Uday Chatterjee"
+              linkedin="https://www.linkedin.com/in/uday-chatterjee-838b764/"
+              img="images/team-6.png" />
 
-            <AdvisorCard img="images/team-1.png" />
-
-            <AdvisorCard img="images/team-1.png" />
-
-            <AdvisorCard img="images/team-1.png" />
           </div>
         </div>
       </section>
       {/* {End of Advisor section} */}
 
       <section>
-        <Reviews/>
+        <Reviews />
       </section>
 
       {/* Social Cards  Section */}
