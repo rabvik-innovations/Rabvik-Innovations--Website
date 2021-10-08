@@ -28,6 +28,9 @@ function Navbar() {
                             <li class="nav-item">
                                 <Link class="nav-link" to="">Incubation Hub</Link>
                             </li>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="">Blogs</Link>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Our Partners
