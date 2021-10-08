@@ -1,126 +1,105 @@
 import React from "react";
-import {
-Box,
-Container,
-Border,
-Ul,
-Li,
-Column,
-FooterBottom,
-Encloser,
-FooterLink,
-Icon,
-Heading,
-Heading1,
-} from "../css/FooterStyles";
-import {FaTwitter} from "react-icons/fa";
-import {FaFacebookF} from "react-icons/fa";
-import {FaLinkedinIn} from "react-icons/fa";
-import {FaInstagram} from "react-icons/fa";
-import {FaEnvelope} from "react-icons/fa";
-import {FaPhoneAlt} from "react-icons/fa";
-import {FaGlobe} from "react-icons/fa";
+import '../css/FooterStyles.css';
+// import {FaTwitter} from "react-icons/fa";
+// import {FaFacebookF} from "react-icons/fa";
+// import {FaLinkedinIn} from "react-icons/fa";
+// import {FaInstagram} from "react-icons/fa";
+// import {FaEnvelope} from "react-icons/fa";
+// import {FaPhoneAlt} from "react-icons/fa";
+// import {FaGlobe} from "react-icons/fa";
 
 const Footer = () => {
 return (
-	<Box>
-	<Encloser>
-      <FooterLink href={"https://rabvik.com/"}>
-        <img src="https://rabvik.com/images/logo.jpg" height = "100px"
-    width = "120px"
-    margin-top= "20%"/>
 
-        </FooterLink>
+<footer className="page-footer font-small unique-color-dark">
 
-      
-		<Column>
-        <Heading1>Rabvik Innovations</Heading1>
-        <Container>
-        Rabvik® Innovations is just the kind of unique platform we need today to encourage 
-        breakthrough technologies and Innovation’s world class mentoring program creates the 
-        optimum biosphere to incubate ideas and innovations right from the school level.
-        </Container>
-     
-      </Column>
 
-		<Column>
-        <Heading> Quick Links</Heading>
-        <Border/>
-        <Ul>
-          <FooterLink href="">
-            <Li>About Us</Li>
-          </FooterLink>
-          <FooterLink href="">
-            <Li>Innovation Labs</Li>
-          </FooterLink>
-          <FooterLink href="">
-            <Li>Incubation Hub</Li>
-          </FooterLink>
-          <FooterLink href="">
-            <Li>Career</Li>
-          </FooterLink>
-          <FooterLink href="">
-            <Li>Gallery</Li>
-          </FooterLink>
-          <FooterLink href="">
-            <Li>Contact Us</Li>
-          </FooterLink>
-        </Ul>
-      </Column>
+  <div className="container text-center text-md-left mt-5">
 
-		<Column>
-        <Heading> Contact Us</Heading>
-        {/* // <div class="border"></div> --> */}
-        <Ul>
-          <Li>
-            <FaGlobe/>&nbsp;
-             Rabvik® Innovations<br/>
-             <span style={{ marginLeft: '24px' }}>141</span> Lake Town,<br/>
-             <span style={{ marginLeft: '24px' }}>Block A,</span> Kolkata 89
-          </Li>
-          <br/>
-            <Li style={{ marginTop: '24px' }}>
-            <FaPhoneAlt/>&nbsp;
-            9831379029
-          </Li>
-          <Li>
+    <div className="row mt-3">
 
-            <FaEnvelope/>&nbsp;
-            pratik@rabvik.com
-          </Li>
-        </Ul>&nbsp;
-        <Container>
-          <FooterLink href={" https://www.twitter.com"}>
-          &nbsp;&nbsp;&nbsp;&nbsp; <Icon>
-         <FaTwitter/>
-       </Icon>
-       </FooterLink>
-          <FooterLink href={" https://www.facebook.com"}>
-            <Icon>
-            <FaFacebookF/>
-            </Icon>
-            </FooterLink>
-            
-          <FooterLink href={" https://www.linkedin.com/"}>
-            <Icon>
-            <FaLinkedinIn/>
-            </Icon>
-            </FooterLink>
-          <FooterLink href={" https://www.instagram.com"}>
-            <Icon>
-            <FaInstagram/>
-            </Icon>
-            </FooterLink>
-        </Container>
-      </Column>
-   
-    
-	</Encloser>
-  <FooterBottom>
-  Copyright &copy; Rabvik 2021. All rights reserved.
+      <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-</FooterBottom> 
-	</Box>
+        <h6 className="text-uppercase font-weight-bold">Rabvik Innovations</h6>
+        <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width: "60px"}}/>
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+
+      </div>
+
+      <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <h6 className="text-uppercase font-weight-bold">Products</h6>
+        <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width: "60px"}}/>
+        <p>
+          <a href="#!">First</a>
+        </p>
+        <p>
+          <a href="#!">Second</a>
+        </p>
+        <p>
+          <a href="#!">Third</a>
+        </p>
+        <p>
+          <a href="#!">Fourth</a>
+        </p>
+
+      </div>
+
+      <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <h6 className="text-uppercase font-weight-bold">Quick links</h6>
+        <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width: "60px"}}/>
+        <p>
+          <a href="#!"> About Us
+ </a>
+        </p>
+        <p>
+          <a href="#!">Innovation Labs
+ 
+ </a>
+        </p>
+        <p>
+          <a href="#!">Career
+ </a>
+        </p>
+        <p>
+          <a href="#!">Gallery
+</a>
+        </p>
+        <p>
+          <a href="#!"> Contact Us</a>
+        </p>
+
+      </div>
+
+      <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <h6 className="text-uppercase font-weight-bold">Contact</h6>
+        <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width:"60px"}}/>
+        <p>
+          <i className="fas fa-home mr-3"></i>
+141 Lake Town,
+Block A,
+Kolkata 89
+</p>
+        <p>
+          <i className="fas fa-envelope mr-3"></i> pratik@rabvik.com</p>
+        
+        <p>
+          <i className="fas fa-print mr-3"></i> 98313790299</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div className="footer-copyright text-center py-3">© 2020 Rabvik® Innovation All Rights Reserved.
+  </div>
+
+</footer>
 );
 };
 export default Footer;

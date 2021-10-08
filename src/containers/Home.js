@@ -24,6 +24,11 @@ function Home() {
     <div className="App">
       <ScrollToTop />
       <Navbar />
+      <br/><br/>
+
+<section>
+  <WhatWeDo/>
+  </section>
 
       <section>
         <About />
@@ -129,8 +134,7 @@ function Home() {
           </div>
           </div>
           <div className="row">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=http%3A%2F%2Ffacebook.com%2F307451343272424%2F&tabs=timeline%2C%20events%2C%20messages&width=700&height=740&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="700" height="740" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-        </iframe>            
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frabvikinnovations&tabs=timeline&width=500&height=560&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="560" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>           
             </div>
 </div>
 

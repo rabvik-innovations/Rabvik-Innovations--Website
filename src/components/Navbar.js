@@ -20,7 +20,7 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <Link class="nav-link" to="/">Home</Link>
+                                <Link class="nav-link active" to="/">Home</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="/aboutus">About Us</Link>

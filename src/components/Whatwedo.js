@@ -6,9 +6,6 @@ function WhatWeDo(){
     return(
         <div>
             <section class="container main-container">
-                <div class="center-div">
-                    <h2>Heading</h2>
-                </div>
 
                 <div class="choices">
                     <div class="left-top">

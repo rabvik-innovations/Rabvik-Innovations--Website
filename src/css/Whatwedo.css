@@ -19,8 +19,7 @@ body {
     position:relative;
     margin-bottom:190px;
 }
-    
-
+  
 .center-div {
    position: relative;
    top: 80%;
@@ -64,13 +63,14 @@ body {
     cursor: pointer;
     width: 100%;
     user-select: none;
+
 }
 
 .left-top:hover,
 .right-top:hover,
 .right-bottom:hover,
 .left-bottom:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
 }
 
 .left-top {
@@ -99,10 +99,10 @@ body {
 .left-bottom-circle {
     position: relative;   
     background-color: #fff;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    box-shadow: 0px 2px 4px 0.5px #37383a;
+    box-shadow: 0px 2px 3px 0.5px #37383a;
 }
 
 .left-top-circle{
@@ -140,11 +140,11 @@ body {
 }
 
 .right-top-text {
-    left: 7.5%;
+    left: 9%;
 }
 
 .right-bottom-text {
-    left: 7.5%;
+    left: 9%;
     top: 80%;
 }
 
