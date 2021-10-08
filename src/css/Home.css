@@ -142,8 +142,27 @@
   }
 
 
+  .gallery-button{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: .5rem .7rem;
+    border-radius: 2rem;
+    transition: 0.4s;
+  }
+  .gallery-button:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.05);
+    box-shadow: 2px 4px 3px grey;
+  }
+
+
   .socialcardsalign{
     margin-left: 30%;
     width: 100%;
   }
   
+

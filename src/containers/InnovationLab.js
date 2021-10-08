@@ -1,5 +1,4 @@
 import '../css/InnovationLab.css';
-import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -13,7 +12,8 @@ function InnovationLab() {
 
                 <h2> Innovation Labs in Schools </h2>
 
-                <div className="innovation-lab-text">
+                <div className=" row innovation-lab-text">
+                    <div className="col-lg-8 col-md-6">
                     <strong>We aim to train and prepare the next generation of robotics, scientists and engineers
                         innovative enough to push the envelope and be creative enough to achieve the impossible.</strong> The
                     Rabvik Robotics and Automation lab will be established with help of Technocrats and
@@ -29,6 +29,10 @@ function InnovationLab() {
                         entrepreneurship development and students startups in school.</strong> We provide our patented
                     application for progress assessment of your innovation lab, so that you can keep a tab on the
                     progress of the Innovation Lab in your school/college.
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                        <img src="images/robot.png" className="robot-img"/>
+                    </div>
                 </div>
 
 
