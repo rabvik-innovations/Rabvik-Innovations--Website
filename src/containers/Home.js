@@ -71,28 +71,32 @@ function Home() {
       {/* Advisor Section  */}
       <section id="advisor" className="advisor">
         <div className="container">
-          <div className="section-title text-center">
+          <div className="section-title text-center text-white">
             <h2>Our Advisors</h2>
           </div>
 
           <div className="row">
             <AdvisorCard
               name="Anupam Sen"
+              designation="Chartered Accountant, Ex-PWC, Ex-IBM"
               linkedin="https://www.linkedin.com/in/anupam-sen-a16b7013/?originalSubdomain=in"
               img="images/team-1.png" />
 
             <AdvisorCard
               name="Tamal Pal"
+              designation="Corporate Strategy ,M&A ,New Business Incubation ,Industry 4.0 transformation ,Cement"
               linkedin="https://www.linkedin.com/in/tamal-kumar-pal-46095112/"
               img="images/team-2.png" />
 
             <AdvisorCard
               name="S.K. Shahi"
+              designation="Director at Centre for Social Responsibility & Leadership"
               linkedin="https://www.linkedin.com/in/s-k-shahi-2ba7b31b3/"
               img="images/team-5.png" />
 
             <AdvisorCard
               name="Uday Chatterjee"
+              designation="Angel Investor"
               linkedin="https://www.linkedin.com/in/uday-chatterjee-838b764/"
               img="images/team-6.png" />
 
