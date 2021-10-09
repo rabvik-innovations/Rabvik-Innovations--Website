@@ -14,10 +14,6 @@
   
 }
 
-.about .container{
-  display: flex;
-  flex-direction: row;
-}
 video{
   max-width: 90%;
   max-height: 80%;
@@ -27,11 +23,41 @@ video:hover{
   transform: scale(1.1);
   box-shadow: 2px 5px 2px grey; 
 }
-.about .col2{
-  float: left;
-  width: 55%;
-  padding: 20px;
+.about{
+  padding: 5% 7%;
+
   text-align: justify;
+}
+.col{
+  width: 40%;
+}
+.col2{
+  width: 55%;
+}
+.aboutstyle{
+  display: flex;
+  flex-direction: row;
+}
+@media  screen and (max-width:1200px) {
+  .aboutstyle{
+    flex-wrap: wrap;
+  }
+  .col{
+    width: 90%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .col2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .aboutbtn{
+    
+  }
 }
 /* .col2{
   padding-right:80px;

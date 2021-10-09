@@ -8,6 +8,7 @@ function About(props) {
         <h1 className="m-3">About Rabvik®</h1>
       </div>
       <div className="container row m-3">
+        <div className="aboutstyle">
         <div className="col">
         <video controls="autoplay muted"
           src={"https://rabvik.com/images/Rabvik-Teaser.mp4"}
@@ -24,8 +25,8 @@ function About(props) {
           need today to encourage breakthrough technologies and Innovation’s world class mentoring program creates the optimum biosphere to incubate ideas and innovations right from the school level. One of the exemplary institutes for innovation, 
           entrepreneurship and robotics training for school children,
           </p>
-         <button>More about us</button>
-        </div>
+         <div className="aboutbtn"><button>More about us</button></div>
+        </div></div>
       </div>
     </div>
   );

@@ -19,8 +19,11 @@ function Reviews(props) {
     <div className="carousel-item active">
       <div className="cc">
 <div className="reviewsimg">
+  <figure>
+    
 <img src="../images/robot.png" className="d-block imager w-100" alt="..."/>
-<h6 className="imgname">Name here</h6>
+<figcaption><h6 className="imgname">Name here</h6></figcaption>
+</figure>
 </div>
     <div className="reviewstext">
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum Nulla vitae elit libero, a pharetra augue mollis interdum
@@ -31,8 +34,10 @@ function Reviews(props) {
     <div className="carousel-item">
       <div className="cc">
 <div className="reviewsimg">
+<figure> 
 <img src="../images/robot.png" className="d-block imager w-100" alt="..."/>
-<h6 className="imgname">Name here</h6>
+<figcaption className="imgname">Name here</figcaption>
+</figure>
 </div>
     <div className="reviewstext">
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum Nulla vitae elit libero, a pharetra augue mollis interdum
@@ -44,8 +49,10 @@ function Reviews(props) {
     <div className="carousel-item">
       <div className="cc">
 <div className="reviewsimg">
+<figure>
 <img src="../images/robot.png" className="d-block imager w-100" alt="..."/>
-<h6 className="imgname">Name here</h6>
+<figcaption><h6 className="imgname">Name here</h6></figcaption>
+</figure>
 </div>
     <div className="reviewstext">
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum Nulla vitae elit libero, a pharetra augue mollis interdum

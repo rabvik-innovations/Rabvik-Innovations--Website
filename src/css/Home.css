@@ -9,46 +9,55 @@
   flex-direction: row;
   
 }
+.social-item{
+  text-align: center;
+  padding: 5% 7% 7%;
+}
+.social-item .social-icon{
+  margin-bottom: 1rem;
+}
+.social-item .bi{
+  font-size: 3rem;
+  color: #061945;
+}
+.social-item .card{
+  margin-top: 2rem;
+  border: none;
+  border-radius: 0rem;
+  width: 1000px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+
+}
+.socialcolumn{
+  width: 38%;
+  margin-left: 2%;
+}
+.social-item .card:hover{
+  border: .15rem solid #E41D24;
+}
+.social-item .card:hover .bi{
+  color: #E41D24;
+}
+iframe{
+  width: 700px;
+  height: 760px;
+  overflow: hidden;
+}
 @media screen  and (max-width:1200px)
 {
 .dcol{
+  flex-direction: column;
   flex-wrap: wrap;
 }
+
+.fbcolumn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.social-item{
-    text-align: center;
-    padding: 5% 7% 7%;
-  }
-  .social-item .social-icon{
-    margin-bottom: 1rem;
-  }
-  .social-item .bi{
-    font-size: 3rem;
-    color: #061945;
-  }
-  .social-item .card{
-    margin-top: 2rem;
-    border: none;
-    border-radius: 0rem;
-    width: 1000px;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-  }
-  .socialcolumn{
-    width: 38%;
-    margin-left: 2%;
-  }
-  .social-item .card:hover{
-    border: .15rem solid #E41D24;
-  }
-  .social-item .card:hover .bi{
-    color: #E41D24;
-  }
-  iframe{
-    width: 700px;
-    height: 760px;
-    overflow: hidden;
-  }
+}
+
 
 
   
@@ -56,6 +65,7 @@
       Advisor Section 
   ----------------------------------------------*/
   .advisor{
+    
     padding: 5% 7%;
   }
   .advisor .card{
@@ -171,6 +181,9 @@
   .socialcardsalign{
     width: 100%;
     padding: 5% 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .App{
     overflow: hidden;

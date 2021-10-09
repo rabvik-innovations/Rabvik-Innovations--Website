@@ -112,7 +112,7 @@ function Home() {
             <h2>Want to know more about us?</h2>
           </div>
      <div className="socialcardsalign dcol">
-                <div className="column">
+                <div className="column fbcolumn">
 
 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frabvikinnovations&tabs=timeline&width=560&height=650&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="560" height="650" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>           
 </div>  

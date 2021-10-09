@@ -5,7 +5,7 @@ function SocialCard(props) {
         <div className="d-flex align-items-stretch">
         
             <div class="card" style={{marginTop:"0%"}}>
-                <div class="card-body" style={{ textAlign: "left" }}>
+                <div class="card-body" style={{ textAlign: "justify" }}>
                     <div className="social-icon">
                         <a href=""><i className={`bi bi-${props.socialIcon}`}></i></a>
                     </div>

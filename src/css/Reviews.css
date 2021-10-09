@@ -36,10 +36,12 @@ margin-right: 10%;
 .imgname{
   text-align: center;
   color: #061945;
-margin:15% 0;
+  font-weight: bolder;
 }
 .cc{
-  display: flex;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -47,4 +49,25 @@ margin:15% 0;
 .reviewstext{
   width:56%;
   text-align: justify;
+}
+
+@media  screen and (max-width:1200px) {
+  
+  .reviewsimg{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+  overflow:hidden;
+  width: 100%;
+  height: 300px;  
+  transform-origin:top;
+}
+  .reviewstext{
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
 }
