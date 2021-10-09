@@ -62,9 +62,6 @@ function InnovationLab() {
                     </div>
                 </div>
 
-
-
-
             </div >
             <Footer />
         </div >

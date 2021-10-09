@@ -5,6 +5,7 @@ import SocialCard from "../components/SocialCard";
 import TeamCard from "../components/TeamCard";
 import GalleryCard from "../components/GalleryCard";
 import PhotoGallery from "../components/PhotoGallery";
+import Hero from '../components/Hero';
 
 import About from '../components/About';
 import AdvisorCard from '../components/AdvisorCard';
@@ -18,14 +19,17 @@ import ScrollToTop from '../components/Scrolltotop';
 import { Content, Heading } from '../css/ScrolltotopStyles';
 import Loader from '../components/Loader';
 
-import Blog from '../components/Blog';
-
 function Home() {
   return (
     <div className="App">
       <ScrollToTop />
       <Navbar />
       <br/><br/>
+
+<section>
+<Hero/>
+</section>
+
 
 <section>
   <WhatWeDo/>
@@ -63,7 +67,6 @@ function Home() {
       </section>
       {/* {End of gallery section} */}
 
-      <Blog />
 
       {/* Advisor Section  */}
       <section id="advisor" className="advisor">

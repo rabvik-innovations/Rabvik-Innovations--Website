@@ -1,7 +1,7 @@
-.main{
+.blogmain{
     margin-bottom: 50px;
   }
-  .card{
+  .blogcard{
     width: 525px;
     height: 250px;
    background: rgb(255,255,255);
@@ -12,7 +12,7 @@
     margin-top: 30px;
     transition: background-color .5s, box-shadow .5s, margin-left .5s;
   }
-  .card:hover{
+  .blogcard:hover{
     margin-left: 8%;
     background-color: #ffff;
     box-shadow: 0 30px 30px rgba(0, 0, 0, 0.3);
@@ -33,7 +33,7 @@
     margin-left: 5px;
     overflow: hidden;
   }
-  a:link{
+  .linker:link{
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
     color: #3B3C3F;
@@ -54,7 +54,7 @@
     font-family: 'Roboto', sans-serif;
     
   }
-  .author{
+  .blogauthor{
     width: 100%;
     height: 60px;
     background-color: #F2F5F8;
@@ -86,7 +86,7 @@
     margin-top: 10px;
     padding-left: 10px;
   }
-  .date{
+  .blogdate{
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     margin-top: -15px;

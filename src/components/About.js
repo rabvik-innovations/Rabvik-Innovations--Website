@@ -3,7 +3,7 @@ import "../css/AboutStyles.css";
 
 function About(props) {
   return (
-    <div className="about below-navbar">
+    <div className="about">
       <div>
         <h1 className="m-3">About Rabvik®</h1>
       </div>
