@@ -10,7 +10,7 @@ function Navbar() {
                 <div class="container-fluid">
                     <Link class="navbar-brand" to="/">
                         {/* Navbar */}
-                        <img src="https://rabvik.com/images/logo.jpg" height="80px"
+                        <img src="../images/logo.jpg" height="80px"
                             width="140px"
                             margin-top="20%" />
                     </Link>
