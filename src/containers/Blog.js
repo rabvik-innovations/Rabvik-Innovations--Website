@@ -1,9 +1,14 @@
 import React from "react";
 import '../css/Blog.css';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function Blog(){
     return(
         <div>
+            <Navbar />
+<br/><br/>
+<br/><br/>
              <div className="blogmain">
         <div className="blogcard">
             <div className="blogpost">
@@ -74,6 +79,7 @@ function Blog(){
     </div>
   </div>
 </div>
+<Footer />
 
         </div> 
     );

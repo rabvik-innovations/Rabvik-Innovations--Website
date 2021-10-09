@@ -2,6 +2,11 @@ a{
 	text-decoration: none;
 	color: white;
 }
+a:hover{
+	color: wheat;
+	text-decoration: underline;
+    text-underline-offset: .5rem;
+}
 .page-footer{
 	text-align: justify;
 	color: white;

@@ -11,10 +11,11 @@ function App() {
     <>
       <BrowserRouter>
       <Switch>
-        <Route path="/Team" component={TeamPage} />
-        <Route path="/" component={Home} />
+      <Route path="/Team" component={TeamPage} />
         <Route path="/innovation-lab" component={InnovationLab} />
         <Route path="/blog" component={Blog} />
+        <Route path="/" component={Home} />
+
       </Switch>
     </BrowserRouter>
     </>
