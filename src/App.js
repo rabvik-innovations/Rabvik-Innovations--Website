@@ -2,25 +2,19 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import TeamPage from './containers/TeamPage';
 import Home from './containers/Home';
-import InnovationLab from './containers/InnovationLab';
-
-import Gallery from './containers/Gallery';
-
+import Blog from './components/Blog';
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-
-        <Switch>
-          <Route path="/gallery" component={Gallery} />
-          <Route path="/innovation-lab" component={InnovationLab} />
-          <Route path="/Team" component={TeamPage} />
-          <Route path="/" component={Home} />
-        </Switch>
-      </BrowserRouter>
-
+      <Switch>
+        <Route path="/Team" component={TeamPage} />
+        <Route path="/" component={Home} />
+        <Route path="/Blogs" component={Blog} />
+      </Switch>
+    </BrowserRouter>
     </>
   );
 }

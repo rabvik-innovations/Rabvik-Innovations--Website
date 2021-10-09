@@ -29,7 +29,16 @@ function Navbar() {
                                 <Link class="nav-link" to="/gallery">Gallery</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="">Our Partners</Link>
+                                <Link class="nav-link" to="">Blogs</Link>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Partners
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><Link class="dropdown-item" to="">Action</Link></li>
+                                    <li><Link class="dropdown-item" to="">Action</Link></li>
+                                </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

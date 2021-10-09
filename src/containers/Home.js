@@ -18,6 +18,7 @@ import ScrollToTop from '../components/Scrolltotop';
 import { Content, Heading } from '../css/ScrolltotopStyles';
 import Loader from '../components/Loader';
 
+import Blog from '../components/Blog';
 
 function Home() {
   return (
@@ -61,6 +62,8 @@ function Home() {
         </div>
       </section>
       {/* {End of gallery section} */}
+
+      <Blog />
 
       {/* Advisor Section  */}
       <section id="advisor" className="advisor">
