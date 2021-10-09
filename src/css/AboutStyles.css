@@ -37,26 +37,5 @@ video:hover{
   padding-right:80px;
   padding-left: 60px;
 } */
-.about p {
-   line-height: 1.5;
-}
 
-.about button{
-  margin-top: 10px;
-  border:none;
-  background-color: blue;
-  color: white;
-  font-weight: bold;
-  font-size:16px;
-  padding: 10px 15px;
-  border-radius: 20px;
-  transition: 0.4s;
-}
-.about button:hover{
-  cursor: pointer;
-  transition: 0.2s;
-  transform: scale(1.05);
-  box-shadow: 2px 4px 3px grey;
-  
-}
 

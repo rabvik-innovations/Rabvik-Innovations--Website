@@ -2,9 +2,9 @@
 function SocialCard(props) {
     return (
         
-        <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div className="d-flex align-items-stretch">
         
-            <div class="card">
+            <div class="card" style={{marginTop:"0%"}}>
                 <div class="card-body" style={{ textAlign: "left" }}>
                     <div className="social-icon">
                         <a href=""><i className={`bi bi-${props.socialIcon}`}></i></a>

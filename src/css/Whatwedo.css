@@ -3,23 +3,27 @@
     padding: 0;
 }
 
-body {
-    /* perspective: 800px; */
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: scroll
-}
+
 
 .main-container {
     margin: 50px auto;
     width: 450px;
     height:450px;
     border-radius: 50%;
-    background-image: url("https://images.unsplash.com/photo-1576400883215-7083980b6193?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI2fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-    background-repeat:round;
+    background-image: url('https://i.pinimg.com/originals/a1/ba/2c/a1ba2c150d44d387f565a87c54351bf8.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     position:relative;
     margin-bottom:190px;
 }
-  
+.whatwedostyle {
+    /* perspective: 800px; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#e9eff0;
+    align-items:center;
+
+}
 .center-div {
    position: relative;
    top: 80%;

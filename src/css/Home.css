@@ -6,10 +6,10 @@
 
 .dcol{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  
 }
 .social-item{
-    background-color: #e9eff0;
     text-align: center;
     padding: 5% 7% 7%;
   }
@@ -24,9 +24,13 @@
     margin-top: 2rem;
     border: none;
     border-radius: 0rem;
-    padding: 2% 7% 5%;
+    width: 1000px;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
+  }
+  .socialcolumn{
+    width: 38%;
+    margin-left: 2%;
   }
   .social-item .card:hover{
     border: .15rem solid #E41D24;
@@ -35,17 +39,12 @@
     color: #E41D24;
   }
   iframe{
-    width: 700;
-    height: 760;
+    width: 700px;
+    height: 760px;
     overflow: hidden;
-    margin-left: 4.6%;
-    
   }
-  .iframestyle{
-    padding: 40px 0 40px 140px;
-    text-align: justify;
-  }
-  
+
+
   
   /* --------------------------------------------
       Advisor Section 
@@ -141,9 +140,32 @@
     margin-right:79px;
   }
 
-
+  .about p {
+    line-height: 1.5;
+ }
+ 
+ button{
+   margin-top: 10px;
+   border:none;
+   background-color: #061945;
+   color: white;
+   font-weight: bold;
+   font-size:16px;
+   padding: 10px 15px;
+   border-radius: 20px;
+   transition: 0.4s;
+ }
+ button:hover{
+   cursor: pointer;
+   transition: 0.2s;
+   transform: scale(1.05);
+   box-shadow: 2px 4px 3px grey;
+   
+ }
   .socialcardsalign{
-    margin-left: 30%;
     width: 100%;
+    padding: 5% 7%;
   }
-  
+  .App{
+    overflow: hidden;
+  }

@@ -1,6 +1,9 @@
 .reviews{
   display: flex;
   flex-direction: column;
+  background-color:#e9eff0;
+  align-items:center;
+  padding: 5% 7%;
 }
 h3{
   text-align: center;
@@ -12,25 +15,27 @@ h3{
   height: 55%;
   margin: 5% 20%;
   padding: 6% 5%;
-  background-color: blue;
-  color: aliceblue;
-  box-shadow: 4px 5px 4px gray;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrKT8GGFg6PF_1u5Xwsob2tOCMwUI7Dqy8wQ&usqp=CAU');	background-repeat: no-repeat;
+	background-size: cover;
+
+  color: rgb(72, 72, 82);
+  box-shadow: 4px 5px 4px #314163;
 }
 .reviewscontainer:hover{
   transition: 0.5s ease-in-out;
   transform: scale(1.01);
-  box-shadow: 5px 6px 5px rgb(45, 74, 99);
+  box-shadow: 5px 6px 5px #061945;
 }
 .reviewsimg{
   height: 60%;
   width:30%;
-  background-color: aliceblue;
+  background-color: rgb(175, 199, 219);
   padding: 1.1% 1.1% 0 1.1%;
 margin-right: 10%;
 }
 .imgname{
   text-align: center;
-  color: blue;
+  color: #061945;
 margin:15% 0;
 }
 .cc{

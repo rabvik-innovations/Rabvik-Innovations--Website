@@ -6,12 +6,12 @@ import TeamCard from "../components/TeamCard";
 import GalleryCard from "../components/GalleryCard";
 import PhotoGallery from "../components/PhotoGallery";
 
-import Footer from '../components/Footer';
 import About from '../components/About';
 import AdvisorCard from '../components/AdvisorCard';
 import WhatWeDo from '../components/Whatwedo';
 import Navbar from '../components/Navbar';
 import Reviews from "../components/Reviews";
+import Footer from '../components/Footer';
 
 import { Fragment } from 'react';
 import ScrollToTop from '../components/Scrolltotop';
@@ -101,12 +101,16 @@ function Home() {
 
       {/* Social Cards  Section */}
       <section id="social-item" className="social-item">
-        <div className="container dcol">
+        <div className="container">
           <div className="section-title">
             <h2>Want to know more about us?</h2>
           </div>
-     <div className="socialcardsalign">
-            <div className="row">
+     <div className="socialcardsalign dcol">
+                <div className="column">
+
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frabvikinnovations&tabs=timeline&width=560&height=650&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="560" height="650" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>           
+</div>  
+            <div className="column socialcolumn">
             <SocialCard
               socialIcon="instagram"
               text="Team's daily lives. Photos, jokes and the office atmosphere!"
@@ -116,9 +120,9 @@ function Home() {
               socialIcon="facebook"
               text="Stories, tips, popular, add-ons, and other important info."
             />
-            </div>
-            <div className="row">
-             <SocialCard
+           
+
+            <SocialCard
               socialIcon="twitter"
               text="Here we share Tech and Development insights."
             />
@@ -127,21 +131,16 @@ function Home() {
               socialIcon="linkedin"
               text="Tech and Development insights."
             />
-             
-            <div className="row">
-            <div className="section-title">
-            <h4 className="iframestyle">Rabvik Innovations on Facebook</h4>
-          </div>
-          </div>
-          <div className="row">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frabvikinnovations&tabs=timeline&width=500&height=560&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="560" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>           
             </div>
-</div>
+                 
+           
+             
+             </div>
+            
 
 </div>
 
 
-        </div>
       </section>
       {/* End Social Cards Section  */}
 

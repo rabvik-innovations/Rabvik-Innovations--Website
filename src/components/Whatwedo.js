@@ -5,7 +5,7 @@ import {FaTwitter} from "react-icons/fa";
 function WhatWeDo(){
     return(
         <div>
-            <section class="container main-container">
+            <section class="container main-container whatwedostyle">
 
                 <div class="choices">
                     <div class="left-top">

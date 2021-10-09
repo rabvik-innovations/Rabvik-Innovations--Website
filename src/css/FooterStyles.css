@@ -1,0 +1,16 @@
+a{
+	text-decoration: none;
+	color: white;
+}
+.page-footer{
+	text-align: justify;
+	color: white;
+}
+
+footer{
+	background-color: rgb(170, 170, 179);
+	/* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrKT8GGFg6PF_1u5Xwsob2tOCMwUI7Dqy8wQ&usqp=CAU');	background-repeat: no-repeat;
+	background-size: cover; */
+	background-color: #061945;
+	padding: 2% 4% 0 4%;
+}
