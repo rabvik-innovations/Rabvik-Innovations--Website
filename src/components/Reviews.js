@@ -6,8 +6,8 @@ function Reviews(props) {
   return (
     <div className="reviews">
 
-      <div>
-        <h3>What our customers say...</h3>
+      <div className="section-title text-center">
+        <h2>What our customers say...</h2>
       </div>
     <div id="carouselExampleIndicators" className="carousel slide reviewscontainer" data-ride="carousel">
   <ol className="carousel-indicators">

@@ -71,8 +71,8 @@ function Home() {
       {/* Advisor Section  */}
       <section id="advisor" className="advisor">
         <div className="container">
-          <div className="section-title text-center text-white">
-            <h2>Our Advisors</h2>
+          <div className="section-title text-center">
+            <h2 style={{color:"white"}}>Our Advisors</h2>
           </div>
 
           <div className="row">
@@ -112,7 +112,7 @@ function Home() {
       {/* Social Cards  Section */}
       <section id="social-item" className="social-item">
         <div className="container">
-          <div className="section-title">
+          <div className="section-title text-center">
             <h2>Want to know more about us?</h2>
           </div>
      <div className="socialcardsalign dcol">

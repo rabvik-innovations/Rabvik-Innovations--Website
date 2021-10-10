@@ -4,10 +4,10 @@ import "../css/AboutStyles.css";
 function About(props) {
   return (
     <div className="about">
-      <div>
-        <h1 className="m-3">About Rabvik®</h1>
+      <div className="section-title text-center">
+        <h2>About Rabvik®</h2>
       </div>
-      <div className="container row m-3">
+      <div className="row">
         <div className="aboutstyle">
         <div className="col">
         <video controls="autoplay muted"
@@ -24,7 +24,7 @@ function About(props) {
           Rabvik® Innovations is just the kind of unique platform we 
           need today to encourage breakthrough technologies and Innovation’s world class mentoring program creates the optimum biosphere to incubate ideas and innovations right from the school level. One of the exemplary institutes for innovation, 
           entrepreneurship and robotics training for school children,
-          </p>
+          </p><br/>
          <div className="aboutbtn"><button>More about us</button></div>
         </div></div>
       </div>

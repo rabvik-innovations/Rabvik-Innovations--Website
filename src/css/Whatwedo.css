@@ -6,7 +6,8 @@
 .what-we-do-heading{
      text-align: center;
      position:relative;
-     margin-top:4.9rem;
+    color: #061945;
+    margin-top:4.9rem;
 }
 
 
@@ -26,9 +27,9 @@
 }
 .whatwedostyle {
     /* perspective: 800px; */
-    font-family: Arial, Helvetica, sans-serif;
     background-color:#e9eff0;
-    align-items:center;
+  padding: 5% 7% 7%;
+  align-items:center;
 
 }
 .center-div {

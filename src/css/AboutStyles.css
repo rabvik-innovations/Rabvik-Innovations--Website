@@ -6,13 +6,9 @@
   background-repeat: no-repeat;
   background-position: fixed;
   background: visibility 7px;
-  padding:60px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    padding: 5% 7%;
 }
-.about h1{
-  text-align: center;
-  
-}
+
 
 video{
   max-width: 90%;
@@ -23,20 +19,23 @@ video:hover{
   transform: scale(1.1);
   box-shadow: 2px 5px 2px grey; 
 }
-.about{
-  padding: 5% 7%;
 
-  text-align: justify;
-}
 .col{
-  width: 40%;
+  width: 48%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .col2{
-  width: 55%;
+  width: 52%;
+  margin-right: 7%;
+  text-align: justify;
+
 }
 .aboutstyle{
   display: flex;
-  flex-direction: row;
+margin-top: 3%;
+    flex-direction: row;
 }
 @media  screen and (max-width:1200px) {
   .aboutstyle{
@@ -55,13 +54,7 @@ video:hover{
   justify-content: center;
   align-items: center;
   }
-  .aboutbtn{
-    
-  }
+
 }
-/* .col2{
-  padding-right:80px;
-  padding-left: 60px;
-} */
 
 
