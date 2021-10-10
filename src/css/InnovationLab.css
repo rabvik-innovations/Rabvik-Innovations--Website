@@ -1,6 +1,6 @@
 .innovation-lab{
   text-align: center;
-  padding: 10% 7% 6%;
+  padding: 10% 6% 6%;
 }
 .innovation-lab-text{
     margin: 5% 2%;
@@ -21,7 +21,7 @@
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 .innovation-lab .robot-img{
-  width:120%;
+  width:110%;
   height: 90%;
 }
 

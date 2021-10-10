@@ -9,7 +9,7 @@ function InnovationLab() {
         <div className="">
             <Navbar />
 
-            <div className="row">
+            <div className="row" style={{ maxWidth:'100%', overflowX:'hidden'}}>
                 <div className="col-lg-12  text-center  video-banner" >
                     <h2 style={{marginTop:"10rem", color:"#FFFFFF"}}> Innovation Labs </h2>
                 </div>
@@ -21,7 +21,7 @@ function InnovationLab() {
                 <h2> Innovation Labs in Schools </h2>
 
                 <div className=" row innovation-lab-text">
-                    <div className="col-lg-8 col-md-6">
+                    <div className="col-md-8 col-sm-12">
                         <strong>We aim to train and prepare the next generation of robotics, scientists and engineers
                             innovative enough to push the envelope and be creative enough to achieve the impossible.</strong> The
                         Rabvik Robotics and Automation lab will be established with help of Technocrats and
@@ -38,8 +38,10 @@ function InnovationLab() {
                         application for progress assessment of your innovation lab, so that you can keep a tab on the
                         progress of the Innovation Lab in your school/college.
                     </div>
-                    <div className="col-lg-4 col-md-6">
-                        <img src="images/robot.png" className="robot-img" />
+                    <div className="col-md-4 col-sm-12">
+                        
+                        <img src="images/robot.gif" className="robot-img" alt="robot-gif"/>
+                        
                     </div>
                 </div>
 
