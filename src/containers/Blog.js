@@ -7,10 +7,11 @@ function Blog(){
     return(
         <div>
             <Navbar />
-<br/><br/>
-<br/><br/>
-             <div className="blogmain">
-        <div className="blogcard">
+            <button class="new-article-button"><a href="">New Article</a></button>
+            <br/><br/>
+            <br/><br/>
+            <div className="blogmain">
+            <div className="blogcard">
             <div className="blogpost">
                 <img className="post-image" src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"/>
                 
