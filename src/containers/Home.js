@@ -86,19 +86,19 @@ function Home() {
               name="Tamal Pal"
               designation="Corporate Strategy ,M&A ,New Business Incubation ,Industry 4.0 transformation ,Cement"
               linkedin="https://www.linkedin.com/in/tamal-kumar-pal-46095112/"
-              img="images/team-2.png" />
+              img="images/team-2.jfif" />
 
             <AdvisorCard
               name="S.K. Shahi"
               designation="Director at Centre for Social Responsibility & Leadership"
               linkedin="https://www.linkedin.com/in/s-k-shahi-2ba7b31b3/"
-              img="images/team-5.png" />
+              img="images/team-5.jfif" />
 
             <AdvisorCard
               name="Uday Chatterjee"
               designation="Angel Investor"
               linkedin="https://www.linkedin.com/in/uday-chatterjee-838b764/"
-              img="images/team-6.png" />
+              img="images/team-6.jfif" />
 
           </div>
         </div>
