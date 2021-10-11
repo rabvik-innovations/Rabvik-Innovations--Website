@@ -28,7 +28,7 @@ function TeamPage(props){
             name="Tamal Pal"
             position="Lorem ipsum"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
-            image="images/team-2.png"
+            image="images/team-2.jfif"
           />
 
           <TeamCard
@@ -49,14 +49,14 @@ function TeamPage(props){
             name="S.K. Shahi"
             designation="Lorem ipsum"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
-            image="images/team-5.png"
+            image="images/team-5.jfif"
           />
 
           <TeamCard
             name="Uday Chatterjee"
             designation="Lorem ipsum"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
-            image="images/team-6.png"
+            image="images/team-6.jfif"
           />
 
           <TeamCard
