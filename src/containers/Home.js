@@ -118,7 +118,6 @@ function Home() {
 
             <AdvisorCard
               name="S.K. Shahi"
-              designation="Director at Centre for Social Responsibility & Leadership"
               linkedin="https://www.linkedin.com/in/s-k-shahi-2ba7b31b3/"
               img="images/team-5.jfif" />
 
