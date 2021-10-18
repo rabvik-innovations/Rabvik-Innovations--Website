@@ -67,7 +67,7 @@ Kolkata 89
           <FaEnvelope/> pratik@rabvik.com</p>
         
         <p>
-          <FaPhoneAlt/> 98313790299</p>
+          <FaPhoneAlt/> 9733381000</p>
 
       </div>
 

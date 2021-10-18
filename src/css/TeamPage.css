@@ -36,8 +36,8 @@
   .team .member p {
     padding-top: 10px;
     font-size: 14px;
-    font-style: italic;
-    color: #aaaaaa;
+    /* font-style: italic; */
+    /* color: #aaaaaa; */
   }
   .team .member .social {
     margin-top: 15px;
@@ -53,4 +53,7 @@
     font-size: 18px;
     margin: 0 2px;
   }
+  .team .interns .member {
+   padding: 7% 15%;
+ }
   
