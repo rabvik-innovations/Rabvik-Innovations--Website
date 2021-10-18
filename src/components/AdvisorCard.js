@@ -12,8 +12,8 @@ function AdvisorCard(props){
           <p>{props.designation}</p>
           
           <div className="social">
-            <a href=""> <FaTwitter className="social-icon twitter"/> </a>
-            <a href={props.linkedin}><FaLinkedinIn className="social-icon linkedin"/> </a>           
+            <a href="" target="_blank"> <FaTwitter className="social-icon twitter"/> </a>
+            <a href={props.linkedin} target="_blank"><FaLinkedinIn className="social-icon linkedin"/> </a>           
             {/* <a href=""> <FaFacebookF className="social-icon facebook"/> </a> */}
             
           </div>

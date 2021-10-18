@@ -7,35 +7,27 @@ const PhotoGallery=[
     },
     {
         id:2,
-        image:"images/RabwikInnovations.jpg"
+        image:"images/gallery-Young-Innvators-Award.jpg"
     },
     {
         id:3,
-        image:"images/RabwikInnovations.jpg"
+        image:"images/gallery-Tech-Seminar.jpg"
     },
     {
         id:4,
-        image:"images/RabwikInnovations.jpg"
+        image:"images/gallery-Tech-MoU.jpg"
     },
     {
         id:5,
-        image:"images/RabwikInnovations.jpg"
+        image:"images/gallery-Rabvik-CCI Lyon Collaboration-.jpg"
     },
     {
         id:6,
-        image:"images/RabwikInnovations.jpg"
+        image:"images/gallery-The-Young-IT-Innovators-Award.jpg"
     },
     {
         id:7,
-        image:"images/RabwikInnovations.jpg"
-    },
-    {
-        id:8,
-        image:"images/RabwikInnovations.jpg"
-    },
-    {
-        id:9,
-        image:"images/RabwikInnovations.jpg"
+        image:"images/gallery-Industry-Academia Partnership.jpg"
     }
 ];
 

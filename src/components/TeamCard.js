@@ -6,14 +6,14 @@ function TeamCard(props) {
         <div className="member">
           <img src={props.image} />
           <h4>{props.name}</h4>
-          <span>{props.designation}</span>
+          {/* <span>{props.designation}</span> */}
           <p>
             {props.description}
           </p>
           <div className="social">
-            <a href=""><i className="bi bi-twitter"></i></a>
-            <a href=""><i className="bi bi-facebook"></i></a>
-            <a href=""><i className="bi bi-linkedin"></i></a>
+            <a href={props.twitter} target="_blank"><i className="bi bi-twitter"></i></a>
+            {/* <a href=""><i className="bi bi-facebook"></i></a> */}
+            <a href={props.linkedin} target="_blank"><i className="bi bi-linkedin"></i></a>
           </div>
         </div>
 
