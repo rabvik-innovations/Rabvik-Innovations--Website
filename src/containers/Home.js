@@ -7,7 +7,7 @@ import GalleryCard from "../components/GalleryCard";
 import PhotoGallery from "../components/PhotoGallery";
 import Hero from '../components/Hero';
 
-import About from '../components/About';
+import About from '../containers/About';
 import AdvisorCard from '../components/AdvisorCard';
 import WhatWeDo from '../components/Whatwedo';
 import Navbar from '../components/Navbar';
@@ -29,15 +29,43 @@ function Home() {
 <section>
 <Hero/>
 </section>
-
+<section>
+<div className="about">
+      <div className="section-title text-center">
+        <h2>About Rabvik®</h2>
+      </div>
+      <div className="row">
+        <div className="aboutstyle">
+        <div className="col">
+        <video controls="autoplay muted"
+          src={"https://rabvik.com/images/Rabvik-Teaser.mp4"}
+        />
+        </div>
+        <div className="col2">
+          <p>
+          Incredible breakthroughs and spectacular advancements in 
+          technology are changing the world as we know it by leaps and bounds. If we are to keep up with this frenetic pace of technological change in industry and education, technology minded and 
+          design thinking are essential at the very earliest steps, especially for our future generations.
+          </p>
+          <p>
+          Rabvik® Innovations is just the kind of unique platform we 
+          need today to encourage breakthrough technologies and Innovation’s world class mentoring program creates the optimum biosphere to incubate ideas and innovations right from the school level. One of the exemplary institutes for innovation, 
+          entrepreneurship and robotics training for school children,
+          </p><br/>
+         <div className="aboutbtn">
+         <Link to="/aboutus">
+           <button>More about us</button>
+           </Link>
+           </div>
+        </div></div>
+      </div>
+    </div>
+      </section>
 
 <section>
   <WhatWeDo/>
   </section>
 
-      <section>
-        <About />
-      </section>
 
       {/* {Gallery Section} */}
       <section id="gallery-section" className="gallery-item">
@@ -80,25 +108,19 @@ function Home() {
               name="Anupam Sen"
               designation="Chartered Accountant, Ex-PWC, Ex-IBM"
               linkedin="https://www.linkedin.com/in/anupam-sen-a16b7013/?originalSubdomain=in"
-              img="images/team-1.png" />
+              img="images/advisor-1.png" />
 
             <AdvisorCard
               name="Tamal Pal"
               designation="Corporate Strategy ,M&A ,New Business Incubation ,Industry 4.0 transformation ,Cement"
               linkedin="https://www.linkedin.com/in/tamal-kumar-pal-46095112/"
-              img="images/team-2.png" />
-
-            <AdvisorCard
-              name="S.K. Shahi"
-              designation="Director at Centre for Social Responsibility & Leadership"
-              linkedin="https://www.linkedin.com/in/s-k-shahi-2ba7b31b3/"
-              img="images/team-5.png" />
+              img="images/advisor-2.jfif" />
 
             <AdvisorCard
               name="Uday Chatterjee"
               designation="Angel Investor"
               linkedin="https://www.linkedin.com/in/uday-chatterjee-838b764/"
-              img="images/team-6.png" />
+              img="images/advisor-6.jfif" />
 
           </div>
         </div>
@@ -129,6 +151,7 @@ function Home() {
             <SocialCard
               socialIcon="facebook"
               text="Stories, tips, popular, add-ons, and other important info."
+              link="https://www.facebook.com/rabvikinnovations/?modal=admin_todo_tour"
             />
            
 
@@ -140,6 +163,7 @@ function Home() {
             <SocialCard
               socialIcon="linkedin"
               text="Tech and Development insights."
+              link="https://www.linkedin.com/company/rabvik/mycompany/"
             />
             </div>
                  

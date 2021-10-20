@@ -2,6 +2,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import TeamPage from './containers/TeamPage';
 import Home from './containers/Home';
+import About from './containers/About';
 import InnovationLab from './containers/InnovationLab';
 import Blog from './containers/Blog';
 import Gallery from './containers/Gallery';
@@ -16,6 +17,7 @@ function App() {
           <Route path="/gallery" component={Gallery} />
           <Route path="/innovation-lab" component={InnovationLab} />
           <Route path="/blog" component={Blog} />
+          <Route path="/aboutus" component={About} />
           <Route path="/" component={Home} />
 
         </Switch>
