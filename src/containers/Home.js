@@ -42,7 +42,7 @@ function Home() {
 <Hero/>
 </section>
 <section>
-<div className="about">
+<div className="about below-navbar">
 <div className="container">
       <div className="section-title text-center">
         <h2>About Rabvik®</h2>
