@@ -59,6 +59,9 @@ align-content: center;
   .aboutstyles{
     flex-wrap: wrap;
   }
+  .aboutvideo{
+    margin: 15px 0;
+  }
   .col1{
     width: 95%;
     display: flex;

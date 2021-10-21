@@ -2,7 +2,13 @@
     color: #061945;
 }
 
-
+.about {
+  padding: 5% 9% 9%;
+  background-image:url('https://thumbs.gfycat.com/FluidAdorableLarva-max-1mb.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
 .abtvideo{
   max-width: 90%;
 }
@@ -32,8 +38,10 @@
     flex-wrap: wrap;
   }
   .col{
-    width: 90%;
-
+    width: 100%;
+padding-bottom: 4%;
+display: flex;
+justify-content: center;
   }
   .col2{
     width: 100%;
@@ -42,13 +50,6 @@
 
   }
 
-}
-.about {
-  background-image:url('https://thumbs.gfycat.com/FluidAdorableLarva-max-1mb.gif');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: fixed;
-  padding: 5% 9% 9%;
 }
 
 
