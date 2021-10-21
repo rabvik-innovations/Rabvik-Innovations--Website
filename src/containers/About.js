@@ -34,9 +34,10 @@ function About(props) {
           <br/>
         </div>
         <div className="col1">
-        <video controls="autoplay muted"
-          src={"https://rabvik.com/images/Rabvik-Teaser.mp4"}
-        />
+        <video controls  poster={"../images/RI.png"}>
+  <source src={"https://rabvik.com/images/Rabvik-Teaser.mp4"} type="video/mp4"/>
+</video>
+        
         </div>
 </div>
     <Footer />
