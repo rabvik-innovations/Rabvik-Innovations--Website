@@ -43,15 +43,16 @@ function Home() {
 </section>
 <section>
 <div className="about">
+<div className="container">
       <div className="section-title text-center">
         <h2>About Rabvik®</h2>
       </div>
       <div className="row">
         <div className="aboutstyle">
         <div className="col">
-        <video controls="autoplay muted"
-          src={"https://rabvik.com/images/Rabvik-Teaser.mp4"}
-        />
+        <video controls autoPlay muted poster={"../images/RI.png"} className="abtvideo">
+  <source src={"https://rabvik.com/images/Rabvik-Teaser.mp4"} type="video/mp4"/>
+</video>
         </div>
         <div className="col2">
           <p>
@@ -72,10 +73,11 @@ function Home() {
         </div></div>
       </div>
     </div>
+    </div>
       </section>
 
 <section>
-  <WhatWeDo/>
+  {/* <WhatWeDo/> */}
   </section>
 
 
