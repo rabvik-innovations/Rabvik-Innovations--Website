@@ -25,21 +25,34 @@ function Home() {
       <ScrollToTop />
       <Navbar />
       <br/><br/>
+<div className="preloader">
+{/* <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+                <img src="images/robot.png" alt=""/>
+            </div>
+        </div>
+    </div>
+</div> */}
+</div>
 
 <section>
 <Hero/>
 </section>
 <section>
 <div className="about">
+<div className="container">
       <div className="section-title text-center">
         <h2>About Rabvik®</h2>
       </div>
       <div className="row">
         <div className="aboutstyle">
         <div className="col">
-        <video controls="autoplay muted"
-          src={"https://rabvik.com/images/Rabvik-Teaser.mp4"}
-        />
+        <video controls autoPlay muted poster={"../images/RI.png"} className="abtvideo">
+  <source src={"https://rabvik.com/images/Rabvik-Teaser.mp4"} type="video/mp4"/>
+</video>
         </div>
         <div className="col2">
           <p>
@@ -60,10 +73,11 @@ function Home() {
         </div></div>
       </div>
     </div>
+    </div>
       </section>
 
 <section>
-  <WhatWeDo/>
+  {/* <WhatWeDo/> */}
   </section>
 
 
