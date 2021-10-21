@@ -34,7 +34,9 @@ function Periodical(props) {
 
                                 <div className="carousel-item">
                                     <h2 className="periodical-text">April 2021</h2>
-                                    <a href="documents/4 April.pdf" target="_blank"> pdf </a>
+                                    <a href="documents/4 April.pdf" target="_blank">
+                                        <img className="periodical-img" src="images/tinker-times-april.jpg " alt="tinker-times-april" />
+                                    </a>
                                 </div>
 
                                 <div className="carousel-item">
@@ -44,17 +46,23 @@ function Periodical(props) {
 
                                 <div className="carousel-item">
                                     <h2 className="periodical-text">June 2021</h2>
-                                    <a href="documents/6 June.pdf" target="_blank"> pdf </a>
+                                    <a href="documents/6 June.pdf" target="_blank">
+                                        <img className="periodical-img" src="images/tinker-times-june.jpg " alt="tinker-times-june" />
+                                    </a>
                                 </div>
 
                                 <div className="carousel-item">
                                     <h2 className="periodical-text">July 2021</h2>
-                                    <a href="documents/7 July.pdf" target="_blank"> pdf </a>
+                                    <a href="documents/7 July.pdf" target="_blank">
+                                        <img className="periodical-img" src="images/tinker-times-july.jpg " alt="tinker-times-july" />
+                                    </a>
                                 </div>
 
                                 <div className="carousel-item">
                                     <h2 className="periodical-text">August 2021</h2>
-                                    <a href="documents/8 August.pdf" target="_blank"> pdf </a>
+                                    <a href="documents/8 August.pdf" target="_blank">
+                                        <img className="periodical-img" src="images/tinker-times-august.jpg " alt="tinker-times-august" />
+                                    </a>
                                 </div>
 
                                 <div className="carousel-item">

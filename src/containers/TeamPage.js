@@ -83,24 +83,24 @@ function TeamPage(props) {
           <div className="advisor-section">
             <h2>Our Advisors</h2>
             <div className="row advisors">
-            <TeamCard
-              name="Anupam Sen"
-              description="Chartered Accountant, Ex-PWC, Ex-IBM"
-              linkedin="https://www.linkedin.com/in/anupam-sen-a16b7013/?originalSubdomain=in"
-              image="images/advisor-1.png" />
+              <TeamCard
+                name="Anupam Sen"
+                description="Chartered Accountant, Ex-PWC, Ex-IBM"
+                linkedin="https://www.linkedin.com/in/anupam-sen-a16b7013/?originalSubdomain=in"
+                image="images/advisor-1.png" />
 
-            <TeamCard
-              name="Tamal Pal"
-              description="Corporate Strategy ,M&A ,New Business Incubation ,Industry 4.0 transformation ,Cement"
-              linkedin="https://www.linkedin.com/in/tamal-kumar-pal-46095112/"
-              image="images/advisor-2.jfif" />
+              <TeamCard
+                name="Tamal Pal"
+                description="Corporate Strategy ,M&A ,New Business Incubation ,Industry 4.0 transformation ,Cement"
+                linkedin="https://www.linkedin.com/in/tamal-kumar-pal-46095112/"
+                image="images/advisor-2.jfif" />
 
-            <TeamCard
-              name="Uday Chatterjee"
-              description="Angel Investor"
-              linkedin="https://www.linkedin.com/in/uday-chatterjee-838b764/"
-              image="images/advisor-6.jfif" />
-  
+              <TeamCard
+                name="Uday Chatterjee"
+                description="Angel Investor"
+                linkedin="https://www.linkedin.com/in/uday-chatterjee-838b764/"
+                image="images/advisor-6.jfif" />
+
             </div>
           </div>
 
@@ -111,6 +111,18 @@ function TeamPage(props) {
           <div className="intern-section">
             <h2>Interns</h2>
             <div className="row interns">
+              <TeamCard
+                name="Saurav Singh"
+                description="Web Development Intern"
+                image="images/wwd4.png"
+              />
+
+              <TeamCard
+                name="Sauparna Gupta"
+                description="Web Development Intern"
+                image="images/wwd4.png"
+              />
+
               <TeamCard
                 name="Vanshika Bhasin"
                 description="Web Development Intern"
@@ -133,26 +145,44 @@ function TeamPage(props) {
               />
 
               <TeamCard
-                name="Intern name"
-                description="Lorem ipsum dolor sit amet"
+                name="Sahil Vengurlekar"
+                description="Web Development Intern"
                 image="images/wwd4.png"
               />
 
               <TeamCard
-                name="Intern name"
-                description="Lorem ipsum dolor sit amet"
+                name="Sinchan Mandal"
+                description="Web Development Intern"
                 image="images/wwd4.png"
               />
 
               <TeamCard
-                name="Intern name"
-                description="Lorem ipsum dolor sit amet"
+                name="Nossam Venkata Yaswanth Reddy"
+                description="Web Development Intern"
                 image="images/wwd4.png"
               />
 
               <TeamCard
-                name="Intern name"
-                description="Lorem ipsum dolor sit amet"
+                name="Sharan Swaroop"
+                description="Web Development Intern"
+                image="images/wwd4.png"
+              />
+
+              <TeamCard
+                name="Anupam Saini"
+                description="Web Development Intern"
+                image="images/wwd4.png"
+              />
+
+              <TeamCard
+                name="Sarvesh Prajapati"
+                description="Web Development Intern"
+                image="images/wwd4.png"
+              />
+
+              <TeamCard
+                name="Anushka Choudhary"
+                description="Web Development Intern"
                 image="images/wwd4.png"
               />
             </div>
