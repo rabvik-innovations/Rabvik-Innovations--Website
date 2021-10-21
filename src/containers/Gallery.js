@@ -4,7 +4,7 @@ import GalleryCard from "../components/GalleryCard";
 import PhotoGallery from "../components/PhotoGallery";
 
 
-function InnovationLab() {
+function Gallery() {
     return (
         <div className="below-navbar">
             <Navbar />
@@ -24,6 +24,7 @@ function InnovationLab() {
                             return <GalleryCard key={photo.id} image={photo.image} />;
                         })}
                     </div>
+                    
                 </div>
             </section>
             {/* {End of gallery section} */}
@@ -33,4 +34,4 @@ function InnovationLab() {
     );
 }
 
-export default InnovationLab;
+export default Gallery;

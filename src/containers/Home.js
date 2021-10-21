@@ -121,19 +121,16 @@ function Home() {
           <div className="row">
             <AdvisorCard
               name="Anupam Sen"
-              designation="Chartered Accountant, Ex-PWC, Ex-IBM"
               linkedin="https://www.linkedin.com/in/anupam-sen-a16b7013/?originalSubdomain=in"
               img="images/advisor-1.png" />
 
             <AdvisorCard
               name="Tamal Pal"
-              designation="Corporate Strategy ,M&A ,New Business Incubation ,Industry 4.0 transformation ,Cement"
               linkedin="https://www.linkedin.com/in/tamal-kumar-pal-46095112/"
               img="images/advisor-2.jfif" />
 
             <AdvisorCard
               name="Uday Chatterjee"
-              designation="Angel Investor"
               linkedin="https://www.linkedin.com/in/uday-chatterjee-838b764/"
               img="images/advisor-6.jfif" />
 
