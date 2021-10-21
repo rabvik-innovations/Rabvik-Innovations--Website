@@ -40,7 +40,7 @@ function Navbar() {
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
                                     <li><Link class="dropdown-item" to="/innovation-lab">Innovation Lab</Link></li>
-                                    <li><Link class="dropdown-item" to="">Periodical</Link></li>
+                                    <li><Link class="dropdown-item" to="/periodical">Periodical</Link></li>
 
                                 </ul>
                             </li>
