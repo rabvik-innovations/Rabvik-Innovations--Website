@@ -56,4 +56,7 @@
   .team .interns .member {
    padding: 7% 15%;
  }
+ .advisor-section, .intern-section{
+   margin-top: 5rem;
+ }
   

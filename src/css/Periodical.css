@@ -1,0 +1,10 @@
+#periodical-section{
+   padding: 5% 7%;
+}
+.carousel-container{
+    background-color: #061945;
+}
+.periodical .carousel-item{
+    padding: 7% 15%;
+    color: #ffffff;
+}

@@ -127,7 +127,7 @@ iframe{
   ----------------------------------------------*/
   .advisor{
     background-color: #061945;
-    padding: 7% 7% 5%;
+    padding: 7% 7% 2.5%;
   }
   .advisor .card{
     margin: 4% 3%;
@@ -217,6 +217,9 @@ iframe{
     transform: scale(1.15);
   
   }
+  
+
+
   .photo-section{
     display: flex;
     flex-wrap: wrap;
