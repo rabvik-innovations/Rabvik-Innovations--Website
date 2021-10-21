@@ -18,14 +18,53 @@ return (
 
     <div className="row mt-3">
 
-      <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+      <div className="col-md-2 col-lg-2 col-xl-3 mx-auto mb-4">
 
-        <h5 className="text-uppercase font-weight-bold">Rabvik Innovations</h5>
-        <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width: "60px"}}/>
-        <p className="text-justify">Our mission is to see that every school and college adapts to the need of an entrepreneurship lab to promote a culture of innovations and incubations in the school and colleges.</p>
+       <img src="../images/logo.jpg" alt="Logo"  style={{width: "50%", height:"60%"}}/>
+       <br/>
+       <ul className="list-unstyled d-flex flex-row justify-content-center">
+            <li>
+              <a className="text-white px-2" href="#!">
+                <i className={`fab fa-facebook-square`} ></i>
+              </a>
+            </li>
+            <li>
+              <a className="text-white px-2" href="#!">
+                <i className={`fab fa-instagram`}></i>
+              </a>
+            </li>
+            <li>
+              <a className="text-white ps-2" href="#!">
+                <i className={`fab fa-youtube`}></i>
+              </a>
+            </li>
+          </ul>
 
       </div>
+      <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
+        <h6 className="text-uppercase font-weight-bold">Address</h6>
+        <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width:"60px"}}/>
+        <p>
+         <FaGlobe/> 141 Lake Town, Block A,<br/>
+         </p>
+         <p style={{marginLeft:"22px"}}> Kolkata 89
+</p>
+
+      </div>
+      
+<div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+<h6 className="text-uppercase font-weight-bold">Contact</h6>
+<hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width:"60px"}}/>
+
+<p>
+  <FaEnvelope/> pratik@rabvik.com</p>
+
+<p>
+  <FaPhoneAlt/> 9733381000</p>
+
+</div>
 
       <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
@@ -41,42 +80,19 @@ return (
  </a>
         </p>
         <p>
-          <a href="#!">Career
+          <a href="#!">Careers
  </a>
         </p>
-        <p>
-          <a href="../containers/Gallery.js">Gallery
-</a>
-        </p>
-        <p>
-          <a href="#!"> Contact Us</a>
-        </p>
 
       </div>
 
-      <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-        <h6 className="text-uppercase font-weight-bold">Contact</h6>
-        <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width:"60px"}}/>
-        <p>
-         <FaGlobe/> 141 Lake Town,
-Block A,
-Kolkata 89
-</p>
-        <p>
-          <FaEnvelope/> pratik@rabvik.com</p>
-        
-        <p>
-          <FaPhoneAlt/> 9733381000</p>
-
-      </div>
 
     </div>
 
   </div>
-  <hr className="deep-purple accent-2 mb-2 mt-0 d-inline-block mx-auto" style={{width:"100%"}}/>
+  <hr className="deep-purple  mt-0 d-inline-block mx-auto" style={{width:"100%"}}/>
 
-  <div className="footer-copyright text-center py-3">© 2020 Rabvik® Innovation All Rights Reserved.
+  <div className="footer-copyright text-center">© 2020 Rabvik® Innovation All Rights Reserved.
   </div>
 
 </footer>

@@ -41,6 +41,7 @@ function Home() {
 <section>
 <Hero/>
 </section>
+<div className="sections">
 <section>
 <div className="about below-navbar">
 <div className="container">
@@ -108,7 +109,7 @@ function Home() {
         </div>
       </section>
       {/* {End of gallery section} */}
-
+</div>
 
       {/* Advisor Section  */}
       <section id="advisor" className="advisor">
@@ -141,10 +142,6 @@ function Home() {
       </section>
       {/* {End of Advisor section} */}
 
-      <section>
-        <Reviews />
-      </section>
-
       {/* Social Cards  Section */}
       <section id="social-item" className="social-item">
         <div className="container">
@@ -153,8 +150,7 @@ function Home() {
           </div>
      <div className="socialcardsalign dcol">
                 <div className="column fbcolumn">
-
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frabvikinnovations&tabs=timeline&width=560&height=650&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="560" height="650" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>           
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frabvikinnovations&tabs=timeline&width=560&height=710&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="560" height="710" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>           
 </div>  
             <div className="column socialcolumn">
             <SocialCard
@@ -181,16 +177,16 @@ function Home() {
             />
             </div>
                  
-           
-             
              </div>
-            
-
 </div>
 
 
       </section>
       {/* End Social Cards Section  */}
+
+      <section>
+        <Reviews />
+      </section>
 
       <section>
         <Footer />
