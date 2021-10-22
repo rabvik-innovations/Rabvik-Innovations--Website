@@ -21,7 +21,7 @@ function Gallery() {
                         {/* <GalleryCard
                image="./public/images/" /> */}
                         {PhotoGallery.map((photo) => {
-                            return <GalleryCard key={photo.id} image={photo.image} />;
+                            return <GalleryCard key={photo.id} id={photo.id} image={photo.image} />;
                         })}
                     </div>
                     
