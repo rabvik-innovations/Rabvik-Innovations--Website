@@ -5,7 +5,6 @@ import SocialCard from "../components/SocialCard";
 import TeamCard from "../components/TeamCard";
 import GalleryCard from "../components/GalleryCard";
 import PhotoGallery from "../components/PhotoGallery";
-import Hero from '../components/Hero';
 
 import About from '../containers/About';
 import AdvisorCard from '../components/AdvisorCard';
@@ -19,31 +18,37 @@ import ScrollToTop from '../components/Scrolltotop';
 import { Content, Heading } from '../css/ScrolltotopStyles';
 import Loader from '../components/Loader';
 
+
+
 function Home() {
   return (
     <div className="App">
       <ScrollToTop />
       <Navbar />
       <br/><br/>
-<div className="preloader">
-{/* <div id="preloader-active">
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="preloader-inner position-relative">
-            <div class="preloader-circle"></div>
-            <div class="preloader-img pere-text">
-                <img src="images/robot.png" alt=""/>
+{/* <div className="preloader">
+<div id="hola">
+        <div id="preloader">
+        <span></span>
+        <span></span>
+          </div>
             </div>
-        </div>
-    </div>
 </div> */}
-</div>
-
-<section>
-<Hero/>
-</section>
 <div className="sections">
+
+<section id="hero" className="below-navbar">
+    <div className="hero-container">
+      <h1>Rabvik Innovations</h1>
+      <h2> &lt; Innovation, Entrepreneurship
+and Robotics /&gt;</h2>
+<p className="heropara">STEM Education, e Learning, Robotic Labs, Entrepreneurship Coaching, Mentoring, Start Up Assistance.
+
+Encourage breakthrough technologies and Innovations of your children right from the school level through our world class mentoring program and Innovation Lab</p>
+      <a href=".about" class="btn-get-started">Get Started</a>
+    </div>
+  </section>
 <section>
-<div className="about below-navbar">
+<div className="about">
 <div className="container">
       <div className="section-title text-center">
         <h2>About Rabvik®</h2>
