@@ -12,15 +12,20 @@ import WhatWeDo from '../components/Whatwedo';
 import Navbar from '../components/Navbar';
 import Reviews from "../components/Reviews";
 import Footer from '../components/Footer';
-
 import { Fragment } from 'react';
 import ScrollToTop from '../components/Scrolltotop';
 import { Content, Heading } from '../css/ScrolltotopStyles';
 import Loader from '../components/Loader';
+import React, { useState, Component } from "react";
+import { Modal, Button } from "react-bootstrap";
 
 
 
 function Home() {
+  const [showModal, setShow] = useState(false);
+
+const handleClose = () => setShow(false);
+const handleShow = () => setShow(true);
   return (
     <div className="App">
       <ScrollToTop />
@@ -38,16 +43,16 @@ function Home() {
 
 <section id="hero" className="below-navbar">
     <div className="hero-container">
-      <h1>Rabvik Innovations</h1>
-      <h2> &lt; Innovation, Entrepreneurship
-and Robotics /&gt;</h2>
+      <h1 className="btn-shine" >Rabvik Innovations</h1><br/>
+   <h2 className="wrapper"> &lt; Innovation, Technology
+and Entrepreneurship /&gt;</h2>
 <p className="heropara">STEM Education, e Learning, Robotic Labs, Entrepreneurship Coaching, Mentoring, Start Up Assistance.
 
 Encourage breakthrough technologies and Innovations of your children right from the school level through our world class mentoring program and Innovation Lab</p>
-      <a href=".about" class="btn-get-started">Get Started</a>
+      <a href="#aboutsec" class="btn-get-started">Get Started</a>
     </div>
   </section>
-<section>
+<section id="aboutsec">
 <div className="about">
 <div className="container">
       <div className="section-title text-center">
@@ -60,7 +65,7 @@ Encourage breakthrough technologies and Innovations of your children right from 
   <source src={"https://rabvik.com/images/Rabvik-Teaser.mp4"} type="video/mp4"/>
 </video>
         </div>
-        <div className="col2">
+        <div className="col2"> 
           <p>
           Incredible breakthroughs and spectacular advancements in 
           technology are changing the world as we know it by leaps and bounds. If we are to keep up with this frenetic pace of technological change in industry and education, technology minded and 
@@ -144,41 +149,122 @@ Encourage breakthrough technologies and Innovations of your children right from 
       </section>
       {/* {End of Advisor section} */}
 
+<div className="sections">
       {/* Social Cards  Section */}
       <section id="social-item" className="social-item">
         <div className="container">
           <div className="section-title text-center">
-            <h2>Want to know more about us?</h2>
+            <h2>Let's Get in Touch :)</h2>
           </div>
-     <div className="socialcardsalign dcol">
-                <div className="column fbcolumn">
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frabvikinnovations&tabs=timeline&width=560&height=710&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="560" height="710" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>           
-</div>  
-            <div className="column socialcolumn">
-            <SocialCard
-              socialIcon="instagram"
-              text="Team's daily lives. Photos, jokes and the office atmosphere!"
-            />
 
-            <SocialCard
+<div
+        className="d-flex align-items-center justify-content-center"
+        
+      >
+<div className="socialcardsalign dcol">
+                 
+                 <div className="column socialcolumn">
+        <span variant="primary" onClick={handleShow}>
+            <SocialCard id="facebook"
               socialIcon="facebook"
               text="Stories, tips, popular, add-ons, and other important info."
-              link="https://www.facebook.com/rabvikinnovations/?modal=admin_todo_tour"
             />
-           
+</span>
+<span variant="primary" onClick={handleShow}>
 
-            <SocialCard
-              socialIcon="twitter"
-              text="Here we share Tech and Development insights."
-            />
+                 <SocialCard id="instagram"
+                   socialIcon="instagram"
+                   text="Team's daily lives, photos and the office atmosphere!"
+                 />
+                 </span>
+                
+                <span variant="primary" onClick={handleShow}>
+     
+                 <SocialCard id="youtube"
+                   socialIcon="youtube"
+                   text="Here we share Tech and Development insights."
+                 />
+                 </span>
+        <span variant="primary" onClick={handleShow}>
+     
+                 <SocialCard id="linkedin"
+                   socialIcon="linkedin"
+                   text="Tech and Development insights."
+                 />
+                 </span>
+                 </div>
+      </div>
 
-            <SocialCard
-              socialIcon="linkedin"
-              text="Tech and Development insights."
-              link="https://www.linkedin.com/company/rabvik/mycompany/"
-            />
-            </div>
-                 
+      <Modal show={showModal} onHide={handleClose} data-target="#facebook">
+        <Modal.Header closeButton>
+        </Modal.Header>
+        <Modal.Body>
+        <div className="column fbcolumn">
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frabvikinnovations&tabs=timeline&width=590&height=650&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="590" height="650" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>           
+</div> 
+        </Modal.Body>
+        <Modal.Footer>
+          <button variant="secondary" onClick={handleClose}>
+            Close
+          </button>
+        </Modal.Footer>
+      </Modal>
+{/*  
+
+      <Modal show={showModal} onHide={handleClose} data-target="#instagram">
+        <Modal.Header closeButton>
+        </Modal.Header>
+        <Modal.Body>
+        <div className="column fbcolumn">
+     <div className="tagembed-container" style={{width:"100px", height:"660%", overflow: "auto"}}>
+       <div className="tagembed-socialwall" data-wall-id="15097" view-url="https://widget.tagembed.com/15097?view">  
+       </div> 
+       <script src="//widget.tagembed.com/embed.min.js" type="text/javascript"></script></div>  
+  
+</div> 
+    
+        </Modal.Body>
+        <Modal.Footer>
+          <button variant="secondary" onClick={handleClose}>
+            Close
+          </button>
+        </Modal.Footer>
+      </Modal>
+      */}
+       <Modal show={showModal} onHide={handleClose} data-target="#youtube">
+        <Modal.Header closeButton>
+        </Modal.Header>
+        <Modal.Body>
+        <div className="column fbcolumn">
+        
+<iframe width="500" height="350" src="https://www.youtube.com/embed/InDoBPKZ-HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div> 
+    
+        </Modal.Body>
+        <Modal.Footer>
+          <button variant="secondary" onClick={handleClose}>
+            Close
+          </button>
+        </Modal.Footer>
+      </Modal> 
+      <Modal show={showModal} onHide={handleClose} data-target="#linkedin" className="socialmodal">
+        <Modal.Header closeButton>
+        </Modal.Header>
+        <Modal.Body>
+        <div className="column fbcolumn">
+         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6846450923691098112" height="582" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>        
+
+</div> 
+    
+        </Modal.Body>
+        <Modal.Footer>
+          <button variant="secondary" onClick={handleClose}>
+            Close
+          </button>
+        </Modal.Footer>
+      </Modal>
+
              </div>
 </div>
 
@@ -189,7 +275,7 @@ Encourage breakthrough technologies and Innovations of your children right from 
       <section>
         <Reviews />
       </section>
-
+</div>
       <section>
         <Footer />
       </section>

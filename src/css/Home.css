@@ -1,3 +1,7 @@
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 /* #hola{
   width: 100vw;
   height: 100vh;
@@ -43,7 +47,7 @@ animation: spin-2 1s infinite linear;
 } */
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZr3TQDedAg5Sum1mwVrqv0aXKvpl0i5anXqbpno8AtlmxWDkCGTI91eZmWERG48MhkoE&usqp=CAU');
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,15 +86,36 @@ animation: spin-2 1s infinite linear;
   text-align: center;
 }
 
+
+.btn-shine{
+  color: #ffffff;
+  background: linear-gradient(to right, #061945 0, white 10%, #061945 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  text-decoration: none;
+  
+}
 #hero h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 30px 0 10px 0;
-  font-size: 48px;
-  font-weight: bolder;
+  letter-spacing: 2px;
+  font-stretch: ultra-expanded;
+  font-size: 54px;
+  font-weight: 1000;
   line-height: 56px;
   text-transform: uppercase;
   color: #061945;
 }
-
+@keyframes shine{
+  0%
+    {background-position: 0;}
+  60%
+    {background-position: 400px;}
+  100%
+    {background-position: 400px;}
+}
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
@@ -120,13 +145,27 @@ animation: spin-2 1s infinite linear;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 28px;
-  border-radius: 50px;
+   padding: 8px 28px;
+  /*border-radius: 50px; */
+  /* padding: 10px 15px; */
+  border-radius: 20px;
   transition: 0.5s;
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
 }
+.wrapper{
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 2.5s steps(60, end) infinite alternate;
+}
+@keyframes type{ 
+  from { 
+       width: 0; 
+       } 
+   }
+
 
 #hero .btn-get-started:hover {
   background: #061945;
@@ -183,7 +222,7 @@ animation: spin-2 1s infinite linear;
   width: 54%;
   margin-left: 0.8%;
   text-align: justify;
-
+  font-size: 18px;
 }
 .aboutstyle{
     display: flex;
@@ -204,7 +243,7 @@ justify-content: center;
     width: 100%;
     display: flex;
     flex-direction: column;
-
+font-size: 16px;
   }
 
 }
@@ -216,16 +255,24 @@ justify-content: center;
 
 .dcol{
   display: flex;
-  flex-direction: row; 
+  flex-direction: column; 
 }
 .social-item{
-  background-color:#e9eff0;
-  background-image:url('');
+  /* background-image:url('https://i.makeagif.com/media/1-12-2021/YsWRDA.gif');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: fixed;
+  background-position: fixed; */
   text-align: center;
   padding: 5% 7% 7%;
+  height: 65vh;
+}
+.socialcolumn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.socialbody:hover{
+  cursor: pointer;
 }
 .social-item .social-icon{
   margin-bottom: 1rem;
@@ -237,37 +284,47 @@ justify-content: center;
 .social-item .card{
   border: none;
   border-radius: 0rem;
-  width: 1000px;
+  width: 300px;
+  margin: 7%;
   transition: all .4s ease;
   -webkit-transition: all .4s ease;
 
 }
-.socialcolumn{
-  width: 42%;
-  margin-left: 0.5%;
+.socialmodal{
+  padding:0;
+  overflow: hidden;
+}
+.fbcolumn{
+ transform: translateX(-3.8%);
 }
 .social-item .card:hover{
   border: .15rem solid #061945;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fd6aa421-150b-4061-a4a5-11496e857ae7/d9ot3d9-ca23e7e8-54bf-4a22-9911-a86e0eae975c.png/v1/fill/w_1024,h_576,q_80,strp/black_blue_gradient_wallpaper_by_haituga_d9ot3d9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZmQ2YWE0MjEtMTUwYi00MDYxLWE0YTUtMTE0OTZlODU3YWU3XC9kOW90M2Q5LWNhMjNlN2U4LTU0YmYtNGEyMi05OTExLWE4NmUwZWFlOTc1Yy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.h4q0ImB1ygVyNn_r_DpVCilL0ifHYApQCqg8g22qTTg');	
+  background-repeat: no-repeat;
+	background-size: cover;
+  box-shadow: 3px 4px 4px #c0cde9;
+
+  color: white;
 }
 .social-item .card:hover .bi{
-  color: #061945;
+  color: #fff;
 }
 iframe{
-  width: 750px;
+  padding: 0.5% 4%;
   overflow: hidden;
 }
 @media screen  and (max-width:1200px)
 {
-.dcol{
+/* .dcol{
   flex-direction: column;
   flex-wrap: wrap;
-}
+} */
 
-.fbcolumn{
+/* .fbcolumn{
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 }
   
   /* --------------------------------------------
@@ -414,7 +471,8 @@ iframe{
    color: white;
    font-weight: bold;
    font-size:16px;
-   padding: 10px 15px;
+   letter-spacing: 1px;
+   padding: 8px 28px;
    border-radius: 20px;
    transition: 0.4s;
  }
