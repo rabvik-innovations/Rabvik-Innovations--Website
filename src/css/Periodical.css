@@ -1,33 +1,15 @@
 #periodical-section{
    padding: 5% 7%;
 }
-.carousel-container{
-    background-color: #061945;
-    background-image: url("https://www.transparenttextures.com/patterns/shley-tree-2.png");
 
-}
-.periodical .carousel-item{
-    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
-    padding: 7% 15%;
-    color: #ffffff;
-}
-.periodical-text{
-    transition: font-size 500ms ease-out;
-}
-.periodical-text:hover{
-    font-size: 4rem;
-}
 .periodical-img{
     margin-top: 2rem;
-    width: 35%;
-    height: 35%;
+    width: 75%;
+    height: 75%;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
     transition: transform 400ms ease-out;
 }
 .periodical-img:hover{
     transform: scale(1.15);
 }
-/* .carousel-control-prev-icon{
-    background-color: white;
-    color: black;
-    font-weight: bolder;
-} */
+

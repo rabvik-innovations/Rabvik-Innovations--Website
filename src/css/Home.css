@@ -432,6 +432,9 @@ iframe{
     transform: scale(1.15);
   
   }
+  .gallery-item .modal{
+    left: 3.2rem;
+  }
   .gallery-item .modal-content{
     height: 20rem;
     width: 25rem;
