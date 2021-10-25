@@ -28,7 +28,7 @@ function TeamPage(props) {
               name="Pratik Mishra"
               description="Research Intern-IIT KGP| B.Tech(Mechanical)-JGEC| Entrepreneur(Co-Founder Quizzora)"
               linkedin="https://www.linkedin.com/in/pratik-mishra-707095114/"
-              image="images/team-2.png"
+              image="images/team-2.jpeg"
             />
 
             <TeamCard
@@ -42,7 +42,7 @@ function TeamPage(props) {
               name="Dr. Swapan Majumdar"
               description="Entrepreneur Head| Director-JK Laxshimpat University| Chairman, MD, Prof-IIM Shilong| KMIP"
               linkedin="https://www.linkedin.com/in/swapan-majumdar-434444a/"
-              image="images/team-4.jfif"
+              image="images/team-4.jpg"
             />
 
             <TeamCard

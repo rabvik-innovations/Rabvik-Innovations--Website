@@ -2,6 +2,7 @@ import React from "react";
 import '../css/Periodical.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import PeriodicalCard from "../components/PeriodicalCard";
 
 
 function Periodical(props) {
@@ -18,74 +19,66 @@ function Periodical(props) {
                         <br />
                     </div>
 
-                    <div className="carousel-container" >
-                        <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                            <div className="carousel-inner text-center">
-                                <div className="carousel-item active">
-                                    <h2 className="periodical-text">October 2019</h2>
-                                    <a href="documents/1 October 2019.pdf" target="_blank"> pdf </a>
-                                </div>
 
-                                <div className="carousel-item">
-                                    <h2 className="periodical-text">January 2021</h2>
-                                    <a href="documents/2 January.pdf" target="_blank"> pdf </a>
-                                    <a href="documents/3 January V2.pdf" target="_blank"> pdf </a>
-                                </div>
+                    <div className="row">
+                        <PeriodicalCard
+                            image=""
+                            imgAlt="tinker-times-october2019"
+                            link="documents/1 October 2019.pdf"
+                        />
 
-                                <div className="carousel-item">
-                                    <h2 className="periodical-text">April 2021</h2>
-                                    <a href="documents/4 April.pdf" target="_blank">
-                                        <img className="periodical-img" src="images/tinker-times-april.jpg " alt="tinker-times-april" />
-                                    </a>
-                                </div>
+                        <PeriodicalCard
+                            image=""
+                            imgAlt="tinker-times-january"
+                            link="documents/2 January.pdf"
+                        />
 
-                                <div className="carousel-item">
-                                    <h2 className="periodical-text">May 2021</h2>
-                                    <a href="documents/5 May.pdf" target="_blank"> pdf </a>
-                                </div>
+                        <PeriodicalCard
+                            image=""
+                            imgAlt="tinker-times-january-V2"
+                            link="documents/3 January V2.pdf"
+                        />
 
-                                <div className="carousel-item">
-                                    <h2 className="periodical-text">June 2021</h2>
-                                    <a href="documents/6 June.pdf" target="_blank">
-                                        <img className="periodical-img" src="images/tinker-times-june.jpg " alt="tinker-times-june" />
-                                    </a>
-                                </div>
+                        <PeriodicalCard
+                            image="images/tinker-times-april.jpg"
+                            imgAlt="tinker-times-april"
+                            link="documents/4 April.pdf"
+                        />
 
-                                <div className="carousel-item">
-                                    <h2 className="periodical-text">July 2021</h2>
-                                    <a href="documents/7 July.pdf" target="_blank">
-                                        <img className="periodical-img" src="images/tinker-times-july.jpg " alt="tinker-times-july" />
-                                    </a>
-                                </div>
+                        <PeriodicalCard
+                            image=""
+                            imgAlt="tinker-times-may"
+                            link="documents/5 May.pdf"
+                        />
 
-                                <div className="carousel-item">
-                                    <h2 className="periodical-text">August 2021</h2>
-                                    <a href="documents/8 August.pdf" target="_blank">
-                                        <img className="periodical-img" src="images/tinker-times-august.jpg " alt="tinker-times-august" />
-                                    </a>
-                                </div>
+                        <PeriodicalCard
+                            image="images/tinker-times-june.jpg"
+                            imgAlt="tinker-times-june"
+                            link="documents/6 June.pdf"
+                        />
 
-                                <div className="carousel-item">
-                                    <h2 className="periodical-text">September 2021</h2>
-                                    <a href="documents/9 September.pdf" target="_blank"> pdf </a>
-                                </div>
+                        <PeriodicalCard
+                            image="images/tinker-times-july.jpg"
+                            imgAlt="tinker-times-july"
+                            link="documents/7 July.pdf"
+                        />
 
-                            </div>
+                        <PeriodicalCard
+                            image="images/tinker-times-august.jpg"
+                            imgAlt="tinker-times-august"
+                            link="documents/8 August.pdf"
+                        />
 
-                            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="sr-only">Previous</span>
-                            </a>
-                            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span className="sr-only">Next</span>
-                            </a>
-                        </div>
+                        <PeriodicalCard
+                            image=""
+                            imgAlt="tinker-times-september"
+                            link="documents/9 September.pdf"
+                        />
+
                     </div>
 
                 </div>
             </section>
-            {/* {End of gallery section} */}
 
             <Footer />
         </div >
