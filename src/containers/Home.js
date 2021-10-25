@@ -5,8 +5,6 @@ import SocialCard from "../components/SocialCard";
 import TeamCard from "../components/TeamCard";
 import GalleryCard from "../components/GalleryCard";
 import PhotoGallery from "../components/PhotoGallery";
-
-import About from '../containers/About';
 import AdvisorCard from '../components/AdvisorCard';
 import WhatWeDo from '../components/Whatwedo';
 import Navbar from '../components/Navbar';
@@ -78,7 +76,9 @@ Encourage breakthrough technologies and Innovations of your children right from 
           </p><br/>
          <div className="aboutbtn">
          <Link to="/aboutus">
+         <div className="abtbttn"> 
            <button>More about us</button>
+           </div>
            </Link>
            </div>
         </div></div>
@@ -109,7 +109,7 @@ Encourage breakthrough technologies and Innovations of your children right from 
             
             <div className="d-flex justify-content-center">
               <Link to="/gallery">
-                <button type="button" className="gallery-button" >See more...</button>
+               <button type="button" className="gallery-button" >See more...</button>
               </Link>
 
             </div>
@@ -167,7 +167,7 @@ Encourage breakthrough technologies and Innovations of your children right from 
         <span variant="primary" onClick={handleShow}>
             <SocialCard id="facebook"
               socialIcon="facebook"
-              text="Stories, tips, popular, add-ons, and other important info."
+              text="Stories, tips, add-ons and other important stuff."
             />
 </span>
 <span variant="primary" onClick={handleShow}>
@@ -195,7 +195,7 @@ Encourage breakthrough technologies and Innovations of your children right from 
                  </div>
       </div>
 
-      <Modal show={showModal} onHide={handleClose} data-target="#facebook">
+      <Modal show={showModal} onHide={handleClose} >
         <Modal.Header closeButton>
         </Modal.Header>
         <Modal.Body>
@@ -231,7 +231,7 @@ Encourage breakthrough technologies and Innovations of your children right from 
         </Modal.Footer>
       </Modal>
       */}
-       <Modal show={showModal} onHide={handleClose} data-target="#youtube">
+       <Modal show={showModal} onHide={handleClose} >
         <Modal.Header closeButton>
         </Modal.Header>
         <Modal.Body>
@@ -248,7 +248,7 @@ Encourage breakthrough technologies and Innovations of your children right from 
           </button>
         </Modal.Footer>
       </Modal> 
-      <Modal show={showModal} onHide={handleClose} data-target="#linkedin" className="socialmodal">
+      <Modal show={showModal} onHide={handleClose}  className="socialmodal">
         <Modal.Header closeButton>
         </Modal.Header>
         <Modal.Body>
