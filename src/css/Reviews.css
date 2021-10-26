@@ -53,6 +53,7 @@ margin-right: 10%;
   width:56%;
   color: white;
   text-align: justify;
+  letter-spacing: 0.6px;
 }
 
 @media  screen and (max-width:1200px) {

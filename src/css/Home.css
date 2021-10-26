@@ -263,6 +263,12 @@ font-size: 16px;
   flex-direction: row;
   justify-content: space-between;
 }
+.socialbody{
+  white-space:pre-line;
+  letter-spacing: 0.6px;
+word-spacing: 1px;
+
+}
 .socialbody:hover{
   cursor: pointer;
 }

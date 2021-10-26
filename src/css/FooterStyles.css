@@ -11,6 +11,61 @@ a:hover{
 	text-align: justify;
 	color: white;
 }
+.list-unstyled{
+	width: 60%;
+	overflow:hidden;
+}
+
+.ii{
+	justify-content: space-between;
+	margin-right: 28.5px;
+	height:23.5px;
+	width:23.5px;
+}
+.footerimg{
+	width: 60%; 
+	height:65%;
+	margin-left:0; 
+	background-color:white;
+}
+@media (max-width: 1400px) { 
+	.ii{
+		margin-right:20.5px;
+	}
+}
+@media (max-width: 1200px) { 
+	.ii{
+		margin-right:28px;
+	}
+}
+@media (max-width: 991.5px) { 
+	.ii{
+		margin-right:11px;
+	}
+	.list-unstyled{
+		width: 100%;
+		padding-top: 11%;
+	}
+.footerimg{
+width: 80%;
+height: 45%;
+}
+}
+@media (max-width: 767.5px) { 
+	.ii{
+		margin-right:29.5px;
+	}
+	.footerfirst{
+		height: 280px;
+	}
+	.list-unstyled{
+		justify-content: center;
+	}
+.footerimg{
+width: 35%;
+height: 43%;
+}
+}
 .footer-copyright{
 	padding-bottom: 0.6%;
 }
@@ -21,9 +76,10 @@ footer{
 	/* background-color: #061945; */
 	background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fd6aa421-150b-4061-a4a5-11496e857ae7/d9ot3d9-ca23e7e8-54bf-4a22-9911-a86e0eae975c.png/v1/fill/w_1024,h_576,q_80,strp/black_blue_gradient_wallpaper_by_haituga_d9ot3d9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZmQ2YWE0MjEtMTUwYi00MDYxLWE0YTUtMTE0OTZlODU3YWU3XC9kOW90M2Q5LWNhMjNlN2U4LTU0YmYtNGEyMi05OTExLWE4NmUwZWFlOTc1Yy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.h4q0ImB1ygVyNn_r_DpVCilL0ifHYApQCqg8g22qTTg');	
 	background-repeat: no-repeat;
-	  background-size: cover;
+	background-size: cover;
 	padding: 0.2% ;
 }
 .list-unstyled{
-margin: 15% 0;
+margin: 9% 0%;
+justify-content: left;
 }
