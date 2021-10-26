@@ -7,7 +7,8 @@ function Reviews(props) {
     <div className="reviews">
 
       <div className="section-title text-center">
-        <h2>What our customers say...</h2>
+        <small style={{fontWeight:"bold", letterSpacing:"1px"}}>LET'S SEE</small>
+        <h2>What Our Customers Say...</h2>
       </div>
     <div id="carouselExampleIndicators" className="carousel slide reviewscontainer" data-ride="carousel">
   <ol className="carousel-indicators">

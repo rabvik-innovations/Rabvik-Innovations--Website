@@ -4,21 +4,19 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-        <div className="container">
+        <div className="container" id="header">
 
             <nav class="navbar fixed-top navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <Link class="navbar-brand" to="/">
                         {/* Navbar */}
-                        <img src="../images/logo.jpg" height="80px"
-                            width="140px"
-                            margin-top="20%" />
+                        <img src="../images/logo.jpg" id="logo" style={{height:"80px", width:"140px", marginTop:"7%", marginBottom:"5%"}} />
                     </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ms-auto">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown nav-menu-container">
+                        <ul class="navbar-nav ms-auto nav-menu">
                             {/* <li class="nav-item">
                                 <Link class="nav-link active" to="/">Home</Link>
                             </li> */}
@@ -40,7 +38,7 @@ function Navbar() {
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
                                     <li><Link class="dropdown-item" to="/innovation-lab">Innovation Lab</Link></li>
-                                    <li><Link class="dropdown-item" to="">Periodical</Link></li>
+                                    <li><Link class="dropdown-item" to="/periodical">Periodical</Link></li>
 
                                 </ul>
                             </li>
@@ -50,7 +48,7 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link " to="">Contact Us</Link>
+                                <Link class="nav-link " to="/contact">Contact Us</Link>
                             </li>
                         </ul>
                     </div>

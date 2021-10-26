@@ -1,7 +1,10 @@
 .reviews{
   display: flex;
   flex-direction: column;
-  background-color:#e9eff0;
+  /* background-image:url('https://i.makeagif.com/media/1-12-2021/YsWRDA.gif'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed; */
   align-items:center;
   padding: 5% 7%;
 }
@@ -9,14 +12,15 @@
 .reviewscontainer{
   align-content: center;
   justify-content: center;
-  width: 60%;
-  height: 55%;
+  width: 70%;
+  height: 40%;
   margin: 5% 20%;
   padding: 6% 5%;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrKT8GGFg6PF_1u5Xwsob2tOCMwUI7Dqy8wQ&usqp=CAU');	background-repeat: no-repeat;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fd6aa421-150b-4061-a4a5-11496e857ae7/d9ot3d9-ca23e7e8-54bf-4a22-9911-a86e0eae975c.png/v1/fill/w_1024,h_576,q_80,strp/black_blue_gradient_wallpaper_by_haituga_d9ot3d9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZmQ2YWE0MjEtMTUwYi00MDYxLWE0YTUtMTE0OTZlODU3YWU3XC9kOW90M2Q5LWNhMjNlN2U4LTU0YmYtNGEyMi05OTExLWE4NmUwZWFlOTc1Yy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.h4q0ImB1ygVyNn_r_DpVCilL0ifHYApQCqg8g22qTTg');	
+  background-repeat: no-repeat;
 	background-size: cover;
 
-  color: rgb(72, 72, 82);
+  color: rgb(191, 191, 248);
   box-shadow: 4px 5px 4px #314163;
 }
 .reviewscontainer:hover{
@@ -25,10 +29,11 @@
   box-shadow: 5px 6px 5px #061945;
 }
 .reviewsimg{
-  height: 60%;
+  height: 30%;
   width:30%;
+  border-radius: 45%;
   background-color: rgb(175, 199, 219);
-  padding: 1.1% 1.1% 0 1.1%;
+  padding: 1.2% 1.2% 0 1.2%;
 margin-right: 10%;
 }
 .imgname{
@@ -46,6 +51,7 @@ margin-right: 10%;
 }
 .reviewstext{
   width:56%;
+  color: white;
   text-align: justify;
 }
 

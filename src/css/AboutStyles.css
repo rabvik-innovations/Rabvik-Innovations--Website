@@ -6,15 +6,15 @@
   height: 300px;
 }
 
-video{
+.aboutvideo{
   max-width: 90%;
   max-height: 80%;
   margin: 30px 0px;
 }
-video:hover{
-  transition: 0.4s;
-  transform: scale(1.01);
-  box-shadow: 2px 5px 2px grey; 
+.aboutvideo:hover{
+  transition: 0.27s;
+  transform: scale(1.03);
+  box-shadow: 4px 5px 7px #061945; 
 }
 
 .abouthead{
@@ -52,15 +52,18 @@ align-content: center;
   font-weight: 600;
 }
 .col1{
-  width: 75%;
-  margin: 2% 0 5% 0;
+    width: 86%;
+    margin: 5% 0;
 }
 @media  screen and (max-width:1200px) {
   .aboutstyles{
     flex-wrap: wrap;
   }
+  .aboutvideo{
+    margin: 15px 0;
+  }
   .col1{
-    width: 90%;
+    width: 95%;
     display: flex;
   justify-content: center;
   align-items: center;
