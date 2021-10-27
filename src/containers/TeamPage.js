@@ -130,7 +130,7 @@ function TeamPage(props) {
               <TeamCard
                 name="Vanshika Bhasin"
                 description="Web Development Intern"
-                image="images/wwd4.png"
+                image="images/Vanshika.jpg"
                 linkedin="https://www.linkedin.com/in/vanshika-bhasin-73b1aa17a/"
               />
 
