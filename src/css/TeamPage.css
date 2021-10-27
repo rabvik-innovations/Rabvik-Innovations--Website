@@ -4,7 +4,12 @@
 --------------------------------------------------------------*/
 .team{
     text-align: center;
-    padding: 5% 7%;
+    padding: 5% 0;
+    /* margin: 2% 7%; */
+    margin: 0;
+  }
+  .team-section{
+    padding: 2% 7%;
   }
   .team .member {
     text-align: center;
@@ -57,9 +62,26 @@
   .team .interns .member {
    padding: 7% 15%;
  }
- .advisor-section, .intern-section{
-   margin-top: 5rem;
+ .advisor-section{
+   padding: 4% 7%;
+   margin-top: 4rem;
+   background-color: #061945;
+   background: linear-gradient(90deg, rgba(9,104,123,1) 0%, rgba(2,0,36,1) 47%, rgba(6,25,69,1) 84%);
+   
  }
+ .advisor-section .member{
+   color: #fff;
+   background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fd6aa421-150b-4061-a4a5-11496e857ae7/d9ot3d9-ca23e7e8-54bf-4a22-9911-a86e0eae975c.png/v1/fill/w_1024,h_576,q_80,strp/black_blue_gradient_wallpaper_by_haituga_d9ot3d9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZmQ2YWE0MjEtMTUwYi00MDYxLWE0YTUtMTE0OTZlODU3YWU3XC9kOW90M2Q5LWNhMjNlN2U4LTU0YmYtNGEyMi05OTExLWE4NmUwZWFlOTc1Yy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.h4q0ImB1ygVyNn_r_DpVCilL0ifHYApQCqg8g22qTTg');	
+  
+  }
+ .advisor-section .member:hover{
+  background-image: none;
+  background-color: #ffffff;
+  color: #000;  
+ }
+ .intern-section{
+  padding: 3% 7%;
+}
  .intern-section .member{
    width: 20rem;
   margin-top: 5rem;
