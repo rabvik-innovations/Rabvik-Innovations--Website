@@ -90,7 +90,34 @@ Encourage breakthrough technologies and Innovations of your children right from 
 <section>
   {/* <WhatWeDo/> */}
   </section>
-
+<section id="tools-section" className="tool-item">
+<div className="tech">
+<div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+  <div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+  <div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+  <div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+  <div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+  <div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+</div>
+  </section>
 
       {/* {Gallery Section} */}
       <section id="gallery-section" className="gallery-item">
