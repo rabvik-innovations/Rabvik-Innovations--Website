@@ -70,7 +70,7 @@ function Periodical(props) {
                         />
 
                         <PeriodicalCard
-                            image=""
+                            image="images/tinker-times-september.jpg"
                             imgAlt="tinker-times-september"
                             link="documents/9 September.pdf"
                         />
