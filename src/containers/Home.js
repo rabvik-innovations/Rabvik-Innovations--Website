@@ -16,7 +16,7 @@ import { Content, Heading } from '../css/ScrolltotopStyles';
 import Loader from '../components/Loader';
 import React, { useState, Component } from "react";
 import { Modal, Button } from "react-bootstrap";
-
+import { Lines } from 'react-preloaders';
 
 
 function Home() {
@@ -28,7 +28,7 @@ const handleShow = () => setShow(true);
     <div className="App">
       <ScrollToTop />
       <Navbar />
-      <br/><br/>
+      <br/><br/> 
 {/* <div className="preloader">
 <div id="hola">
         <div id="preloader">
@@ -90,7 +90,34 @@ Encourage breakthrough technologies and Innovations of your children right from 
 <section>
   <WhatWeDo/>
   </section>
-
+<section id="tools-section" className="tool-item">
+<div className="tech">
+<div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+  <div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+  <div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+  <div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+  <div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+  <div className="tool">
+  <img src=""/>
+  <p></p>
+  </div>
+</div>
+  </section>
 
       {/* {Gallery Section} */}
       <section id="gallery-section" className="gallery-item">
@@ -167,14 +194,14 @@ Encourage breakthrough technologies and Innovations of your children right from 
         <span variant="primary" onClick={handleShow}>
             <SocialCard id="facebook"
               socialIcon="facebook"
-              text="Stories, tips, add-ons and other important stuff."
+              text="See the stories, tips, add-ons and lots of other stuff."
             />
 </span>
 <span variant="primary" onClick={handleShow}>
 
                  <SocialCard id="instagram"
                    socialIcon="instagram"
-                   text="Team's daily lives, photos and the office atmosphere!"
+                   text="See our events, photos and office atmosphere!"
                  />
                  </span>
                 
@@ -182,14 +209,14 @@ Encourage breakthrough technologies and Innovations of your children right from 
      
                  <SocialCard id="youtube"
                    socialIcon="youtube"
-                   text="Here we share Tech and Development insights."
+                   text="Here we share Tech info and Development insights."
                  />
                  </span>
         <span variant="primary" onClick={handleShow}>
      
                  <SocialCard id="linkedin"
                    socialIcon="linkedin"
-                   text="Tech and Development insights."
+                   text="Know the Technical and Development insights here."
                  />
                  </span>
                  </div>

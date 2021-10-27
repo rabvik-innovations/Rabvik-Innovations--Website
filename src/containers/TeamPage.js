@@ -9,8 +9,9 @@ function TeamPage(props) {
       <Navbar />
 
       <section id="team" className="team">
-        <div className="container">
+        <div className="container-fluid p-0">
 
+        <div className="team-section">
           <div className="section-title">
             <h2>Our Team</h2>
 
@@ -75,13 +76,14 @@ function TeamPage(props) {
 
 
           </div>
+          </div>
 
 
 
           {/* ADVISORS */}
 
           <div className="advisor-section">
-            <h2>Our Advisors</h2>
+            <h2 className="text-white">Our Advisors</h2>
             <div className="row advisors">
               <TeamCard
                 name="Anupam Sen"
@@ -114,19 +116,21 @@ function TeamPage(props) {
               <TeamCard
                 name="Saurav Singh"
                 description="Web Development Intern"
-                image="images/wwd4.png"
+                image="images/intern-saurav-singh.jfif"
+                linkedin="https://www.linkedin.com/in/saurav-singh-691b551a2/"
               />
 
               <TeamCard
                 name="Sauparna Gupta"
                 description="Web Development Intern"
                 image="images/wwd4.png"
+                linkedin="https://www.linkedin.com/in/sauparna-gupta/"
               />
 
               <TeamCard
                 name="Vanshika Bhasin"
                 description="Web Development Intern"
-                image="images/wwd4.png"
+                image="images/Vanshika.jpg"
                 linkedin="https://www.linkedin.com/in/vanshika-bhasin-73b1aa17a/"
               />
 
@@ -148,42 +152,49 @@ function TeamPage(props) {
                 name="Sahil Vengurlekar"
                 description="Web Development Intern"
                 image="images/wwd4.png"
+                linkedin="https://www.linkedin.com/in/sahil-vengurlekar-4b2558224/"
               />
 
               <TeamCard
                 name="Sinchan Mandal"
                 description="Web Development Intern"
                 image="images/wwd4.png"
+                linkedin=""
               />
 
               <TeamCard
                 name="Nossam Venkata Yaswanth Reddy"
                 description="Web Development Intern"
                 image="images/wwd4.png"
+                linkedin=""
               />
 
               <TeamCard
                 name="Sharan Swaroop"
                 description="Web Development Intern"
                 image="images/wwd4.png"
+                linkedin="https://www.linkedin.com/in/sharan-swaroop/"
               />
 
               <TeamCard
                 name="Anupam Saini"
                 description="Web Development Intern"
-                image="images/wwd4.png"
+                image="images/intern-anupam-saini.jfif"
+                linkedin="https://www.linkedin.com/in/anupamsaini18/"
               />
 
               <TeamCard
                 name="Sarvesh Prajapati"
                 description="Web Development Intern"
-                image="images/wwd4.png"
+                image="images/intern-sarvesh-prajapati.jfif"
+                linkedin="https://www.linkedin.com/in/sarveshprajapati/"
               />
 
               <TeamCard
                 name="Anushka Choudhary"
-                description="Web Development Intern"
-                image="images/wwd4.png"
+                description="Social Media Designer"
+                image="images/intern-anushka-choudhary.jfif"
+                linkedin="https://www.linkedin.com/in/anushka-choudhary-ba6418193/"
               />
             </div>
           </div>

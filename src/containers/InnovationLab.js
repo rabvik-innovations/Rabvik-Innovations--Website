@@ -1,6 +1,7 @@
 import '../css/InnovationLab.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { FaBrain, FaSearch, FaLayerGroup, FaChartBar, FaLightbulb } from "react-icons/fa";
 
 
 
@@ -9,9 +10,9 @@ function InnovationLab() {
         <div className="">
             <Navbar />
 
-            <div className="row" style={{ maxWidth:'100%', overflowX:'hidden'}}>
+            <div className="row" style={{ maxWidth: '100%', overflowX: 'hidden' }}>
                 <div className="col-lg-12  text-center  video-banner" >
-                    <h2 style={{marginTop:"10rem", color:"#FFFFFF"}}> Innovation Labs </h2>
+                    <h2 style={{ marginTop: "10rem", color: "#FFFFFF" }}> Innovation Labs </h2>
                 </div>
             </div>
 
@@ -39,9 +40,9 @@ function InnovationLab() {
                         progress of the Innovation Lab in your school/college.
                     </div>
                     <div className="col-md-4 col-sm-12">
-                        
-                        <img src="images/robot.gif" className="robot-img" alt="robot-gif"/>
-                        
+
+                        <img src="images/robot.gif" className="robot-img" alt="robot-gif" />
+
                     </div>
                 </div>
 
@@ -63,6 +64,101 @@ function InnovationLab() {
                         </div>
                     </div>
                 </div>
+
+
+                {/* Our deliverables start */}
+                <div className="our-deliverables" >
+
+                    <h2> Our Deliverables</h2>
+
+                    <div className="row mt-5" >
+
+                        <div className="col-md-6 text-left tools">
+
+                            <h3>Technological Tools </h3>
+                            <ol className="mt-4">
+                                <li>Electronics</li>
+                                <li>Robotics & Mechatronics</li>
+                                <li>Coding</li>
+                                <li>AI/ML</li>
+                                <li>Internet of Things</li>
+                            </ol>
+
+                        </div>
+
+                        <div className="col-md-6">
+                            <img src="images/innovation-lab-4.jpg" style={{ width: "75%", height: "85%" }} />
+                        </div>
+
+                    </div>
+
+
+                    <div className="skill-section mt-5" >
+
+                        <h3>Skills we develop </h3>
+
+
+                        <div class="row skills">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <FaBrain className="skill-icon" />
+                                        <h5 class="card-title">Critical and analytical thinking</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <FaSearch className="skill-icon" />
+                                        <h5 class="card-title">Research and study based approach</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <FaLayerGroup className="skill-icon" />
+                                        <h5 class="card-title">Prototype Development</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <FaChartBar className="skill-icon" />
+                                        <h5 class="card-title">Patent Management</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <FaLightbulb className="skill-icon" />
+                                        <h5 class="card-title">Entrepreneurship</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+                {/* Our deliverables end */}
 
             </div >
             <Footer />

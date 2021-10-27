@@ -263,6 +263,12 @@ font-size: 16px;
   flex-direction: row;
   justify-content: space-between;
 }
+.socialbody{
+  white-space:pre-line;
+  letter-spacing: 0.6px;
+word-spacing: 1px;
+
+}
 .socialbody:hover{
   cursor: pointer;
 }
@@ -408,7 +414,12 @@ iframe{
   .advisor .social .linkedin:hover{
     box-shadow: 0px 2px 8px 0.5px #061945;
   }
-  
+  @media only screen and (max-width: 768px) {
+    .advisor .card{
+      margin: 7% 15%;
+      padding: 5% 7%;
+    }
+  }
   
   
   /* --------------------------------------------
