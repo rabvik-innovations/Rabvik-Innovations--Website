@@ -88,7 +88,7 @@ Encourage breakthrough technologies and Innovations of your children right from 
       </section>
 
 <section>
-  {/* <WhatWeDo/> */}
+  <WhatWeDo/>
   </section>
 <section id="tools-section" className="tool-item">
 <div className="tech">
