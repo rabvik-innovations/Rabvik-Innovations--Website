@@ -3,7 +3,8 @@ import '../css/Blog.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-function Blog(){            <div className="blogpost">
+function Blog(){            
+return (<div className="blogpost">
                 <img className="post-image" src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"/>
                 
           
