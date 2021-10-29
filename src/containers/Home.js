@@ -28,7 +28,7 @@ const handleShow = () => setShow(true);
     <div className="App">
       <ScrollToTop />
       <Navbar />
-      <br/><br/> 
+      
 {/* <div className="preloader">
 <div id="hola">
         <div id="preloader">
