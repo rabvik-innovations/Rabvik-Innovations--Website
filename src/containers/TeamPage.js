@@ -35,8 +35,8 @@ function TeamPage(props) {
             <TeamCard
               name="Deepak Kumar"
               description="Tech Advisor| SDE-Fintech| B.E(IT)-JU"
-              linkedin=""
-              image="images/wwd4.png"
+              linkedin="https://www.linkedin.com/in/deepak-kumar775300/"
+              image="images/team-3.jfif"
             />
 
             <TeamCard
@@ -56,8 +56,8 @@ function TeamPage(props) {
             <TeamCard
               name="Abhishek Biswas"
               description="M.Tech(Electronics), BIT Mesra|ex CTS|Mentor at the Pilot Project Sri Sri Academy"
-              linkedin=""
-              image="images/wwd4.png"
+              linkedin="https://www.linkedin.com/in/abhishek-biswas-405409144/"
+              image="images/team-6.jpeg"
             />
 
             <TeamCard
@@ -123,56 +123,56 @@ function TeamPage(props) {
               <TeamCard
                 name="Sauparna Gupta"
                 description="Web Development Intern"
-                image="images/wwd4.png"
+                image="images/intern-sauparna-gupta.jpg"
                 linkedin="https://www.linkedin.com/in/sauparna-gupta/"
               />
 
               <TeamCard
                 name="Vanshika Bhasin"
                 description="Web Development Intern"
-                image="images/Vanshika.jpg"
+                image="images/intern-vanshika-bhasin.jpg"
                 linkedin="https://www.linkedin.com/in/vanshika-bhasin-73b1aa17a/"
               />
 
               <TeamCard
                 name="Vijeta Saini"
                 description="Web Development Intern"
-                image="images/wwd4.png"
+                image="images/intern-vijeta-saini.jpg"
                 linkedin="https://www.linkedin.com/in/vijeta-saini-0211/"
               />
 
               <TeamCard
                 name="Uma Negi"
                 description="Web Development Intern"
-                image="images/wwd4.png"
+                image="images/intern-uma-negi.jpg"
                 linkedin="https://www.linkedin.com/in/uma-negi-543734186/"
               />
 
               <TeamCard
                 name="Sahil Vengurlekar"
                 description="Web Development Intern"
-                image="images/wwd4.png"
+                image="images/intern-sahil-vengurlekar.jpg"
                 linkedin="https://www.linkedin.com/in/sahil-vengurlekar-4b2558224/"
               />
 
               <TeamCard
                 name="Sinchan Mandal"
                 description="Web Development Intern"
-                image="images/wwd4.png"
-                linkedin=""
+                image="images/intern-sinchan-mandal.jfif"
+                linkedin="https://www.linkedin.com/in/sinchan-mandal-1b57221a1/"
               />
 
               <TeamCard
                 name="Nossam Venkata Yaswanth Reddy"
                 description="Web Development Intern"
-                image="images/wwd4.png"
-                linkedin=""
+                image="images/intern-nossam.jpg"
+                linkedin="https://www.linkedin.com/in/nossamyaswanth/"
               />
 
               <TeamCard
                 name="Sharan Swaroop"
                 description="Web Development Intern"
-                image="images/wwd4.png"
+                image="images/intern-sharan-swaroop.jpg"
                 linkedin="https://www.linkedin.com/in/sharan-swaroop/"
               />
 
