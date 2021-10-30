@@ -30,7 +30,7 @@ function Navbar() {
                                 <Link class="nav-link" to="/blog">Blogs</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="">Our Partners</Link>
+                                <Link class="nav-link" to="/ourpartners">Our Partners</Link>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
