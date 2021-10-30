@@ -6,16 +6,16 @@ function Navbar() {
     return (
         <div className="container" id="header">
 
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
                     <Link class="navbar-brand" to="/">
                         {/* Navbar */}
-                        <img src="../images/logo.jpg" id="logo" style={{height:"80px", width:"140px", marginTop:"7%", marginBottom:"5%"}} />
+                        <img src="../images/Rabvik Innovations.png" id="logo" style={{height:"80px", width:"140px", marginTop:"7%", marginBottom:"5%"}} />
                     </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown nav-menu-container">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ms-auto nav-menu">
                             {/* <li class="nav-item">
                                 <Link class="nav-link active" to="/">Home</Link>

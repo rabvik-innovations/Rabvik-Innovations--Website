@@ -55,7 +55,7 @@ const data = {
     <div className="App">
       <ScrollToTop />
       <Navbar />
-      <br/><br/> 
+      
 {/* <div className="preloader">
 <div id="hola">
         <div id="preloader">
