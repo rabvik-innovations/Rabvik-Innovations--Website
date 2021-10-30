@@ -5,16 +5,19 @@ import Footer from '../components/Footer';
 
 function OurPartners(){
     return(
-        <div className="outer-div">
+        <div className="container-fluid outer-div">
 
         <div id="Heading-section">
             <h2>Our Partners</h2>
         </div>
-        <div  className="section-title text-center" id="heading-section-achievements">
+        <div className="second-div">
+            <h2 className="section-title text-center" id="achievements-section">Sri Sri Academy</h2>
+        </div>
+        <div  className="section-title text-center" id="achievements-section">
             <h2>Our achievements</h2>
         </div>
 
-        <div className="koi-bhi-class-name">
+        <div className="main-div">
         <div className="card-wrapper one">
         <div className="card-header">
           <i className="fas fa-chess-rook"></i>

@@ -4,32 +4,37 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   background: linear-gradient(to right, #8e9eab, #eef2f3);
-  height: 100vh;
+  height: 120vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+   align-items: center; 
+   justify-content: center; 
   flex-wrap: wrap;
-  gap: 25px;
-}
+gap: 25px;
+} */
 
 .outer-div{
     display:flex;
     flex-direction:column;
+    width:100%;
 }
 
 /*card style /////////*/
 .card-wrapper {
   --color-primary: #00768b;
   --color-secondary: #01a188;
-  --box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+  --box-shadow: 7px 7px 5px 0px rgba(51, 10, 10, 0.5);
   width: 200px;
 }
-.koi-bhi-class-name{
+.main-div{
     display:flex;
     flex-direction:row;
+    background-image:url("../gif/J4x.gif");
+    align-items: center; 
+   justify-content: center; 
+   
 }
 
 #Heading-section{
@@ -38,10 +43,17 @@ body {
     justify-content: center;
     flex-direction:row;
 }
+
+.second-div{
+    background-image:url("../gif/J4o.gif");
+    width:100%;
+    align-items: center; 
+   justify-content: center; 
+}
   
 
 
-#heading-section-achievements{
+#achievements-section{
     text-align:center;
     display:block;
     justify-content: center;
