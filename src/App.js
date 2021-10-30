@@ -8,6 +8,7 @@ import Blog from './containers/Blog';
 import Gallery from './containers/Gallery';
 import Periodical from './containers/Periodical';
 import Contact from './containers/Contact';
+import OurPartners from "./containers/OurPartners";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/gallery" component={Gallery} />
           <Route path="/periodical" component={Periodical} />
           <Route path="/innovation-lab" component={InnovationLab} />
+          <Route path="/ourpartners" component={OurPartners} />
           <Route path="/blog" component={Blog} />
           <Route path="/aboutus" component={About} />
           <Route path="/contact" component={Contact} />

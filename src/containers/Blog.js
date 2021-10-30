@@ -3,7 +3,11 @@ import '../css/Blog.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-function Blog(){
+function Blog(){            
+return (<div className="blogpost">
+                <img className="post-image" src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"/>
+                
+          
     return(
         <div>
             <Navbar />
@@ -12,10 +16,7 @@ function Blog(){
             <br/><br/>
             <div className="blogmain">
             <div className="blogcard">
-            <div className="blogpost">
-                <img className="post-image" src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"/>
-                
-                    <div className="post-content">
+          <div className="post-content">
                         <p className="post-header"> <a className="linker" href="#">Lorem Ipsum</a> </p>
                         <p className="post-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sunt asperiores quaerat doloremque commodi facere dolor. Velit pariatur, enim veniam!
