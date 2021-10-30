@@ -82,20 +82,20 @@ return (
 
       <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-        <h6 className="text-uppercase font-weight-bold">Products</h6>
+        <h6 className="text-uppercase font-weight-bold">Supporters</h6>
         <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width: "60px"}}/>
         <p>
-          <a href="#!">MDBootstrap</a>
+          <a href="#!">Tinker Times</a>
         </p>
         <p>
-          <a href="#!">MDWordPress</a>
+          <a href="#!">Sri Sri Academy</a>
         </p>
-        <p>
+        {/* <p>
           <a href="#!">BrandFlow</a>
         </p>
         <p>
           <a href="#!">Bootstrap Angular</a>
-        </p>
+        </p> */}
 
       </div>
 

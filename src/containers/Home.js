@@ -17,7 +17,7 @@ import Loader from '../components/Loader';
 import React, { useState, Component } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { Lines } from 'react-preloaders';
-import { Doughnut } from 'react-chartjs-2';
+import { Pie } from 'react-chartjs-2';
 
 function Home() {
   const [showModal, setShow] = useState(false);
@@ -128,7 +128,7 @@ Encourage breakthrough technologies and Innovations of your children right from 
 <div className="deli">
 <div  style={{height:"400px", width:"400px"}}>
 
-    <Doughnut data={data}/>		
+    <Pie data={data}/>		
 </div>
   </div>
 </div>
