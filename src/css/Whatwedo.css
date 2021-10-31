@@ -1,34 +1,65 @@
-.service-section .icon-box {
-	margin-bottom: 10px;
-  margin-left:90px;
-	padding: 5px;
-  width:312px;
-  height:120px;
-	border-radius: 6px;
-	background-color: #061945;
-  background: linear-gradient(90deg, #021133 0%, #021747 35%, #010b20 100%);
-  box-shadow: 0 13px 15px rgba(4, 1, 20, 0.3);
-  /* margin-right:-20px; */
-  margin-top:25px;
+.feature
+{
+  padding: 1% 7% 3% 1%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 640px;
 }
 
+.center-container{
+  float: left;
+}
+.allbox{
+  display: flex;
+  flex-direction: column;
+  margin-left:50px;
+
+}
+.icon-box {
+	margin-bottom: 15px;
+  text-overflow: clip;
+  margin-left: 3%;
+  overflow-y: hidden;
+  width:410px;
+  height:130px;
+	border-radius: 6px;
+  background: linear-gradient(90deg, #021133 0%, #021747 35%, #010b20 100%);
+  box-shadow: 0 13px 15px rgba(4, 1, 20, 0.3);
+	padding: 15px;
+padding-bottom: 8px;
+  /* margin-right:-20px; */
+}
+
+
+.icon-box:hover{
+
+}
+.icon-box-br{
+  margin-left:17%;
+}
+.icon-box-tr{
+  margin-left:17%;
+
+}
+
+.service-section .icon-box .icon-box-even{
+  margin-right:-200px;
+}
 
 
 .center-container{
-  background-image: url('https://i.pinimg.com/originals/a1/ba/2c/a1ba2c150d44d387f565a87c54351bf8.gif');
   width: 380px;
-  height:380px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+  height:370px;
+  border-radius: 6%;
   /* margin:0 4%; */
-  margin-bottom:4%;
-  margin-top:-10px;
-  margin-left:60px;
-  
+  margin-top: 27%;
+ 
 }
-
+.center-container:hover{
+  box-shadow: -6px 9px 10px #061545; 
+  transition: 0.20s;
+}
 
 .service-section .icon-box:hover .service-title a {
 	color: #f1f0f7;
@@ -38,36 +69,35 @@
 	/* color:#061945; */
 	font-size: 40px;
 }
-.service-section .icon-box .service-title {
-	margin-left: 49px;
+.service-section .icon-box p {
 	font-weight: 700;
 	margin-bottom: 15px;
 	font-size: 18px;
-	line-height: 1.2;
 }
-.service-section .icon-box .service-title a {
+/* .service-section .icon-box .service-title a {
 	color: #96a3b1;
 	transition: 0.3s;
 	text-decoration: none;
-}
+} */
 
 .service-section .icon-box .service-para {
-	margin-left: 49px;
-  margin-right: 49px;
-	line-height: 24px;
-	font-size: 14px;
+	/* margin-left: 49px;
+  margin-right: 49px; */
+	line-height: 21px;
+  text-align: justify;
+	font-size: 16px;
   color: #96a3b1;
 }
-
+/* 
 .service-section .service-main-heading {
-	/* color: #06194; */
+	color: #06194; 
 	padding: 0;
 	margin-bottom: 40px;
 	line-height: 1;
 	font-size: 31px;
 	font-weight: 400;
   text-align-last: center;
-}
+} */
 
 
 

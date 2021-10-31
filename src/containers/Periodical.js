@@ -22,19 +22,19 @@ function Periodical(props) {
 
                     <div className="row">
                         <PeriodicalCard
-                            image=""
+                            image="images/tinker-times-oct-19.jpg"
                             imgAlt="tinker-times-october2019"
                             link="documents/1 October 2019.pdf"
                         />
 
                         <PeriodicalCard
-                            image=""
+                            image="images/tinker-times-jan.jpg"
                             imgAlt="tinker-times-january"
                             link="documents/2 January.pdf"
                         />
 
                         <PeriodicalCard
-                            image=""
+                            image="images/tinker-times-jan-V2.jpg"
                             imgAlt="tinker-times-january-V2"
                             link="documents/3 January V2.pdf"
                         />
@@ -46,7 +46,7 @@ function Periodical(props) {
                         />
 
                         <PeriodicalCard
-                            image=""
+                            image="images/tinker-times-may.jpg"
                             imgAlt="tinker-times-may"
                             link="documents/5 May.pdf"
                         />
