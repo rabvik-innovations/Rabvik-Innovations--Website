@@ -10,7 +10,7 @@ function Navbar() {
                 <div class="container-fluid">
                     <Link class="navbar-brand" to="/">
                         {/* Navbar */}
-                        <img src="../images/Rabvik Innovations.png" id="logo" style={{height:"80px", width:"140px", marginTop:"7%", marginBottom:"5%"}} />
+                        <img src="../images/Rabvik Innovations.png" id="logo" style={{height:"70px", width:"129px", marginTop:"6%", marginBottom:"2%"}} />
                     </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -21,7 +21,7 @@ function Navbar() {
                                 <Link class="nav-link active" to="/">Home</Link>
                             </li> */}
                             <li class="nav-item">
-                                <Link class="nav-link" to="/aboutus">About Us</Link>
+                                <Link class="nav-link" to="/aboutus">About</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="/gallery">Gallery</Link>
@@ -30,7 +30,7 @@ function Navbar() {
                                 <Link class="nav-link" to="/blog">Blogs</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/ourpartners">Our Partners</Link>
+                                <Link class="nav-link" to="/ourpartners">Partners</Link>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,11 +44,11 @@ function Navbar() {
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link " to="/team">
-                                    Our Team
+                                    Team
                                 </Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link " to="/contact">Contact Us</Link>
+                                <Link class="nav-link " to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

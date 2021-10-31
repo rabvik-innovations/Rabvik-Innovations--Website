@@ -6,19 +6,19 @@ nav{
 }
 
 .navbar{
-  padding: 0 2rem .5rem;
+  padding: 0 5.5rem .5rem;
   background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZr3TQDedAg5Sum1mwVrqv0aXKvpl0i5anXqbpno8AtlmxWDkCGTI91eZmWERG48MhkoE&usqp=CAU');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .nav-item{
-  padding: 0 15px;
+  padding: 0 12px;
 }
 
 .navbar-dark .navbar-nav .nav-link{
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 500;
   color: #ffffff;
 }
 .navbar-dark .navbar-nav .nav-link:hover{

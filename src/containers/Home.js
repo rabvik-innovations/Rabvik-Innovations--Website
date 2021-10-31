@@ -17,40 +17,13 @@ import Loader from '../components/Loader';
 import React, { useState, Component } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { Lines } from 'react-preloaders';
-import { Pie } from 'react-chartjs-2';
+// import { Pie } from 'react-chartjs-2';
 
 function Home() {
   const [showModal, setShow] = useState(false);
 
 const handleClose = () => setShow(false);
 const handleShow = () => setShow(true);
-const data = {
-  labels: ['Hands on Testing', 'Offline & Online Classes', 'Personal Mentoring', 'Competition Support', 'Seminars', 'Kidpreneurship'],
-  datasets: [
-    {
-      label: '# ',
-      data: [1, 1, 1, 1, 1, 1],
-      backgroundColor: [
-        '#061945',
-        'rgba(54, 162, 235)',
-        '#374568',
-        'rgba(75, 192, 192)',
-        '#07102e',
-        '#0a89a8',
-      ],
-      borderColor: [
-        'rgba(255, 99, 132, 1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 206, 86, 1)',
-        'rgba(75, 192, 192, 1)',
-        'rgba(153, 102, 255, 1)',
-        'rgba(255, 159, 64, 1)',
-      ],
-      borderWidth: 1,
-    },
-  ],
-};
-
   return (
     <div className="App">
       <ScrollToTop />
@@ -64,11 +37,10 @@ const data = {
           </div>
             </div>
 </div> */}
-<div className="sections">
 
 <section id="hero" className="below-navbar">
     <div className="hero-container">
-      <h1 className="btn-shine" >Rabvik Innovations</h1><br/>
+      <h1 className="btn-shine" style={{fontSize:"56px"}}>Rabvik Innovations</h1><br/>
    <h2 className="wrapper"> &lt; Innovation, Technology
 and Entrepreneurship /&gt;</h2>
 <p className="heropara">STEM Education, e Learning, Robotic Labs, Entrepreneurship Coaching, Mentoring, Start Up Assistance.
@@ -118,56 +90,41 @@ Encourage breakthrough technologies and Innovations of your children right from 
   <WhatWeDo/>
   </section>
 
-
-  <section id="deli-section" className="deli-item">
-<div className="section-title text-center">
-        <h2>Our Deliverables</h2>
-        <br/>
-      </div>
-<div className="row mt-3">
-<div className="deli">
-<div  style={{height:"400px", width:"400px"}}>
-
-    <Pie data={data}/>		
-</div>
-  </div>
-</div>
-</section>
-
 <section id="tools-section" className="tool-item">
 <div className="section-title text-center">
-        <h2>Technical tools</h2>
+        <h2>Our Deliverables</h2>
         <br/>
       </div>
 <div className="row mt-3">
 <div className="tech">
 <div className="tool">
   <img src="../images/coding.jpg"/>
-  <p>Coding</p>
+  <p>Hands on Testing</p>
   </div>
   <div className="tool">
   <img src="../images/electronics.jpg"/>
-  <p>Electronics</p>
+  <p>Offline & Online Classes</p>
   </div>
   <div className="tool">
   <img src="../images/iot.jpg"/>
-  <p>IoT</p>
+  <p>Personal Mentoring</p>
   </div>
   <div className="tool">
   <img src="../images/ai.jpg"/>
-  <p>AI/ML</p>
+  <p>Competition Support </p>
   </div>
   <div className="tool">
   <img src="../images/robotics.jpg"/>
-  <p>Robotics</p>
+  <p>Seminars by Professionals</p>
   </div>
   <div className="tool">
   <img src="../images/enterpreneur.jpg"/>
-  <p>Entrepreneurship</p>
+  <p>Entrepreneurship Skill Development</p>
   </div>
 </div>
 </div>
   </section>
+  <div className="sections">
 
       {/* {Gallery Section} */}
       <section id="gallery-section" className="gallery-item">
@@ -197,7 +154,6 @@ Encourage breakthrough technologies and Innovations of your children right from 
       </section>
       {/* {End of gallery section} */}
 </div>
-
       {/* Advisor Section  */}
       <section id="advisor" className="advisor">
         <div className="container">
@@ -226,7 +182,6 @@ Encourage breakthrough technologies and Innovations of your children right from 
       </section>
       {/* {End of Advisor section} */}
 
-<div className="sections">
       {/* Social Cards  Section */}
       <section id="social-item" className="social-item">
         <div className="container">
@@ -352,7 +307,6 @@ Encourage breakthrough technologies and Innovations of your children right from 
       <section>
         <Reviews />
       </section>
-</div>
       <section>
         <Footer />
       </section>

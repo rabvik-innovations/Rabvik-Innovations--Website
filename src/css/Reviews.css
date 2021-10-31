@@ -12,14 +12,13 @@
 .reviewscontainer{
   align-content: center;
   justify-content: center;
-  width: 70%;
-  height: 40%;
-  margin: 5% 20%;
-  padding: 6% 5%;
+  width: 60%;
+  height: 280px;
+  margin: 5% 10%;
+  padding-top: 7%;
   background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fd6aa421-150b-4061-a4a5-11496e857ae7/d9ot3d9-ca23e7e8-54bf-4a22-9911-a86e0eae975c.png/v1/fill/w_1024,h_576,q_80,strp/black_blue_gradient_wallpaper_by_haituga_d9ot3d9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZmQ2YWE0MjEtMTUwYi00MDYxLWE0YTUtMTE0OTZlODU3YWU3XC9kOW90M2Q5LWNhMjNlN2U4LTU0YmYtNGEyMi05OTExLWE4NmUwZWFlOTc1Yy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.h4q0ImB1ygVyNn_r_DpVCilL0ifHYApQCqg8g22qTTg');	
   background-repeat: no-repeat;
 	background-size: cover;
-
   color: rgb(191, 191, 248);
   box-shadow: 4px 5px 4px #314163;
 }
@@ -50,9 +49,11 @@ margin-right: 10%;
   flex-wrap: wrap;
 }
 .reviewstext{
-  width:56%;
+  width:64%;
   color: white;
   text-align: justify;
+  font-size: 15px;
+  font-weight: lighter;
   letter-spacing: 0.6px;
 }
 
