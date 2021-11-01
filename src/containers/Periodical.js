@@ -21,58 +21,68 @@ function Periodical(props) {
 
 
                     <div className="row">
+
                         <PeriodicalCard
-                            image="images/tinker-times-oct-19.jpg"
-                            imgAlt="tinker-times-october2019"
-                            link="documents/1 October 2019.pdf"
+                            text="September"
+                            image="images/tinker-times-september.jpg"
+                            imgAlt="tinker-times-september"
+                            link="documents/9 September.pdf"
                         />
 
                         <PeriodicalCard
-                            image="images/tinker-times-jan.jpg"
-                            imgAlt="tinker-times-january"
-                            link="documents/2 January.pdf"
-                        />
-
-                        <PeriodicalCard
-                            image="images/tinker-times-jan-V2.jpg"
-                            imgAlt="tinker-times-january-V2"
-                            link="documents/3 January V2.pdf"
-                        />
-
-                        <PeriodicalCard
-                            image="images/tinker-times-april.jpg"
-                            imgAlt="tinker-times-april"
-                            link="documents/4 April.pdf"
-                        />
-
-                        <PeriodicalCard
-                            image="images/tinker-times-may.jpg"
-                            imgAlt="tinker-times-may"
-                            link="documents/5 May.pdf"
-                        />
-
-                        <PeriodicalCard
-                            image="images/tinker-times-june.jpg"
-                            imgAlt="tinker-times-june"
-                            link="documents/6 June.pdf"
-                        />
-
-                        <PeriodicalCard
-                            image="images/tinker-times-july.jpg"
-                            imgAlt="tinker-times-july"
-                            link="documents/7 July.pdf"
-                        />
-
-                        <PeriodicalCard
+                            text="August"
                             image="images/tinker-times-august.jpg"
                             imgAlt="tinker-times-august"
                             link="documents/8 August.pdf"
                         />
 
                         <PeriodicalCard
-                            image="images/tinker-times-september.jpg"
-                            imgAlt="tinker-times-september"
-                            link="documents/9 September.pdf"
+                            text="July"
+                            image="images/tinker-times-july.jpg"
+                            imgAlt="tinker-times-july"
+                            link="documents/7 July.pdf"
+                        />
+
+                        <PeriodicalCard
+                            text="June"
+                            image="images/tinker-times-june.jpg"
+                            imgAlt="tinker-times-june"
+                            link="documents/6 June.pdf"
+                        />
+
+                        <PeriodicalCard
+                            text="May"
+                            image="images/tinker-times-may.jpg"
+                            imgAlt="tinker-times-may"
+                            link="documents/5 May.pdf"
+                        />
+
+                        <PeriodicalCard
+                            text="April"
+                            image="images/tinker-times-april.jpg"
+                            imgAlt="tinker-times-april"
+                            link="documents/4 April.pdf"
+                        />
+
+                        <PeriodicalCard
+                            text="January"
+                            image="images/tinker-times-jan.jpg"
+                            imgAlt="tinker-times-january"
+                            link="documents/2 January.pdf"
+                        />
+
+                        <PeriodicalCard
+                            text="January V2"
+                            image="images/tinker-times-jan-V2.jpg"
+                            imgAlt="tinker-times-january-V2"
+                            link="documents/3 January V2.pdf"
+                        />
+
+                        <PeriodicalCard
+                            text="October 2019"
+                            image="images/tinker-times-oct-19.jpg"
+                            imgAlt="tinker-times-october2019"
+                            link="documents/1 October 2019.pdf"
                         />
 
                     </div>

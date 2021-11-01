@@ -2,8 +2,13 @@
    padding: 7% 7%;
 }
 
+.periodical-card{
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
 .periodical-img{
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 75%;
     height: 75%;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
