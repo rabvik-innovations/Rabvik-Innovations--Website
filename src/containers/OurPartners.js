@@ -5,11 +5,20 @@ import Footer from '../components/Footer';
 
 function OurPartners(){
     return(
+      <div className="below-navbar">
+            <Navbar/>
+<br/>
+<br/>
+<br/>
+<br/>
+
         <div className="outer-div">
 
         <div id="Heading-section">
             <h2>Our Partners</h2>
         </div>
+<br/>
+
         <div  className="section-title text-center" id="heading-section-achievements">
             <h2>Our achievements</h2>
         </div>
@@ -84,9 +93,14 @@ function OurPartners(){
         </div>
       </div> 
         </div>
-
+<br/>
+<br/>
+<br/>
+<br/>
         
-         </div>
+  </div>
+  <Footer />
+</div >
     );
 }
 

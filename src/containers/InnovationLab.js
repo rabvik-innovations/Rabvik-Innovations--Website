@@ -7,7 +7,7 @@ import { FaBrain, FaSearch, FaLayerGroup, FaChartBar, FaLightbulb } from "react-
 
 function InnovationLab() {
     return (
-        <div className="">
+        <div className="below-navbar">
             <Navbar />
 
             <div className="row" style={{ maxWidth: '100%', overflowX: 'hidden' }}>

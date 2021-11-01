@@ -173,7 +173,7 @@ width: 550px;
 
 
 .sections{
-  background-image:url('../gif/heroimage.jpg');
+  background-image:url('../gif/heroimage1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: fixed;
@@ -284,7 +284,7 @@ align-items: center;
   background-position: fixed; */
   text-align: center;
   padding: 5% 7% 7%;
-  height: 55vh;
+  height: 60vh;
 }
 .socialcolumn{
   display: flex;
