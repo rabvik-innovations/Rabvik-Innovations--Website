@@ -7,21 +7,19 @@ nav{
 
 .navbar{
   padding: 0 5.5rem .5rem;
-  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZr3TQDedAg5Sum1mwVrqv0aXKvpl0i5anXqbpno8AtlmxWDkCGTI91eZmWERG48MhkoE&usqp=CAU');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ffffff;
 }
 
 .nav-item{
   padding: 0 12px;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link{
   font-size: 16px;
   font-weight: 500;
-  color: #ffffff;
+  color: #061945;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover{
     color: #E41D24;
     text-decoration: underline;
     text-underline-offset: .5rem;
