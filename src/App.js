@@ -6,7 +6,7 @@ import About from './containers/About';
 import InnovationLab from './containers/InnovationLab';
 import Blog from './containers/Blog';
 import Gallery from './containers/Gallery';
-import Periodical from './containers/Periodical';
+import TinkerTimes from './containers/TinkerTimes';
 import Contact from './containers/Contact';
 import OurPartners from "./containers/OurPartners";
 
@@ -18,7 +18,7 @@ function App() {
         <Switch>
           <Route path="/team" component={TeamPage} />
           <Route path="/gallery" component={Gallery} />
-          <Route path="/periodical" component={Periodical} />
+          <Route path="/tinker-times" component={TinkerTimes} />
           <Route path="/innovation-lab" component={InnovationLab} />
           <Route path="/ourpartners" component={OurPartners} />
           <Route path="/blog" component={Blog} />

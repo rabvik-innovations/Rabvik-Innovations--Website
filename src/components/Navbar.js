@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <div className="container" id="header">
 
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <Link class="navbar-brand" to="/">
                         {/* Navbar */}
@@ -17,18 +17,18 @@ function Navbar() {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ms-auto nav-menu">
-                            {/* <li class="nav-item">
+                            <li class="nav-item">
                                 <Link class="nav-link active" to="/">Home</Link>
-                            </li> */}
+                            </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="/aboutus">About</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="/gallery">Gallery</Link>
                             </li>
-                            <li class="nav-item">
+                            {/* <li class="nav-item">
                                 <Link class="nav-link" to="/blog">Blogs</Link>
-                            </li>
+                            </li> */}
                             <li class="nav-item">
                                 <Link class="nav-link" to="/ourpartners">Partners</Link>
                             </li>
@@ -38,7 +38,7 @@ function Navbar() {
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
                                     <li><Link class="dropdown-item" to="/innovation-lab">Innovation Lab</Link></li>
-                                    <li><Link class="dropdown-item" to="/periodical">Periodical</Link></li>
+                                    <li><Link class="dropdown-item" to="/tinker-times">Tinker Times</Link></li>
 
                                 </ul>
                             </li>

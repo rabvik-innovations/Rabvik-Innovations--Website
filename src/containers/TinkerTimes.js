@@ -1,84 +1,84 @@
 import React from "react";
-import '../css/Periodical.css';
+import '../css/TinkerTimes.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import PeriodicalCard from "../components/PeriodicalCard";
+import TinkerTimesCard from "../components/TinkerTimesCard";
 
 
-function Periodical(props) {
+function TinkerTimes(props) {
 
     return (
         <div className="below-navbar">
             <Navbar />
 
             {/* {Periodical Section} */}
-            <section id="periodical-section" className="periodical">
+            <section id="tinker-times-section" className="tinker-times">
                 <div className="container">
                     <div className="title text-center">
-                        <h2>Tinker Times</h2>
+                        <h2>Tinker Times™</h2>
                         <br />
                     </div>
 
 
                     <div className="row">
 
-                        <PeriodicalCard
+                        <TinkerTimesCard
                             text="September"
                             image="images/tinker-times-september.jpg"
                             imgAlt="tinker-times-september"
                             link="documents/9 September.pdf"
                         />
 
-                        <PeriodicalCard
+                        <TinkerTimesCard
                             text="August"
                             image="images/tinker-times-august.jpg"
                             imgAlt="tinker-times-august"
                             link="documents/8 August.pdf"
                         />
 
-                        <PeriodicalCard
+                        <TinkerTimesCard
                             text="July"
                             image="images/tinker-times-july.jpg"
                             imgAlt="tinker-times-july"
                             link="documents/7 July.pdf"
                         />
 
-                        <PeriodicalCard
+                        <TinkerTimesCard
                             text="June"
                             image="images/tinker-times-june.jpg"
                             imgAlt="tinker-times-june"
                             link="documents/6 June.pdf"
                         />
 
-                        <PeriodicalCard
+                        <TinkerTimesCard
                             text="May"
                             image="images/tinker-times-may.jpg"
                             imgAlt="tinker-times-may"
                             link="documents/5 May.pdf"
                         />
 
-                        <PeriodicalCard
+                        <TinkerTimesCard
                             text="April"
                             image="images/tinker-times-april.jpg"
                             imgAlt="tinker-times-april"
                             link="documents/4 April.pdf"
                         />
 
-                        <PeriodicalCard
+                        <TinkerTimesCard
                             text="January"
                             image="images/tinker-times-jan.jpg"
                             imgAlt="tinker-times-january"
                             link="documents/2 January.pdf"
                         />
 
-                        <PeriodicalCard
+                        <TinkerTimesCard
                             text="January V2"
                             image="images/tinker-times-jan-V2.jpg"
                             imgAlt="tinker-times-january-V2"
                             link="documents/3 January V2.pdf"
                         />
 
-                        <PeriodicalCard
+                        <TinkerTimesCard
                             text="October 2019"
                             image="images/tinker-times-oct-19.jpg"
                             imgAlt="tinker-times-october2019"
@@ -95,4 +95,4 @@ function Periodical(props) {
     );
 }
 
-export default Periodical;
+export default TinkerTimes;
