@@ -6,7 +6,7 @@
     color: rgb(192, 204, 228);
 	text-decoration: underline;
     text-underline-offset: .5rem;
-    fontWeight:"600"
+    font-weight:"600";
 }
 .dbox{
     line-height: 35px;

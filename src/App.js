@@ -9,7 +9,7 @@ import Gallery from './containers/Gallery';
 import Periodical from './containers/Periodical';
 import Contact from './containers/Contact';
 import OurPartners from "./containers/OurPartners";
-
+import ContactForm from './containers/Contact';
 function App() {
 
   return (
