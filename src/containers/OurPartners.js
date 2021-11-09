@@ -5,103 +5,72 @@ import Footer from '../components/Footer';
 
 function OurPartners(){
     return(
-      <div className="below-navbar">
-            <Navbar/>
-<br/>
-<br/>
-<br/>
-<br/>
 
-        <div className="outer-div">
+        <div className="outer-div below-navbar">
+          <Navbar />
 
-        <div id="Heading-section">
-            <h2>Our Partners</h2>
-        </div>
-<br/>
+        <div className="below-navbar">
+          
+        <div class="we-are-block">
 
-        <div  className="section-title text-center" id="heading-section-achievements">
-            <h2>Our achievements</h2>
+   
+<div id="about-us-section">
+
+  <div className="about-us-image">
+
+    <img src="/images/Lightbackground (1).png" width="808" height="458" alt="Lobby Image" />
+
+  </div>
+
+  <div className="about-us-info">
+
+    <h2>Sri Sri Academy</h2>
+    <b>
+    <p>2000 square feet lab area.</p>
+    <p>Duration of 3 years.</p>
+    <p>Location: Kolkata, India.</p>
+    </b>
+
+    {/* <a href="#" title="About Us Button">ABOUT US</a> */}
+
+  </div>
+
+</div>
+
+<div id="history-section">
+
+  <div className="history-image">
+
+    <img src="/images/Achievements.png" width="951" height="471" alt="Building Pic" />
+
+  </div>
+
+  <div class="history-info">
+
+    <h2>Achievements</h2>
+
+    <p>Best paper award at <b>Global Conference on Artificial Intelligence and Applications (GCAIA), 2021</b></p>
+    <p>Finalist of Inspire Manak Award by <b>Department of Science and Technology, GOI</b></p>
+    <p>Winners at <b>SSRVM Science Fest, Banglore</b></p>
+    <p>One of the top 9 at <b>Tinkerfest, Atal Innovation Mission</b></p>
+
+    {/* <a href="#" title="History Button">HISTORY</a> */}
+
+  </div>
+
+</div>
+
+</div>
+        <Footer />
+        </div>
         </div>
 
-        <div className="koi-bhi-class-name">
-        <div className="card-wrapper one">
-        <div className="card-header">
-          <i className="fas fa-chess-rook"></i>
-          <h2 className="card-header-text1">business</h2>
-          <h1 className="card-header-text2">infographic</h1>
-          <p className="card-header-text3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </div>
-        <div className="card-footer">
-          <div className="footer-content-wrap">
-            <div className="footer-text-wrap">
-              <h1>01</h1>
-              
-            </div>
-            <i className="fas fa-angle-double-right"></i>
-          </div>
-        </div>
-      </div>
-      <div className="card-wrapper two">
-        <div className="card-header">
-          <i className="fas fa-cloud-download-alt"></i>
-          <h2 className="card-header-text1">business</h2>
-          <h1 className="card-header-text2">infographic</h1>
-          <p className="card-header-text3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </div>
-        <div className="card-footer">
-          <div className="footer-content-wrap">
-            <div className="footer-text-wrap">
-              <h1>02</h1>
-              
-            </div>
-            <i className="fas fa-angle-double-right"></i>
-          </div>
-        </div>
-      </div>
-      <div className="card-wrapper three">
-        <div className="card-header">
-          <i className="fas fa-gamepad"></i>
-          <h2 className="card-header-text1">business</h2>
-          <h1 className="card-header-text2">infographic</h1>
-          <p className="card-header-text3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </div>
-        <div className="card-footer">
-          <div className="footer-content-wrap">
-            <div className="footer-text-wrap">
-              <h1>03</h1>
-             
-            </div>
-            <i className="fas fa-angle-double-right"></i>
-          </div>
-        </div>
-      </div>
-      <div className="card-wrapper four">
-        <div className="card-header">
-          <i className="fas fa-grin-squint"></i>
-          <h2 className="card-header-text1">business</h2>
-          <h1 className="card-header-text2">infographic</h1>
-          <p className="card-header-text3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </div>
-        <div className="card-footer">
-          <div className="footer-content-wrap">
-            <div className="footer-text-wrap">
-              <h1>04</h1>
-              
-            </div>
-            <i className="fas fa-angle-double-right"></i>
-          </div>
-        </div>
-      </div> 
-        </div>
-<br/>
-<br/>
-<br/>
-<br/>
         
   </div>
   <Footer />
 </div >
+
     );
-}
+};
 
 export default OurPartners;

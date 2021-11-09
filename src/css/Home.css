@@ -50,16 +50,7 @@
 }
 
 
-.btn-shine{
-  color: #ffffff;
-  background: linear-gradient(to right, #061945 0, white 10%, #061945 20%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 3s infinite linear;
-  animation-fill-mode: forwards;
-  text-decoration: none;
-  
-}
+
 #hero h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 30px 0 10px 0;
