@@ -17,7 +17,11 @@ import Loader from '../components/Loader';
 import React, { useState, Component } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { Lines } from 'react-preloaders';
+
+
+
 // import { Pie } from 'react-chartjs-2';
+
 
 function Home() {
   const [showModal, setShow] = useState(false);
@@ -89,6 +93,8 @@ Encourage breakthrough technologies and Innovations of your children right from 
 <section>
   <WhatWeDo/>
   </section>
+
+
 
 <section id="tools-section" className="tool-item">
 <div className="section-title text-center">
