@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ImageModal from "./ImageModal";
 import PhotoGallery from "./PhotoGallery";
 
@@ -13,13 +13,23 @@ function GalleryCard(props) {
         setImage(e.currentTarget.getAttribute('src'));
         setShow(true);
 
-        //console.log(image);
+        // console.log(image);
 
         // console.log(e.currentTarget.getAttribute('id'));
         // setId(e.currentTarget.getAttribute('id'))
         // console.log(id);
        
     };
+
+    // useEffect(() => {
+        
+    //         // setImage(e.currentTarget.getAttribute('src'));
+    //         // setShow(true);
+    //         fetch(`${__dirname}/public/${image}`)
+    //         .then((response) => response.json())
+    //         .then(setImage(response))
+    
+    //   }, [image]);
 
 
     return (

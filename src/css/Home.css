@@ -1,5 +1,5 @@
 *{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #hero {
   width: 100%;
@@ -9,6 +9,7 @@
   background-size: cover;
   position: relative;
 }
+
 #hero h2 {
   color: #eee;
   margin-bottom: 50px;
@@ -66,7 +67,7 @@
   60%
     {background-position: 400px;}
   100%
-    {background-position: 400px;}
+    {background-position: 500px;}
 }
 
 #hero .btn-get-started {
@@ -163,7 +164,7 @@ width: 550px;
 
 
 .sections{
-  background-image:url('https://i.makeagif.com/media/1-12-2021/YsWRDA.gif');
+  background-image:url('../gif/heroimage1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: fixed;
@@ -231,13 +232,9 @@ font-size: 16px;
     text-decoration: none;
   }
   }
-  .deli{
-    height: 400px;
-    display: flex;
-    justify-content: center;
-  }
+ 
 .tool-item{
-  padding: 5% 9% 9%;
+  padding: 5% 9% 5%;
 
 }
 .tech{
@@ -278,7 +275,7 @@ align-items: center;
   background-position: fixed; */
   text-align: center;
   padding: 5% 7% 7%;
-  height: 65vh;
+  height: 60vh;
 }
 .socialcolumn{
   display: flex;
@@ -453,6 +450,9 @@ iframe{
     align-items:center;
     padding: 5% 7%;
   }
+  .gallery-title{
+    color: #061945;
+  }
   /* .gallery-title{} */
   
   .gallery-item img{
@@ -530,10 +530,10 @@ iframe{
    border:none;
    background-color: #061945;
    color: white;
-   font-weight: bold;
-   font-size:16px;
+   font-weight: 600;
+   font-size:14px;
    letter-spacing: 1px;
-   padding: 8px 28px;
+   padding: 8px 26px;
    border-radius: 20px;
    transition: 0.4s;
  }

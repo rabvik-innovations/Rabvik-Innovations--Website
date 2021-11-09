@@ -24,6 +24,66 @@ const PhotoGallery=[
     {
         id:6,
         image:"images/gallery-Industry-Academia Partnership.jpg"
+    },
+    {
+        id:7,
+        image:"images/gallery-sydney-uni-seminar-1.jpg"
+    },
+    {
+        id:8,
+        image:"images/gallery-sydney-uni-seminar-2.jpg"
+    },
+    {
+        id:9,
+        image:"images/gallery-sydney-uni-seminar-3.jpg"
+    },
+    {
+        id:10,
+        image:"images/gallery-sydney-uni-seminar-4.jpg"
+    },
+    {
+        id:11,
+        image:"images/gallery-sydney-uni-seminar-5.jpg"
+    },
+    {
+        id:12,
+        image:"images/gallery-tinker-fest-1.jpg"
+    },
+    {
+        id:13,
+        image:"images/gallery-tinker-fest-2.jpg"
+    },
+    {
+        id:14,
+        image:"images/gallery-tinker-fest-3.jpg"
+    },
+    {
+        id:15,
+        image:"images/gallery-tinker-fest-4.jpg"
+    },
+    {
+        id:16,
+        image:"images/gallery-tinker-fest-5.jpg"
+    },
+    {
+        id:17,
+        image:"images/gallery-tinker-fest-6.jpg"
+    },
+    {
+        id:18,
+        image:"images/gallery-ssa-1.jpg"
+    },
+    {
+        id:19,
+        image:"images/gallery-ssa-2.jpg"
+    },
+    {
+        id:20,
+        image:"images/gallery-ssa-3.jpg"
+    },
+    {
+        id:21,
+        image:"images/gallery-ssa-4.jpg"
     }
 ];
 

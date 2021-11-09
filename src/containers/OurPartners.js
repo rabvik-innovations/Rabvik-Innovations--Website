@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 
 function OurPartners(){
     return(
+
         <div className="outer-div below-navbar">
           <Navbar />
 
@@ -12,6 +13,7 @@ function OurPartners(){
           
         <div class="we-are-block">
 
+   
 <div id="about-us-section">
 
   <div className="about-us-image">
@@ -62,6 +64,12 @@ function OurPartners(){
         <Footer />
         </div>
         </div>
+
+        
+  </div>
+  <Footer />
+</div >
+
     );
 };
 

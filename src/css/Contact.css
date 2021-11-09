@@ -2,11 +2,21 @@
     background-color: #061945;
     color: white;
 }
+.sidelabels{
+    color: rgb(192, 204, 228);
+	text-decoration: underline;
+    text-underline-offset: .5rem;
+    font-weight:"600";
+}
+.dbox{
+    line-height: 35px;
+}
 .contact-item{
     background-image:url('https://i.makeagif.com/media/1-12-2021/YsWRDA.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
+
 }
 .contactbtn{
     margin-top: 9px;
@@ -24,7 +34,6 @@
     cursor: pointer;
    transition: 0.2s;
    color: white;
-
    transform: scale(1.02);
    box-shadow: 2px 3px 2px grey;
    

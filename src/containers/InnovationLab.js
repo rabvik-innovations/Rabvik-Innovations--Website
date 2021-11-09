@@ -7,7 +7,7 @@ import { FaBrain, FaSearch, FaLayerGroup, FaChartBar, FaLightbulb } from "react-
 
 function InnovationLab() {
     return (
-        <div className="">
+        <div className="below-navbar">
             <Navbar />
 
             <div className="row" style={{ maxWidth: '100%', overflowX: 'hidden' }}>
@@ -17,6 +17,7 @@ function InnovationLab() {
             </div>
 
 
+            <section className="innovation-lab-section">
             <div className="container innovation-lab" >
 
                 <h2> Innovation Labs in Schools </h2>
@@ -49,19 +50,13 @@ function InnovationLab() {
 
                 <div className="row" >
                     <div className="col-lg-4 col-md-6 ">
-                        <div className="img-card">
-                            <img src="images/innovation-lab-1.jpg" />
-                        </div>
+                            <img src="images/innovation-lab-1.jpg"  className="innovation-lab-img"/>
                     </div>
                     <div className="col-lg-4 col-md-6 ">
-                        <div className="img-card">
-                            <img src="images/innovation-lab-2.jpg" />
-                        </div>
+                            <img src="images/innovation-lab-2.jpg" className="innovation-lab-img"/>
                     </div>
                     <div className="col-lg-4 col-md-6 ">
-                        <div className="img-card">
-                            <img src="images/innovation-lab-3.jpg" />
-                        </div>
+                            <img src="images/innovation-lab-3.jpg" className="innovation-lab-img"/>
                     </div>
                 </div>
 
@@ -161,6 +156,7 @@ function InnovationLab() {
                 {/* Our deliverables end */}
 
             </div >
+            </section>
             <Footer />
         </div >
     );
