@@ -17,7 +17,7 @@ import Loader from '../components/Loader';
 import React, { useState, Component } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { Lines } from 'react-preloaders';
-import { Pie } from 'react-chartjs-2';
+// import { Pie }from 'react-chartjs-2'; 
 
 function Home() {
   const [showModal, setShow] = useState(false);
@@ -124,14 +124,14 @@ Encourage breakthrough technologies and Innovations of your children right from 
         <h2>Our Deliverables</h2>
         <br/>
       </div>
-<div className="row mt-3">
+{/* <div className="row mt-3">
 <div className="deli">
 <div  style={{height:"400px", width:"400px"}}>
 
     <Pie data={data}/>		
 </div>
   </div>
-</div>
+</div> */}
 </section>
 
 <section id="tools-section" className="tool-item">
