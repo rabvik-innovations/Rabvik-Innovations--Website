@@ -22,8 +22,10 @@ const Footer = () => {
       <div className="text-justify text-md-left mt-5">
 
         <div className="footercontainer mt-3">
+          
+         <div className="row">
 
-          <div className=" mb-4 footerfirst">
+          <div className=" mb-4 footerfirst col-md-3">
 
             <h6 className="text-uppercase font-weight-bold"> </h6>
             <img src="../images/Rabvik Innovations.png" alt="Logo" className="footerimg" />
@@ -52,8 +54,7 @@ const Footer = () => {
             </ul>
 
           </div>
-
-          <div className="mb-4 footerabout">
+          <div className="mb-4 footerabout col-md-3">
 
             <h6 className="text-uppercase font-weight-bold">Quick links</h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
@@ -72,7 +73,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="footercontact mb-md-0 mb-4">
+          <div className="footercontact mb-4 col-md-3">
 
             <h6 className="text-uppercase font-weight-bold">Contact</h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
@@ -87,15 +88,18 @@ const Footer = () => {
 
           </div>
 
-          <div className="footermap mb-4">
+          <div className="footermap mb-4 col-md-3">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.2672045032796!2d88.40174131479272!3d22.606494985165334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bc28c7ad2c9%3A0xc9c202236e1be9a9!2sRabvik%20innovations!5e0!3m2!1sen!2sin!4v1635598092727!5m2!1sen!2sin" style={{ borderRadius: "2%" }} allowfullscreen="" loading="lazy"></iframe>
           </div>
+          </div>
         </div>
-
       </div>
-      <hr className="deep-purple  mt-0 d-inline-block mx-auto" style={{ width: "100%" }} />
+      <hr className="deep-purple  mt-0 d-inline-block" style={{ width: "100%" }} />
 
-      <div className="footer-copyright text-center">© 2021 Rabvik® Innovation All Rights Reserved.
+      <div className="footer-copyright text-center row">
+        
+        <p>© 2021 Rabvik® Innovation All Rights Reserved.
+        </p>
       </div>
 
     </footer>
