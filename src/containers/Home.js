@@ -167,7 +167,7 @@ Encourage breakthrough technologies and Innovations of your children right from 
             <h2 style={{color:"white"}}>Our Advisors</h2>
           </div>
 
-          <div className="row">
+          <div className="row advisor-card-row">
             <AdvisorCard
               name="Anupam Sen"
               linkedin="https://www.linkedin.com/in/anupam-sen-a16b7013/?originalSubdomain=in"

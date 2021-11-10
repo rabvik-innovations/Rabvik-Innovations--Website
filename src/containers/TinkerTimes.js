@@ -23,6 +23,13 @@ function TinkerTimes(props) {
                     <div className="row">
 
                         <TinkerTimesCard
+                            text="October"
+                            image="images/tinker-times-october.jpg"
+                            imgAlt="tinker-times-october"
+                            link="documents/October.pdf"
+                        />
+
+                        <TinkerTimesCard
                             text="September"
                             image="images/tinker-times-september.jpg"
                             imgAlt="tinker-times-september"

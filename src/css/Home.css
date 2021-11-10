@@ -508,8 +508,14 @@ iframe{
     box-shadow: 0px 2px 8px 0.5px #061945;
   }
   @media only screen and (max-width: 768px) {
+    .advisor-card-row{
+      padding: 0 6%;
+    }
     .advisor .card{
-      margin: 7% 15%;
+      width: 16rem;
+      height: 20rem;
+      margin-top: 7%;
+      margin-bottom: 7%;
       padding: 5% 7%;
     }
   }
@@ -586,7 +592,7 @@ iframe{
   }
   @media (max-width: 992px) {
     #gallery-section{
-      padding: 18% 7%;
+      padding: 18% 4%;
     }
   }
   .about p {
