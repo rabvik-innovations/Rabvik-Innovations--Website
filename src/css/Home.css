@@ -1,5 +1,6 @@
 *{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "Poppins", sans-serif;
+
 }
 #hero {
   width: 100%;
@@ -15,6 +16,7 @@
 
 #hero h2 {
   color: #eee;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-bottom: 50px;
   font-size: 26px;
   transition: 300ms;
@@ -31,6 +33,7 @@
 }
 .heropara{
   width: 900px;
+  font-family: "Poppins", sans-serif;
   color: #061945;
   font-size: 18px;
 }
@@ -62,6 +65,7 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 30px 0 10px 0;
   letter-spacing: 2px;
+  color: #020e2c;
   font-stretch: ultra-expanded;
   font-size: 54px;
   font-weight: 1000;
@@ -116,7 +120,8 @@
 }
 @media (max-width: 1024px) {
 .heropara{
-width: 550px;
+width: 770px;
+text-align: center;
 }
 #hero h2 {
   font-size: 22px;
@@ -133,30 +138,82 @@ width: 550px;
   line-height: 36px;
 }
 }
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   #hero h2 {
-    width: 420px;
+    width: 380px;
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
   #hero h1 {
-    font-size: 40px;
-    line-height: 36px;
+    font-size: 26px;
+    letter-spacing: 1px; 
+    font-weight: 700;
+  padding: 0 18px;
+    line-height: 26px;
   }
 .heropara{
-  width: 420px;
+  width: 480px;
+  font-size: 16px;
 }
 #hero .btn-get-started {
   font-size: 14px;
   letter-spacing: 0.8px;
   display: inline-block;
-   padding: 6px 20px;
+   padding: 5px 18px;
    background-color: #061945;
 }
 }
+@media (max-width: 620px) {
+#hero h1{
+  width: 400px;
+  line-height: 60px;
+}
+#hero h2 {
+  width: 380px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.heropara{
+  font-size: 14px;
+  width: 300px;
+}
+#hero .btn-get-started {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+   padding: 5px 18px;
+}
+}
 
+@media (max-width: 620px) {
+#hero h1{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin: 30px 0 5px 0;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  line-height: 60px; 
+  width: 300px;
+  overflow-wrap: break-word;
 
+}
+#hero h2{
+  font-size: 10px;
+}
+.heropara{
+  width: 200px;
+  font-size: 10px;
+}
+}
+@media (max-width: 280px) {
+#hero h1{
+  letter-spacing: 0px;
+  font-stretch: ultra-condensed;
+}
+}
 .App {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.7;
@@ -168,7 +225,6 @@ width: 550px;
 	-moz-transition: all 0.3s linear;
 	-o-transition: all 0.3s linear;
 }
-
 
 .sections{
   background-image:url('../gif/heroimage1.jpg');
@@ -267,6 +323,16 @@ align-items: center;
   text-align: center;
   padding-top: 8%;
 }
+@media screen and (max-width: 950px){
+  .tech{
+flex-wrap: wrap;
+  }
+.tool>p{
+  text-align: center;
+  width: 110px;
+  margin-bottom: 40px;
+}
+}
 /*--------------------------------------------------------------
 # Social Card Section
 --------------------------------------------------------------*/
@@ -295,6 +361,7 @@ align-items: center;
 word-spacing: 1px;
 
 }
+
 .socialbody:hover{
   cursor: pointer;
 }
@@ -354,20 +421,20 @@ iframe{
       -webkit-transition: all .4s ease;
     }
   }
-  @media screen  and (max-width:768px)
+  @media screen  and (max-width:800px)
   {
     .social-item{
       height: 150vh;
     }
   .socialcolumn{
-    flex-direction: column;
-    height: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .socialbody{
     margin-bottom: 5%;
   }
   .social-item .card{
-  width: 400px;
+  width: 300px;
   }
   }
  
@@ -504,9 +571,6 @@ iframe{
   .gallery-item .modal-content .modal-body img:hover{
     transform: scale(1);
   }
-
-
-
   .photo-section{
     display: flex;
     flex-wrap: wrap;
@@ -525,9 +589,6 @@ iframe{
       padding: 18% 7%;
     }
   }
-
-
-
   .about p {
     line-height: 1.5;
  }

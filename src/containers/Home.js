@@ -80,7 +80,7 @@ Encourage breakthrough technologies and Innovations of your children right from 
          <div className="aboutbtn">
          <Link to="/aboutus">
          <div className="abtbttn"> 
-           <button>More about us</button>
+           <button style={{textTransform:"capitalize"}}>More about us</button>
            </div>
            </Link>
            </div>

@@ -16,6 +16,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .contactbtn{

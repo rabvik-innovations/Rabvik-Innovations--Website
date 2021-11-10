@@ -11,6 +11,56 @@ a:hover{
 	display: flex;
 	flex-direction: row;
 }
+.footerfirst{
+	width: 220px;
+	padding-left: 0.5%;
+	margin: 0 5%;
+}
+.footerabout{
+	margin: 0 5%;
+	width: 120px;
+}
+.footercontact{
+	margin: 0 5%;
+	width: 200px;
+}
+.footermap{
+	margin: 0 5%;
+	width: 260px;
+}
+.footermap iframe{
+	width: 250px;
+	height: 230px;
+}
+
+@media (max-width:1100px)
+{
+	.footermap iframe{
+		width: 230px;
+		height: 220px;
+	}
+
+	.ii{
+		margin-right: 12px;
+	 line-height: 30px;
+	}
+	.footerfirst{
+	margin: 0 2%;
+	width: 200px;
+	}
+	.footerabout{
+	margin: 0 2%;
+	width: 110px;
+	}
+	.footercontact{
+	margin: 0 2%;
+	width: 200px;
+	}
+	.footermap{
+	margin: 0 2%;
+	width: 230px;
+	}
+}
 .page-footer{
 	text-align: justify;
 	color: white;
@@ -33,7 +83,7 @@ a:hover{
  color: #061945;
  text-align: center;
  line-height: 35px;
- margin-right: 3px;
+ justify-content: left;
  margin-bottom: 5px;
 }
 .ii:hover{
@@ -42,7 +92,8 @@ a:hover{
 .footerimg{
 	width:160px; 
 	height:100px;
-	margin-left:0; 
+	padding-left: 6%;
+	justify-content: right;
 }
 @media (max-width: 1400px) { 
 	.ii{
@@ -80,6 +131,7 @@ height: 45%;
 .footerimg{
 width: 35%;
 height: 43%;
+justify-content: center;
 }
 }
 .footer-copyright{
@@ -89,9 +141,11 @@ footer{
 	background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fd6aa421-150b-4061-a4a5-11496e857ae7/d9ot3d9-ca23e7e8-54bf-4a22-9911-a86e0eae975c.png/v1/fill/w_1024,h_576,q_80,strp/black_blue_gradient_wallpaper_by_haituga_d9ot3d9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZmQ2YWE0MjEtMTUwYi00MDYxLWE0YTUtMTE0OTZlODU3YWU3XC9kOW90M2Q5LWNhMjNlN2U4LTU0YmYtNGEyMi05OTExLWE4NmUwZWFlOTc1Yy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.h4q0ImB1ygVyNn_r_DpVCilL0ifHYApQCqg8g22qTTg');	
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 0.2% ;
+	padding: 0.4% ;
 	margin:0;
+	width: 100%;
 }
+
 .list-unstyled{
 margin: 9% 0% 9% 0%;
 padding-top: 9%;

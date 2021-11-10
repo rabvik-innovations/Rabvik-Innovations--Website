@@ -66,9 +66,6 @@ function OurPartners(){
         </div>
 
         
-  </div>
-  <Footer />
-</div >
 
     );
 };
