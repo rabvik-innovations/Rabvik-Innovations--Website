@@ -65,10 +65,6 @@ function OurPartners(){
         </div>
         </div>
 
-        
-  </div>
-  <Footer />
-</div >
 
     );
 };

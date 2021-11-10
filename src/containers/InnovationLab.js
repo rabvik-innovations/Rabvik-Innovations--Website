@@ -11,8 +11,8 @@ function InnovationLab() {
             <Navbar />
 
             <div className="row" style={{ maxWidth: '100%', overflowX: 'hidden' }}>
-                <div className="col-lg-12  text-center  video-banner" >
-                    <h2 style={{ marginTop: "10rem", color: "#FFFFFF" }}> Innovation Labs </h2>
+                <div className="col-lg-12  text-center  video-banner" style={{height: "200px"}}>
+                    <h2 style={{ marginTop: "6rem", color: "#FFFFFF" }}> Innovation Labs </h2>
                 </div>
             </div>
 
@@ -124,7 +124,7 @@ function InnovationLab() {
                                 </div>
                             </div>
 
-                            <div class="col-md-4 col-sm-6">
+                            <div class="offset-md-2 col-md-4 col-sm-6">
                                 <div class="card ">
                                     <div class="card-body">
                                         <FaChartBar className="skill-icon" />
