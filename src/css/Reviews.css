@@ -54,11 +54,15 @@ margin-right: 10%;
   text-align: justify;
   font-size: 15px;
   font-weight: lighter;
+  display: flex;
+  flex-direction: column;
   letter-spacing: 0.6px;
 }
 
 @media  screen and (max-width:1200px) {
-  
+.reviewscontainer{
+ height: 310px; 
+}
   .reviewsimg{
     display: flex;
   justify-content: center;
@@ -70,10 +74,25 @@ margin-right: 10%;
   transform-origin:top;
 }
   .reviewstext{
-    width: 100%;
+    width: 70%;
+    height: 70%;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    overflow-y: hidden;
   }
 
+}
+@media  screen and (max-width:690px) {
+
+.reviewscontainer{
+height: 350px;
+}}
+@media  screen and (max-width:570px) {
+  .reviewscontainer{
+height: 390px;
+  }
+}
+@media  screen and (max-width:490px) {
+  .reviewscontainer{
+    height: 430px;
+  }
 }

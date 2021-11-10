@@ -70,6 +70,7 @@ function OurPartners() {
           </div>
         </div>
 
+
         <section id="gallery-section" className="gallery-item">
           <div className="container">
             <div className="gallery-title text-center">
@@ -98,6 +99,7 @@ function OurPartners() {
         <Footer />
       </div>
     </div>
+
 
     //   </div>
     //   <Footer />

@@ -36,12 +36,14 @@ function Reviews(props) {
     </div></div>
     <div className="carousel-item">
       <div className="cc">
+        
 {/* <div className="reviewsimg">
 <figure> 
 <img src="../images/robot.png" className="d-block imager w-100" alt="..."/>
 <figcaption className="imgname">Name here</figcaption>
 </figure>
 </div> */}
+
     <div className="reviewstext">
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum Nulla vitae elit libero, a pharetra augue mollis interdum
           Nulla vitae elit libero, a pharetra augue mollis interdum
