@@ -52,3 +52,15 @@ nav{
 }
 
 
+@media screen  and (max-width:1024px){
+  .navbar{
+    padding: 0 3rem .5rem;
+  }
+ }
+ @media screen  and (max-width:800px){
+  .navbar{
+    padding: 0 1rem;
+  }
+ }
+
+
