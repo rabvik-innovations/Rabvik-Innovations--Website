@@ -278,7 +278,6 @@ function Home() {
               </Modal.Footer>
             </Modal>
             {/*  
-
       <Modal show={showModal} onHide={handleClose} data-target="#instagram">
         <Modal.Header closeButton>
         </Modal.Header>
