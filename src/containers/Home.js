@@ -350,6 +350,11 @@ function Home() {
       {/* End Social Cards Section  */}
 
       <section>
+        
+      <div className="section-title text-center">
+        <small style={{fontWeight:"bold", letterSpacing:"1px"}}>LET'S SEE</small>
+        <h2>What Our Customers Say...</h2>
+      </div>
         <Reviews />
       </section>
       <section>

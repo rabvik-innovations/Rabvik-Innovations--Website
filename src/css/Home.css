@@ -424,7 +424,7 @@ iframe{
   @media screen  and (max-width:800px)
   {
     .social-item{
-      height: 150vh;
+      height: 160vh;
     }
   .socialcolumn{
     flex-wrap: wrap;
