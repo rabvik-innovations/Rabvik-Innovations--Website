@@ -60,7 +60,7 @@ function Home() {
             Get Started
           </a>
         </div>
-          <p>
+          {/* <p>
           Rabvik® Innovations is just the kind of unique platform we 
           need today to encourage breakthrough technologies and Innovation’s world class mentoring program creates the optimum biosphere to incubate ideas and innovations right from the school level. One of the exemplary institutes for innovation, 
           entrepreneurship and robotics training for school children,
@@ -75,7 +75,7 @@ function Home() {
         </div></div>
       </div>
     </div>
-    </div>
+    </div> */}
 
       </section>
       <section id="aboutsec">
@@ -293,7 +293,6 @@ function Home() {
               </Modal.Footer>
             </Modal>
             {/*  
-
       <Modal show={showModal} onHide={handleClose} data-target="#instagram">
         <Modal.Header closeButton>
         </Modal.Header>
