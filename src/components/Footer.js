@@ -25,7 +25,6 @@ const Footer = () => {
           
          <div className="row">
 
-          <div className=" mb-4 footerfirst">
 
             <h6 className="text-uppercase font-weight-bold"> </h6>
             <img src="../images/Rabvik Innovations.png" alt="Logo" className="footerimg" />
@@ -92,11 +91,10 @@ const Footer = () => {
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.2672045032796!2d88.40174131479272!3d22.606494985165334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027bc28c7ad2c9%3A0xc9c202236e1be9a9!2sRabvik%20innovations!5e0!3m2!1sen!2sin!4v1635598092727!5m2!1sen!2sin" style={{ borderRadius: "2%" }} allowfullscreen="" loading="lazy"></iframe>
           </div>
           </div>
-        </div>
       </div>
       <hr className="deep-purple  mt-0 d-inline-block" style={{ width: "100%" }} />
 
-      <div className="footer-copyright text-center row">
+      <div className="footer-copyright text-center">
         
         <p>© 2021 Rabvik® Innovation All Rights Reserved.
         </p>
