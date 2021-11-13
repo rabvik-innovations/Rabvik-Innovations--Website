@@ -595,6 +595,19 @@ iframe{
       padding: 18% 4%;
     }
   }
+  @media (max-width: 768px) {
+    .modal-backdrop { 
+      display: none !important;
+    }
+    #galleryImageModal {
+      display: none !important;
+    }
+    #galleryImageModal .modal-dialog {
+      display: none !important;
+    }
+}
+
+  
   .about p {
     line-height: 1.5;
  }
