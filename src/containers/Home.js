@@ -59,7 +59,7 @@ function Home() {
           <a href="#aboutsec" class="btn-get-started">
             Get Started
           </a>
-          
+
         </div>
 
       </section>
@@ -107,7 +107,7 @@ function Home() {
                   <div className="aboutbtn">
                     <Link to="/aboutus">
                       <div className="abtbttn">
-                        <button style={{textTransform:"capitalize"}}>More about us</button>
+                        <button style={{ textTransform: "capitalize" }}>More about us</button>
                       </div>
                     </Link>
                   </div>
@@ -188,7 +188,7 @@ function Home() {
       <section id="advisor" className="advisor">
         <div className="container">
           <div className="section-title text-center">
-            <h2 style={{ color: "white" }}>Our Advisors</h2>
+            <h2 style={{ color: "white" }}>Advisors (Honorary)</h2>
           </div>
 
           <div className="row advisor-card-row justify-content-center">
@@ -208,6 +208,12 @@ function Home() {
               name="Uday Chatterjee"
               linkedin="https://www.linkedin.com/in/uday-chatterjee-838b764/"
               img="images/advisor-6.jfif"
+            />
+
+            <AdvisorCard
+              name="Dr. Neeladri Chatterjee"
+              linkedin="https://www.linkedin.com/in/dr-neeladri-chatterjee-9686b94/"
+              img="images/team-1.jfif"
             />
           </div>
         </div>
@@ -349,11 +355,11 @@ function Home() {
       {/* End Social Cards Section  */}
 
       <section>
-        
-      <div className="section-title text-center">
-        <small style={{fontWeight:"bold", letterSpacing:"1px"}}>LET'S SEE</small>
-        <h2>What Our Customers Say...</h2>
-      </div>
+
+        <div className="section-title text-center">
+          <small style={{ fontWeight: "bold", letterSpacing: "1px" }}>LET'S SEE</small>
+          <h2>What Our Customers Say...</h2>
+        </div>
         <Reviews />
       </section>
       <section>

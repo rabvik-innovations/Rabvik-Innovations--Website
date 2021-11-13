@@ -18,13 +18,7 @@ function TeamPage(props) {
           </div>
 
           <div className="row">
-            <TeamCard
-              name="Dr. Neeladri Chatterjee"
-              description="Founder| FMS Alumnus| University of Technology, Sydney Alumnus"
-              linkedin="https://www.linkedin.com/in/dr-neeladri-chatterjee-9686b94/"
-              image="images/team-1.jfif"
-            />
-
+            
             <TeamCard
               name="Pratik Mishra"
               description="Research Intern-IIT KGP| B.Tech(Mechanical)-JGEC| Entrepreneur(Co-Founder Quizzora)"
@@ -83,8 +77,8 @@ function TeamPage(props) {
           {/* ADVISORS */}
 
           <div className="advisor-section">
-            <h2 className="text-white">Our Advisors</h2>
-            <div className="row advisors">
+            <h2 className="text-white">Advisors (Honorary)</h2>
+            <div className="row advisors justify-content-center">
               <TeamCard
                 name="Anupam Sen"
                 description="Chartered Accountant, Ex-PWC, Ex-IBM"
@@ -102,6 +96,13 @@ function TeamPage(props) {
                 description="Angel Investor"
                 linkedin="https://www.linkedin.com/in/uday-chatterjee-838b764/"
                 image="images/advisor-6.jfif" />
+
+              <TeamCard
+              name="Dr. Neeladri Chatterjee"
+              description="Founder| FMS Alumnus| University of Technology, Sydney Alumnus"
+              linkedin="https://www.linkedin.com/in/dr-neeladri-chatterjee-9686b94/"
+              image="images/team-1.jfif"
+             />  
 
             </div>
           </div>

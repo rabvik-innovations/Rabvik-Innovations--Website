@@ -2,7 +2,7 @@
 
 function TeamCard(props) {
     return (
-        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div className="col-lg-4 col-md-6 d-flex align-items-stretch justify-content-center">
         <div className="member">
           <img src={props.image} />
           <h4>{props.name}</h4>

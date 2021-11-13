@@ -35,7 +35,7 @@ function GalleryCard(props) {
     return (
         <div className="col-lg-4 col-md-6 align-items-stretch outer-section">
             <div className="img-card">
-                <img src={props.image} id={props.id} data-toggle="modal" data-target="#imageModal" onClick={(e) => handleClick(e)} />
+                <img src={props.image} id={props.id} data-toggle="modal" data-target="#galleryImageModal" onClick={(e) => handleClick(e)} />
             </div>
 
             {/* <ImageModal image="images/gallery-Tech-MoU.jpg"/> */}
