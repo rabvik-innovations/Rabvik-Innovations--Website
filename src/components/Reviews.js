@@ -23,10 +23,8 @@ function Reviews(props) {
 </figure>
 </div> */}
     <div className="reviewstext">
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum Nulla vitae elit libero, a pharetra augue mollis interdum
-          Nulla vitae elit libero, a pharetra augue mollis interdum
-          Nulla vitae elit libero, a pharetra augue mollis interdum....</p>
-          <p style={{textAlign:"right", textTransform:"capitalize"}}>~Lorem Ipsum</p>
+          <p>Teaching technology, that is continually changing and upgrading everyday, is a big challenge especially to the blooming tinkerers who are full of enthusiasm to innovate. Undoubtedly after 3 successful years of being the ATL in Charge and the 4th year running, it has been an amazing experience and journey from scratch to winning the National Award and other accolades and continuing everyday with emerging challenges.</p>
+          <p style={{textAlign:"right", textTransform:"capitalize"}}>~Abhishek Biswas (ATL incharge at SSA)</p>
 
     </div>
     </div></div>
@@ -41,10 +39,8 @@ function Reviews(props) {
 </div> */}
 
     <div className="reviewstext">
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum Nulla vitae elit libero, a pharetra augue mollis interdum
-          Nulla vitae elit libero, a pharetra augue mollis interdum
-          Nulla vitae elit libero, a pharetra augue mollis interdum....</p>
-          <p style={{textAlign:"right", textTransform:"capitalize"}}>~Lorem Ipsum</p>
+          <p>I would like to thank Rabvik Innovations for helping me to get closer to my dream. Rabvik Innovations have always supported us and whenever required we got full cooperation. They helped me to do various projects, some of them are Disrobo, obstacle avoiding car and more. Rabvik Innovation has been an integral part of our school's ATL Lab, they have always guided us to become more successful in our life. Finally, I would like to thank my school Sri Sri Academy, Kolkata, my respected teachers and Rabvik Innovations for converting my dream into a reality.</p>
+          <p style={{textAlign:"right", textTransform:"capitalize"}}>~Rishav Majumdar (Student)</p>
 
     </div>
     </div>
@@ -58,10 +54,8 @@ function Reviews(props) {
 </figure>
 </div> */}
     <div className="reviewstext">
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum Nulla vitae elit libero, a pharetra augue mollis interdum
-          Nulla vitae elit libero, a pharetra augue mollis interdum
-          Nulla vitae elit libero, a pharetra augue mollis interdum....</p>
-          <p style={{textAlign:"right", textTransform:"capitalize"}}>~Lorem Ipsum</p>
+          <p>For the past few months, my co-innovator and I created Disrobo, even though this was a partially independent project, Rabvik Innovations have a huge role to play in it, The way Rabvik Innovations has shaped the infrastructural system in our school’s ATL Lab, was a pivotal factor in building our project. Thus, our school Sri Sri Academy and Rabvik Innovations, have an immense input in building this project and raising it to such an immense platform.</p>
+          <p style={{textAlign:"right", textTransform:"capitalize"}}>~Mitadru Dasgupta (Student)</p>
     </div>
     </div>
   </div></div>

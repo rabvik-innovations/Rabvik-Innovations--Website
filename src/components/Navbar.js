@@ -23,14 +23,11 @@ function Navbar() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/aboutus">About</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/gallery">Gallery</Link>
-                            </li>
                             {/* <li className="nav-item">
                                 <Link className="nav-link" to="/blog">Blogs</Link>
                             </li> */}
                             <li className="nav-item">
-                                <Link className="nav-link" to="/ourpartners">Partners</Link>
+                                <Link className="nav-link" to="/tinker-times">Tinker Times</Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,7 +35,7 @@ function Navbar() {
                                 </a>
                                 <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
                                     <li><Link className="dropdown-item" to="/innovation-lab">Innovation Lab</Link></li>
-                                    <li><Link className="dropdown-item" to="/tinker-times">Tinker Times</Link></li>
+                                    <li><Link className="dropdown-item" to="/ourpartners">Partners</Link></li>
 
                                 </ul>
                             </li>
@@ -46,6 +43,9 @@ function Navbar() {
                                 <Link className="nav-link " to="/team">
                                     Team
                                 </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/gallery">Gallery</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link " to="/contact">Contact</Link>

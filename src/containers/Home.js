@@ -47,7 +47,7 @@ function Home() {
           <br />
           <h2 className="wrapper">
             {" "}
-            &lt; Innovation, Technology and Entrepreneurship /&gt;
+            &lt; Innovation, Technology and Entrepreneurship &gt;
           </h2>
           <p className="heropara">
             STEM Education, e Learning, Robotic Labs, Entrepreneurship Coaching,
@@ -56,13 +56,14 @@ function Home() {
             our world class mentoring program and Innovation Lab
           </p>
 
-          <a href="#aboutsec" class="btn-get-started">
-            Get Started
+          <a href="/aboutus" class="btn-get-started">
+            Know More
           </a>
 
         </div>
 
       </section>
+      {/*
       <section id="aboutsec">
         <div className="about">
           <div className="container">
@@ -118,10 +119,11 @@ function Home() {
         </div>
       </section>
 
+
       <section>
         <WhatWeDo />
       </section>
-
+      */}
       <section id="tools-section" className="tool-item">
         <div className="section-title text-center">
           <h2>Our Deliverables</h2>
@@ -357,8 +359,8 @@ function Home() {
       <section>
 
         <div className="section-title text-center">
-          <small style={{ fontWeight: "bold", letterSpacing: "1px" }}>LET'S SEE</small>
-          <h2>What Our Customers Say...</h2>
+          <h2 style={{ letterSpacing: "1px" }}>Testimonies...</h2>
+          {/*<h2>What Our Customers Say...</h2>*/}
         </div>
         <Reviews />
       </section>
