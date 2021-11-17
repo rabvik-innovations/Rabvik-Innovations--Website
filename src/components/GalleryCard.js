@@ -11,6 +11,7 @@ function GalleryCard(props) {
         //console.log(e.currentTarget.getAttribute('src'));
 
         setImage(e.currentTarget.getAttribute('src'));
+        //setImage(e.target.src);
         setShow(true);
 
         // console.log(image);

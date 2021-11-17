@@ -37,10 +37,13 @@ function OurPartners() {
           <div id="history-section">
             <div className="history-image">
               <img
-                src="/images/fun-3d-illustration-cartoon-kid-with-vr-helmet.jpg"
-                width="951"
-                height="471"
+                // src="/images/fun-3d-illustration-cartoon-kid-with-vr-helmet.jpg"
+                src="images/Wavy_Tech-20_Single-04.jpg"
+                // width="951"
+                // height="471"
                 alt="Building Pic"
+                //style={{height:"35%", width: "45%"}}
+                className="history-section-image"
               />
             </div>
 
