@@ -235,11 +235,13 @@ a:hover {
   width: 45%;
   height: 35%;
 }
+
+
 @media screen and (max-width: 860px) {
   .history-image {
     position: relative; 
     width: 100%;
-    height: 40%;
+    height: 35%;
     left: -14rem; 
   }
   .history-section-image{
@@ -247,6 +249,19 @@ a:hover {
     height: 95%;
   }
 }
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  .history-image {
+    position: relative; 
+    width: 100%;
+    height: 50%;
+    left: -0.5rem;
+  }
+  .history-section-image{
+    width: 100%;
+    height: 95%;
+  }
+}
+
 
 @media screen and (max-width: 747px) {
   .history-image {

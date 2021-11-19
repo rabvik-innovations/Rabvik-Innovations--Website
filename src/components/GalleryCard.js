@@ -5,7 +5,7 @@ import PhotoGallery from "./PhotoGallery";
 function GalleryCard(props) {
     const [show, setShow] = useState(false);
     const [image, setImage] = useState("abc.jpg");
-    const [id, setId] = useState(null);
+    //const [id, setId] = useState(null);
 
     const handleClick = (e) => {
         //console.log(e.currentTarget.getAttribute('src'));
@@ -15,22 +15,9 @@ function GalleryCard(props) {
         setShow(true);
 
         // console.log(image);
-
-        // console.log(e.currentTarget.getAttribute('id'));
-        // setId(e.currentTarget.getAttribute('id'))
-        // console.log(id);
        
     };
 
-    // useEffect(() => {
-        
-    //         // setImage(e.currentTarget.getAttribute('src'));
-    //         // setShow(true);
-    //         fetch(`${__dirname}/public/${image}`)
-    //         .then((response) => response.json())
-    //         .then(setImage(response))
-    
-    //   }, [image]);
 
 
     return (
@@ -39,8 +26,6 @@ function GalleryCard(props) {
                 <img src={props.image} id={props.id} data-toggle="modal" data-target="#galleryImageModal" onClick={(e) => handleClick(e)} />
             </div>
 
-            {/* <ImageModal image="images/gallery-Tech-MoU.jpg"/> */}
-            {/* <ImageModal image={image} /> */}
 
             {show ? (
                 <ImageModal image={image} />
