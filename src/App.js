@@ -9,6 +9,7 @@ import Gallery from './containers/Gallery';
 import TinkerTimes from './containers/TinkerTimes';
 import Contact from './containers/Contact';
 import OurPartners from "./containers/OurPartners";
+import Error from "./containers/Error";
 import ContactForm from './containers/Contact';
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/blog" component={Blog} />
           <Route path="/aboutus" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/error" component={Error} />
           <Route path="/" component={Home} />
 
         </Switch>
