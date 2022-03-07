@@ -106,7 +106,7 @@ function Home() {
                   </p>
                   <br />
                   <div className="aboutbtn">
-                    <Link to="/aboutus">
+                    <Link to="/about">
                       <div className="abtbttn">
                         <button style={{ textTransform: "capitalize" }}>More about us</button>
                       </div>
