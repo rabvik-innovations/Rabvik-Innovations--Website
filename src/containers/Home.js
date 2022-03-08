@@ -7,6 +7,7 @@ import GalleryCard from "../components/GalleryCard";
 import PhotoGallery from "../components/PhotoGallery";
 import AdvisorCard from "../components/AdvisorCard";
 import WhatWeDo from "../components/Whatwedo";
+import AboutPage from "../containers/About";
 import Navbar from "../components/Navbar";
 import Reviews from "../components/Reviews";
 import Footer from "../components/Footer";
@@ -17,7 +18,7 @@ import Loader from "../components/Loader";
 import React, { useState, Component } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { Lines } from "react-preloaders";
-
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 // import { Pie } from 'react-chartjs-2';
 
 function Home() {
@@ -55,10 +56,12 @@ function Home() {
             and Innovations of your children right from the school level through
             our world class mentoring program and Innovation Lab
           </p>
-
-          <a href="/aboutus" class="btn-get-started">
+         
+          <Button  onClick={() =>{
+        window.location = '/aboutus/';
+    }} className="btn-get-started">
             Know More
-          </a>
+          </Button>
 
         </div>
 
