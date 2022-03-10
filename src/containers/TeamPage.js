@@ -26,12 +26,6 @@ function TeamPage(props) {
               image="images/team-2.jpeg"
             />
 
-            <TeamCard
-              name="Deepak Kumar"
-              description="Tech Advisor| SDE-Fintech| B.E(IT)-JU"
-              linkedin="https://www.linkedin.com/in/deepak-kumar775300/"
-              image="images/team-3.jfif"
-            />
 
             <TeamCard
               name="Dr. Swapan Majumdar"
