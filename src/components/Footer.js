@@ -80,7 +80,7 @@ const Footer = () => {
               <FaMapMarkerAlt /> 141 Lake Town, Block A,<br />
               &nbsp;&nbsp;&nbsp;&nbsp; Kolkata 89</p>
             <p>
-              <FaEnvelope /> &nbsp;pratik@rabvik.com</p>
+              <FaEnvelope /> &nbsp;info@rabvik.com</p>
 
             <p>
               <FaPhoneAlt />&nbsp; 9733381000</p>
