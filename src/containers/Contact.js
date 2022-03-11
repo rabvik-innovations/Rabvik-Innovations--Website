@@ -127,7 +127,7 @@ const [result,showResult]=useState(false);
 								<FaEnvelope/>
 				        		</div>
 				        		<div class="text pl-2 mt-1">
-					            <p><span className="sidelabels">Email</span>&nbsp; : &nbsp; <a href="mailto:info@yoursite.com">pratik@rabvik.com</a></p>
+					            <p><span className="sidelabels">Email</span>&nbsp; : &nbsp; <a href="mailto:info@yoursite.com">info@rabvik.com</a></p>
 					          </div>
 				          </div>
 				        	
