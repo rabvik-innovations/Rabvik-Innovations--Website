@@ -58,7 +58,7 @@ function Home() {
           </p>
          
           <Button  onClick={() =>{
-        window.location = '/About';
+        window.location = '/aboutus';
     }} className="btn-get-started">
             Know More
           </Button>
