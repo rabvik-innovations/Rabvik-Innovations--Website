@@ -32,7 +32,7 @@ function TinkerTimes(props) {
                         
                         <TinkerTimesCard
                             text="January-2022"
-                            image="images/tinker-times-jan-22.jgp"
+                            image="images/tinker-times-jan-22.jpg"
                             imgAlt="tinker-times-jan-22"
                             link="documents/Tinker Times Jan 2022.pdf"
                         />                        
